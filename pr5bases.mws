@@ -1,0 +1,599 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "Times" 0 14 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 1 1 2 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 1 24 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "Maple Output" 0 259 "Times" 1 12 0 
+0 255 1 1 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 1 14 0 0 0 0 0 1 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 261 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+263 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 266 "" 1 14 0 0 0 0 0 1 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 270 "" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 271 "" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 
+0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 273 "Times" 0 14 0 0 0 0 2 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 296 
+"Times" 0 14 0 0 0 0 2 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 300 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "Times" 0 14 0 0 0 0 2 1 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 308 "" 1 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+309 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+2 2 2 2 1 1 1 }1 1 0 0 6 6 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 
+1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 }1 1 0 0 4 
+4 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }
+{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 
+2 2 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }{PSTYLE "Heading 1" -1 256 
+1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 }3 1 0 0 6 
+6 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 18 "" 0 "" {OLE 1 12128 
+1 "[xm]Br=WfoRrB:::wk;nyyI;G:;:j::>:B>N:F:nyyyyy]::yyyyyy:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::fyyyyyQ;nY^:
+f:n:v:>;F;V;nYnyyyYU:W:YJ:><<jBJCjCJDjDJyky;::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::JcvGYMt>^:fBWMtNHm=;:::::::
+n<Ejyyiy==:;THcV>whGYX>efI<VN=nN`H<::;YGIxT]BiCX:A:;d=<Z:j[vCWLdfBW<a<
+;::::::::_J;@j;J;B:yayA:<::::::=:OR=B:VB:E<VDglS>`:B:::::::JFNZ;f:vYxI
+>:<::::::JDJ:j:VBYmp>HYLkNG>::::::::N<^:vYxI>:<::::::g;i]:>:nYN:V:;J<>
+:EJ:n:v:>;F;N[:j?J@j@>:W:Y:[B:<jBJC>:a:c:e:gJ:v<>=;jFJGjGJHjHJIjIJJB:=
+C:N>V>^>f>n>v>>?F?N?V?^?f?n?v?>@<jRJSjSJTjTJykU:nYvY::::::::::::::::::
+:::::::::::::::::::::::::::::<:;::::::::::N:EK\\J:^rHB:;]:^Z>^Z^^ZI^^I
+v[i^ZIv_Iv[iv[^v_^^^i^^i^bI^^>_^^^biv_>_biNeiv_Tw_>Oe>w_T_b>OeT_bTOeT_
+fT_b^OeT_f^Oe^_f^Oi^_ftOi^OitOit_jt_jtOi>`jt_j>`j>Pm>`jTPmTPm>PmTd`Yg`
+oveYweof`NmixoixotxotPqiPQoghYhhowmYhhoxmYxmYPgyvayXgewqeWgwwTQyiywI^Z
+iy[>ww^v[ia^^vwi^^iabIvw>_^iabivw>_biQeivwTOeiQe^ww^Oeiaf^wwt_biQitww>
+Piiaj>xw>PmiQm>xwTPmiyoTxwixoiQqixwtPqiystxwIysiywTywiywiQyiywtQytaZ>N
+y^^^ta^iNyiv[ty_^Nyiv_tabINy>_^tab>OyT_^tQeiNyT_btQeTOy^w_taftOyt_btQi
+TOytOitaj>Oy>Petaj^Oy>Pitaj>PyTPitQmTPyiPityo>PyiPmtyoiPytPitQq>PytPmt
+QqiPyIyotystPyIystQuiPyTQqtQuIQyTQutywIQyiQutQytA:<:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::ryN:>:::::Vt=vZAvyyyyy=:
+:::::::::::::::::::FdKGdyyyyyY::::jbRNyay=::::@?]tyvY::::jbRNyay=::::x
+ob@?vY::::ZVgerwyyyyy=::::::::ZpGiyyyyyYbWjy;::Dmb@ob@_^wyyyyyID@?yayU
+NFDEuyyyyyAFD@?xIyYNFDLmyyiyID@?yay=@?]<qtyyyW]TN]TNry^`KGdKGDLoyyiy=]
+\\K;yQY@ob@objsxyyA?]<xiyyYRNFDrydmb@ob@?HARNbFyyyyyyjbRNBOFgKGdKGDvYy
+A]<xIyA@?]\\njyyybRNNcyyyyyyKkbryvYZKkbL=xitZKGgyyYyqbRNxIyAZBO`Pwyyyy
+y]rGdK_eyyyyyYxmb@_\\wyyuy::::::::::::::]\\K;:ZlVhyyyyyY:ZKkb::Zm[y=:F
+D@?::VHvY:Zn^`l^`n^`lFdKSN:rVry::::::::::::::::::::::::::::::::::::::;
+Z::xIyA:<:;:^_yyYyI:NZ;F:vYxI:>Z;FZ;F:<Zgvyyuy;B:<:ryvY:B:=B:<j:@J:f?v
+y:>:;:vYxI:>:<:=B:ZyA:<:ryvY:B:>Z;J:<jPjy=Z;F:>:yay=:;J:<:=B:p<xY:FZ;J
+:<Zymy;Z:B:;j:jQxiyE:>:jysy:J:B:FZ::yQ:B:=Z:>Zymy;Z:F:F:v?xi:>:=R:B:ya
+y=:;R:R:ryvY;B:Z:>Zymy;Z:J:@Z;jysy<:;:vYxI:>:<:ryvY;Z::xIyA:<:=J:@:ry<
+:<Z:>:yay=:;Z:F:=J:xIyQ:B:Zymy;Z:j:@:ZyE:>:jysy:J:B:=j:>:vY;Z::xIyA:<:
+;:vYxi:J::yay=:;Z::xIyQ:B:Zymy;Z:J::yayE:@J:>Z:jysy:J:>Z::xIyQ:F:>:xIy
+A:<Z:>:jysy<:;:vYxI:>:<:ryvY;Z::xIyA:g:;:vYxi:J::Y[y=Z;Z::xIyQ:B:=R:;j
+:l;xI:;Z::vYxi:J:@j:FZ;fZyyYyAJEJ::xIyq:B:;R:;J;f_yyYyAB:>::yayeDB::DJ
+G`LO<lAJ::Zymyc:B::=R:;B:;B:R:;Z::vYxIOB:>::=:;::ZymyK:F:>:R:B:j;J::ya
+y];FZ;Z:::FZyM:<:ryvYR:<:;:@J:B:=R:yyy<:;:vYxIB;=B:>::`jyyiyA:<:ryvYZh
+F:>:=J:@Z<vyyuy<:;:vYxI:Cj:@:@jCxyywY::;Z:::::::::j:<Jyyy;dJ:vYxYZ`MDA
+;@;:E;MTU=uSEeU;CSEEBUTTAeVYuVYeScEB[DTYEWYEBEDSMEWYeV;sFWCFt:;RMaDNKu
+Ufb^GG>ZFJ::JQH]nIalHH<J::::=ja<JpfF;J::::::::::OJ;vyyuy:>:<::::::k;cB
+:>:NZ:vc::[LsfFaMR>@>Z::::::::kJ;<jysy:>:<::::::S:ku>B::::::::::::jysy
+:>:<:::::::::::::::::::vYxI:;Z::::::::j:>Z<B:<::::::::::yayY:;J<<:=Z:v
+YxY;J:jc?:Ir;>dMB:;B::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::jysyA:C:=:yayQ:>:VTv::=j>r:KW<F:_u;>Z:F[:B:Gc;YB:Kji
+Tn`Do^LoiHl;B:wj<>Z:V[<Z:f:^[<VBCk<D:ia=>Z;^Z>^Z:^^>v[:^^Iv[:v_>v[:v_I
+v[:JL<jQ^^:v?YC:Ct=CC:CDCCC:CtEYC:CDKYC:otEYC:oL\\<JgLnQ<Z>_b:NeT_b:NE
+oD:CePCD:CePoD:LPg^FCE:oESCE:dQl<JwNi:Ni>Pi:^jtOi:^j>Pi:J<=J<eS<=J<Om:
+NmT`j:NmTPm:reoF:onQ=jQeSG=jQyTG=jQwo:bhYG:oghYG:Nq:NqIQq:NQYH:ogpYpay
+va=jaewa=ZiQu:NuiQu:jq=Jgeyq=jqyJ<<jqyJ\\<jqMlAvw^^>YyECC:YIKYB:LNL<:Y
+C:YQ\\<jqeoQ<jqeOg<jqeOl<jqMPg<jqMPl<jqeQ\\<jqOi:vw>Pi:vWCF:YI[oF:Yi`C
+F:Yi`onqyTGwWYoqeuQKW=jqyVW=jqwSYyuopqyxq=jqeyq=:oI:oI;CB:oICCC:oqQ<Jw
+ylA<Jw_^:Nyiv?oIKYB:oQL<Z>_BoiPCC:oqQ<JweO\\<JwOe:Ny^w_:BSoE:oiXCD:dQg
+<:oMwMR\\<Z>Pe:Jl<JwOI^j:b`oE:dSGOyiPi:NYCF:oyeoNwwOoihoE:dU<=JweUG=:Y
+_Iyo:JWOyIySoipYG:Nq:NyTySNu:Nyiys:ruoPweYw=J:<J::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::ya:^
+Z:>:cc:V:;jT^:vZ;V:_u;VbI>>S@CD:EK:>:C<>:KK:f>^B;j:>;;J:>nDB:C@C@;R:<J
+:<:CB;CB:YB;CC:Yr=CkALjQ<jAxjQ<JLv_:BCYkQL<Cs=CLLLL\\<jQxL\\<jQLN\\rEo
+D:CtEoD:YCKoD:CDKoD:dOgNeTC:CLl<Jg^f:BSCMlL@Ni:^ftOIoeXB[Nit_j:Ni>`JCF
+[b`CNGeS<=J<OMof`o^iPMYOGOmTxo:NmixOYweY_tlQOQoghrmooayVWcpooayvawsTyS
+oxuYPgOUYQgcxoH:Cr=YI:Ct=YqALlq=JLLlq=Zivw:BKYI:Lnq=jQLnq_b>wWYcPYQgdo
+q=JldoqOe^ww:^f^ww:^btww:Nitww:B[YI:CF[YI:oF[YQ<esq=JGesq=ZixWYweYI:du
+q=JWeuq=ZIyWYxmYI:opqwwiyWdyqOytyWCB;oI:CCCoI:YCCoI:YrEoI:CsEoI:YsEoqA
+LNw_^>OYCDKoQLdOw=jQdOw_bTOYoLw=jQLPwOi^OYCdXoI:odXoI:oeXoQ\\LRw=JgLRw
+=JlLRwOi>PYCNwOiTPy:NmTPYoueoI:CveoI:oveoqQOy:NitPy:^jtPYofhoqQeUw=ZIQ
+y:NQoqaOYYgpoI:ogpoqaeWwOuTQYYxuoI:oxuoQwOy:>Z:>::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::jyyi:
+vyyuy:L:<:H[yuy::<J:Zy=t<>:=R:;Z<ZyE:>:jy=J:ryxI^:;Z::j>xIyI:>:jy=:xiy
+];J:>:R:;Z:FZ;vY<:;:vy:ZyuyF:=B:>::Z;vY>:jy=:xiyM:FZ:J:Z;Z::A:;:vy:B:x
+iye<<Z::R:B:::vy:ZyuyD:;B::=R:;Z:Z;>:<:jy=:xiyQ?;J::NZTF?;;<::vy:Zyuy=
+B:>Z;J;@:yqy;<:;:jy=:xiyA:<j:@Z;R;xiy=b?B::yI:ryxY:B:=J:<j:l;xI:;Z::vy
+:Zyuy;Z::x<yA:=Z:>:jy=:xiyA:<:ryvY:n<>:jy=:xiyA:<:ryvY:B:>:jy=:xiyA:=B
+:>:xIyA:<Z:>:jy=:xiyA:=:;Zymy;Z:B:;:vy:Zyuy;Z::xIyA:<:;:vy:Zyuy;Z::xIy
+A:<:;:vy:Zyuy;Z::xIyA:<:;:vy:Zyuy;Z::xIyA:<:;R:=R:vy:jyyiyA:<:ryvY:B:F
+:;R:;Z:jyyiyA:@J:>Z:ryvY:B:>Z;R:<jy=:yyyxY:B:Zymy;Z:j:@:B:vyyuy;Z::xIy
+A:<:;:vy:Zyuy;Z;J:<J:xIyA:<:;R:@:yI:vyyuy;Z;B:<J:xIyA:<j:j:jy=:yyyxY:<
+Z:FZ:B:;ryvY:B:=:=:YC:;jysy;B:<:ryvY:B:>:@:Y;yayA:=R:>Z:ryvY:B:<J:F:v?
+vYxY:F:>Z:ryvY:B:<J:R:;jP<:yayA:<:ryvY:B:>Z;J:<jPjysy;Z::xIyA:<:;Z;jPj
+ysy;Z::xIyA:<j:B:=R:f?vYxY:<Z<R:>Zymy;Z:FZ;FZ;J:f?ZyAZ:B:Zymy;Z:J::SC:
+vYxI:::::<:ry:::::B:Zy=::::Z::xI:::::<:ry:::::B:Zy=::::Z::xIJTL]nBG@?]
+<:amywY<:ry:]TN@?::VHvY<:ry:]\\K;::a=ya::xIjbRN::bFvYya::xI:::::<:ry::
+:::B:Zy=K<yyyyAk=xiymY@??=yI:Zy]KkbL=yyyd=@onjyGD@_ymy=:ryFD@?c;yYNFDd
+nyyyyyybRNvY<:ryFD@?LoyGGFDvYjbZyE:ZymbRNjyOAFDVH@?]<_syyI:ZymbRNjyoAF
+DVHjbZyE:ZymbRNrP:]<yqyMmbRN^D<:ryFD@?xIyYNFDL=yyy]\\KkyC:ZyMSjb^FvyKk
+bryvY]\\KSSxi::xIbWvYyATAvY:Z::xI:::::<:ry::BQjyyI:B:Zy=:ji@?yay=:<:ry
+::FD@oysy:Z::xI::]\\KwYxI:B:Zy=:jbRNyay=:<:ry::RNZy=:<:ry:::::B:Zy=:::
+:Z::xI:::::<:CJ:v^;vyyY:>::::::::::::::::::::::::::>Gu<;::::::::::::::
+::::::::::::::::::::::::::::ZlvI<:<:::::::::::5:" }}{PARA 18 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 272 21 "Bases de Matem\341ticas " }}{PARA 18 "" 
+0 "" {TEXT -1 10 "Pr\341ctica 5" }}{PARA 256 "" 0 "" {TEXT 258 12 " In
+tegraci\363n" }}{PARA 257 "" 0 "" {TEXT -1 29 "Por: R. Criado y A. Gal
+linari" }}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 22 "Objetivos de la sesi
+\363n" }}{PARA 15 "" 0 "" {TEXT -1 89 "Utilizar los comandos que Maple
+ lleva incorporados para manejar  integrales de funciones." }}{PARA 
+15 "" 0 "" {TEXT -1 137 "Recordar algunos de los comandos y recursos d
+e programaci\363n de Maple con los que el alumno ya ha tenido contacto
+ en pr\341cticas anteriores." }}{PARA 15 "" 0 "" {TEXT -1 80 "Repasar \+
+y visualizar los conceptos de integral e integral impropia de funcione
+s." }}{PARA 15 "" 0 "" {TEXT -1 123 "Estudiar algunas aplicaciones de \+
+la integraci\363n al c\341lculo de \341rea de regiones\nplanes y vol
+\372menes de s\363lidos de revoluci\363n." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}}{SECT 
+1 {PARA 4 "" 0 "" {TEXT 261 65 "Comandos de Maple necesarios para la r
+ealizaci\363n de esta pr\341ctica" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 98 "Los siguientes son comandos disponibles en Maple necesari
+os para la realizaci\363n de esta pr\341ctica :" }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "        " }}{PARA 0 "" 0 "" {TEXT -1 24 "       int       \+
+Int    " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+34 "       middlebox     middlesum    " }}{PARA 0 "" 0 "" {TEXT -1 4 "
+    " }}{PARA 0 "" 0 "" {TEXT -1 20 "       tubeplot     " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#pres
+iona return cuando termines de leer" }}}}{SECT 1 {PARA 3 "" 0 "" 
+{TEXT -1 10 "Integrales" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 23 " La in
+tegral indefinida" }}{PARA 0 "" 0 "" {TEXT -1 100 "El teorema fundamen
+tal del c\341lculo integral nos permite determinar cu\341ndo el proces
+o de calcular la " }{TEXT 273 19 "integral indefinida" }{TEXT 259 1 " \+
+" }{TEXT -1 7 "(o las " }{TEXT 274 10 "primitivas" }{TEXT -1 18 ") de \+
+una funci\363n f" }{TEXT 304 1 " " }{TEXT -1 65 "es el proceso inverso
+ a calcular la derivada de una funci\363n. Si  " }{TEXT 283 7 "F'(x) =
+" }{TEXT -1 0 "" }{TEXT 284 1 " " }{TEXT 305 2 "f " }{TEXT 306 1 " " }
+{TEXT -1 1 "y" }{TEXT 285 5 "  f  " }{TEXT 307 13 "es continua, " }
+{TEXT -1 10 "entonces  " }{XPPEDIT 18 0 "F = int(f(x),x);" "6#/%\"FG-%
+$intG6$-%\"fG6#%\"xGF+" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 280 9 
+"Ejemplo: " }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "
+F:=x^5;" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 10 "calculamos" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "f:=diff(F,x);" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 33 "y vo
+lvemos a obtener  f  mediante" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "Int(f,x)=int(f,x);" }}}
+{PARA 0 "" 0 "" {TEXT -1 16 "Obs\351rvese que si" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 11 "G:=x^5+273;" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 13 "g:=diff(G,x);" }{TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "Int(g,x)=int(g,x);" }{TEXT -1 0 "" 
+}}}{PARA 0 "" 0 "" {TEXT -1 40 "Es decir, obtenemos el mismo resultado
+. " }}{PARA 0 "" 0 "" {TEXT -1 12 "En general, " }{TEXT 275 70 "la int
+egral indefinida s\363lo est\341 definida m\363dulo una constante adit
+iva" }{TEXT -1 11 ", es decir:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 257 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "int(diff(F(x),x),x) = \+
+F(x)+C;" "6#/-%$intG6$-%%diffG6$-%\"FG6#%\"xGF-F-,&-F+6#F-\"\"\"%\"CGF
+1" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 276 11 "Ejercicio: " }{TEXT -1 46 "Calcula la integral indefinid
+a de la funci\363n  " }{XPPEDIT 18 0 "1/(x^2+x+1)" "6#*&\"\"\"\"\"\",(
+*$%\"xG\"\"#F%F(F%\"\"\"F%!\"\"" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 62 "Verifica este
+ c\341lculo derivando la expresi\363n que has obtenido:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}}{SECT 
+1 {PARA 4 "" 0 "" {TEXT -1 21 " La integral definida" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "La " }{TEXT 277 17 "inte
+gral definida" }{TEXT -1 15 " de una funci\363n" }{TEXT 264 1 " " }
+{TEXT 256 4 "f(x)" }{TEXT -1 23 " no negativa entre los " }{TEXT 279 
+24 "l\355mites de integraci\363n  " }{TEXT 257 3 "x=a" }{TEXT -1 3 "  \+
+y" }{TEXT 265 1 " " }{TEXT 278 4 " x=b" }{TEXT 266 1 " " }{TEXT -1 66 
+" es el \341rea encerrada entre la gr\341fica de la funci\363n f(x), e
+l eje " }{TEXT 268 1 "x" }{TEXT -1 15 ", y las rectas " }{TEXT 267 4 "
+x=a " }{TEXT 260 1 " " }{TEXT -1 3 "y  " }{TEXT 269 4 "x=b." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "re
+start:f:=x->4-x^2;" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 132 "with(plots):a:=.5;\nb:=1.5;\np:=plot(f(x),x=0..2,col
+or=blue):\nq:=plot(\{[a,t,t=0..f(a)],[b,t,t=0..f(b)]\},color=maroon):
+\ndisplay(\{p,q\});" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 39 "Este \341rea se calcula aproxim\341ndola con " }{TEXT 
+262 1 "n" }{TEXT 270 1 " " }{TEXT -1 34 "rect\341ngulos y luego increm
+entando " }{TEXT 263 1 "n" }{TEXT 308 1 " " }{TEXT 271 0 "" }{TEXT -1 
+15 "sucesivamente: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 217 "n:=7;         # Ser\341n n=7 rect\341ngulo
+s\nh:=(b-a)/n;   # h es la anchura de cada rect\341ngulo  \np:=plot(f(
+x),x=0..2):\nq:=plot(f(a+ceil((x-a)/h)*h),x=.5..1.5):\nr:=seq(plot([a+
+i*h,t,t=0..f(a+i*h)]),i=0..n):\ndisplay(\{p,q,r\});" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer
+" }}}{PARA 0 "" 0 "" {TEXT -1 355 "En el siguiente ejemplo puedes ver \+
+gr\341ficamente la forma en que se van obteniendo sucesivas aproximaci
+ones del \341rea encerrada por f  por medio de sumas superiores sobre \+
+particiones uniformes. Ejecuta los comandos y haz click sobre el dibuj
+o que aparece para ver la animaci\363n (el objetivo es ver la animaci
+\363n, no entender c\363mo hemos empleado los comandos):" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "resta
+rt;\nwith(plots):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "f:=x->
+4-x^2;\na:=.5;b:=1.5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 316 "h
+:=n->(b-a)/n:\npbox:=(x0,h,v)->[[x0,0],[x0,v],[x0+h,v],[x0+h,0]]:\nrec
+ts:=n->seq(pbox(a+i*h(n),h(n),f(a+i*h(n))),i=0..n-1):\ncurvstruc:=n->C
+URVES(rects(n),COLOUR(RGB,0.1,0,0)):\nanimstruc:=PLOT(ANIMATE(seq([cur
+vstruc(n)],n=3..40)), AXESLABELS(\"x\",\"y\"), VIEW(a..b,DEFAULT)):\np
+:=plot(f(x),x=0..2):\ndisplay(\{p,animstruc\});" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "Vamos aho
+ra a  estimar el \341rea limitada por la gr\341fica de la funci\363n \+
+" }{XPPEDIT 18 0 "f(x) = x^2/2+1;" "6#/-%\"fG6#%\"xG,&*&F'\"\"#\"\"#!
+\"\"\"\"\"\"\"\"F-" }{TEXT -1 11 "  y el eje " }{XPPEDIT 18 0 "OX" "6#
+%#OXG" }{TEXT -1 21 " entre las abscisas  " }{XPPEDIT 18 0 "a=0" "6#/%
+\"aG\"\"!" }{TEXT -1 6 "   y  " }{XPPEDIT 18 0 "b=1" "6#/%\"bG\"\"\"" 
+}{TEXT -1 12 " utilizando " }{XPPEDIT 18 0 "n = 3;" "6#/%\"nG\"\"$" }
+{TEXT -1 61 " rect\341ngulos de la misma longitud y de altura el valor
+ de  f(" }{XPPEDIT 18 0 "x" "6#%\"xG" }{TEXT -1 3 ")  " }{TEXT 286 18 
+"en el punto medio " }{TEXT -1 83 "de dichos intervalos.  En este caso
+ estamos aproximando la integral de la funci\363n  " }{XPPEDIT 18 0 "f
+(x);" "6#-%\"fG6#%\"xG" }{TEXT -1 83 " por medio de una suma de Rieman
+n sobre una partici\363n uniforme del intervalo [0,1]." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "restart:f:=x->(x^2/2)+1;" }}}{PARA 
+0 "" 0 "" {TEXT -1 219 "Para obtener la representaci\363n gr\341fica d
+e  f y de la regi\363n formada por los rect\341ngulos cuyas bases son \+
+los subintervalos resultantes de dividir el intervalo [0,1]  en 3 part
+es iguales y las alturas son los valores de  " }{TEXT 309 0 "" }{TEXT 
+-1 63 "f  en los puntos medios de dichos subintervalos, utilizamos la \+
+" }{TEXT 287 16 "librer\355a student" }{TEXT -1 14 " y el comando " }
+{TEXT 288 9 "middlebox" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "with(student):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 25 "middlebox(f(x),x=0..1,3);" }}}{PARA 0 "" 0 "" {TEXT -1 11 "El \+
+comando " }{TEXT 310 10 "middlesum " }{TEXT -1 70 "calcula el \341rea \+
+de la regi\363n formada por los rect\341ngulos anteriores es" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "middlesum(f(x),x=0..1,3):%=e
+valf(%);" }}}{PARA 0 "" 0 "" {TEXT -1 208 "Si ahora empleamos 5 rect
+\341ngulos en lugar de 3, podemos comprobar gr\341ficamente que la apr
+oximaci\363n del \341rea encerrada por  f es mejor, y obtener el corre
+spondiente valor num\351rico del \341rea encerrada por ellos:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "middlebox(f(x),x=0..1,5);" }
+}}{PARA 0 "" 0 "" {TEXT -1 73 "As\355, el \341rea de la regi\363n form
+ada por los cinco rect\341ngulos anteriores es" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 36 "middlesum(f(x),x=0..1,5):%=evalf(%);" }}}{PARA 
+0 "" 0 "" {TEXT -1 256 "Para representar gr\341ficamente las regiones \+
+correspondientes a particiones del intervalo [0,1] en 10, ...,50 rect
+\341ngulos de las caracter\355sticas anteriores, podemos observar que \+
+ la regi\363n limitada por \351stos se asemeja cada vez m\341s a la re
+gi\363n limitada por  " }{XPPEDIT 18 0 " f " "6#%\"fG" }{TEXT -1 114 "
+  (ejecuta las siguientes l\355neas de input de comandos y haz click s
+obre el dibujo obtenido para ver la animaci\363n):" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 57 "for i from 1 to 5 do p[i]:=middlebox(f(x),x=
+0..1,10*i)od:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(plots):" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "display([seq(p[i],i=1..5)],insequen
+ce=true);" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 81 "As\355 pues, el \341rea de las regiones formadas p
+or esos rect\341ngulos es, en este caso:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 47 "seq(evalf(middlesum(f(x),x=0..1,10*i)),i=1..5);" }}}
+{PARA 0 "" 0 "" {TEXT -1 158 "Visto lo anterior es posible determinar \+
+una f\363rmula general que proporcione una estimaci\363n del\240\341re
+a correspondiente a una subdivisi\363n del intervalo [0,1] en  " }
+{XPPEDIT 18 0 "n " "6#%\"nG" }{TEXT -1 47 " rect\341ngulos de las cara
+cter\355sticas anteriores " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+36 "middlesum(f(x),x=0..1,n):%=value(%);" }}}{PARA 0 "" 0 "" {TEXT -1 
+43 "El l\355mite de la expresi\363n anterior cuando  " }{XPPEDIT 18 0 
+"n" "6#%\"nG" }{TEXT -1 99 "  tiende a infinito representa, por el cri
+terio de Riemann, el \341rea encerrada por la gr\341fica de f: " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "limit(rhs(%),n=infinity);" }
+}}{PARA 0 "" 0 "" {TEXT -1 74 "Si ahora calculamos directamente la int
+egral de  f  en el intervalo [0,1]," }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "Int(f(x),x=0..1):%=value(%);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 49 "resulta que dicha integral es el l\355mite anterior." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return cuando term
+ines de leer" }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 21 " Integraci\363n
+ Impropia" }}{PARA 0 "" 0 "" {TEXT 311 107 "Al estudiar el concepto de
+ integral partimos de dos conceptos fijos: se requiere que la funci
+\363n considerada" }{TEXT 312 1 " " }{TEXT 281 83 "est\351 acotada y q
+ue el intervalo de integraci\363n sea un intervalo acotado (y cerrado)
+" }{TEXT -1 117 ". Si alguna de estas dos condiciones no se satisface,
+ hay que introducir ciertos cambios, apareciendo el concepto de " }
+{TEXT 282 17 "integral impropia" }{TEXT -1 53 " como el resultado de u
+n proceso de paso al l\355mite.  " }}{PARA 0 "" 0 "" {TEXT -1 209 "En \+
+cualquier caso, lo primero que hay que observar es que Maple V no hace
+ mucha distinci\363n entre integrales propias e impropias. En este sen
+tido trata el valor infinito como si se tratase de otro n\372mero real
+. " }}{PARA 0 "" 0 "" {TEXT -1 183 "Esto puede servirnos para calcular
+  el valor de una integral impropia: si el c\341lculo del l\355mite ob
+tenido nos proporciona un n\372mero real, diremos que se trata de una \+
+integral impropia " }{TEXT 289 11 "convergente" }{TEXT -1 15 "; si el \+
+l\355mite " }{TEXT 291 9 "no existe" }{TEXT -1 6 " o es " }{TEXT 290 
+8 "infinito" }{TEXT -1 29 ", ser\341 una integral impropia " }{TEXT 
+292 10 "divergente" }{TEXT -1 85 "; si Maple V es incapaz de calcularl
+a, no se puede asegurar si hay convergencia o no." }}{PARA 0 "" 0 "" 
+{TEXT -1 98 "En todo caso, Maple V no estudia la convergencia de las i
+ntegrales impropias, intenta calcularlas." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "Int(1/(1+x^2),x=0..+i
+nfinity)=\nint(1/(1+x^2),x=0..+infinity);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 76 "Obviamente, la integral impropia anterior converge, igual que l
+as siguientes" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "Int(x*exp(-
+x),x=0..+infinity)=\nint(x*exp(-x),x=0..+infinity);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 42 "Int(x*log(x),x=0..1)=int(x*log(x),x=0..1)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 31 "Pero las pr\363ximas, no convergen
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "Int(1/x^2,x=0..1)=int(1/
+x^2,x=0..1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "Int(cos(x),
+x=0..infinity)=int(cos(x),x=0..infinity);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}{PARA 
+4 "" 0 "" {TEXT -1 0 "" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 30 "Aplic
+aciones de las integrales" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 24 " \+
+\301reas de figuras planas" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 64 "Sean  f(x) y g(x) dos funciones continuas en un i
+ntervalo [a,b]." }}{PARA 0 "" 0 "" {TEXT 302 9 "Ejemplo :" }{TEXT -1 
+15 "  Sean  f(x) = " }{XPPEDIT 18 0 "x/sqrt(x^2+1);" "6#*&%\"xG\"\"\"-
+%%sqrtG6#,&*$F$\"\"#F%\"\"\"F%!\"\"" }{TEXT -1 15 "    y   g(x) = " }
+{XPPEDIT 18 0 "x^4-x;" "6#,&*$%\"xG\"\"%\"\"\"F%!\"\"" }{TEXT -1 12 " \+
+ en [-1,2]," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 40 "restart;f:=x->x/sqrt(x^2+1);g:=x->x^2-x;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 176 "with(plots):\na:=plot(\{f(x
+),g(x)\},x=-1..2,y=-1..2):\nb:=plots[textplot](\{[0.5,0.2,`R`],[0.5,0.
+6,`f`],\n[-0.8,0.4,`R`],[1.8,1.2,`R`],[1.6,1.6,`g`]\},\nalign = RIGHT)
+:\ndisplay(\{a,b\});" }}}{PARA 0 "" 0 "" {TEXT -1 114 "Si queremos cal
+cular el \341rea de la regi\363n R de la figura anterior, tendremos qu
+e determinar en qu\351 intervalos es  " }{XPPEDIT 18 0 "f(x) <= g(x);
+" "6#1-%\"fG6#%\"xG-%\"gG6#F'" }{TEXT -1 89 ". Los valores aproximados
+ de los puntos de intersecci\363n de las dos gr\341ficas en [-1,2] son
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "s:=evalf(solve(f(x)-g(x)
+,x));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 
+"Por tanto, el \341rea de la regi\363n R ser\341 la suma de tres integ
+rales:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "I1:=Int(g(x)-f(x),
+x=-1..s[1])=\nint(g(x)-f(x),x=-1..s[1]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 61 "I2:=Int(f(x)-g(x),x=s[1]..s[2])=\nint(f(x)-g(x),x=s[1
+]..s[2]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "I2:=Int(g(x)-f
+(x),x=s[2]..2)=\nint(g(x)-f(x),x=s[2]..2);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 98 "Area(R):=evalf(int(g(x)-f(x),x=-1..s[1])+\nint(f(x)
+-g(x), x=s[1]..s[2])+\nint(g(x)-f(x),x=s[2]..2));" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Al mismo resultado se lle
+ga simplemente utilizando la f\363rmula" }}{PARA 257 "" 0 "" {TEXT -1 
+9 "Area(R)= " }{XPPEDIT 18 0 "int(abs(g(x)-f(x)),x = -1 .. 2);" "6#-%$
+intG6$-%$absG6#,&-%\"gG6#%\"xG\"\"\"-%\"fG6#F-!\"\"/F-;,$\"\"\"F2\"\"#
+" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "Int(abs(g
+(x)-f(x)),x=-1..2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf
+(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return cu
+ando termines de leer" }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 35 " Vol
+\372menes de s\363lidos de revoluci\363n" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 110 "Los s\363lidos de revoluci\363n s
+e obtienen haciendo girar una regi\363n plana alrededor de  los ejes  \+
+de coordenadas. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 293 18 "M\351todo de discos: " }
+{TEXT -1 5 " Sea " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT -1 
+60 "  una funci\363n continua y no negativa en un intervalo [a,b]. " }
+}{PARA 0 "" 0 "" {TEXT -1 65 "Al girar el trapecio curvil\355neo R (de
+terminado por la gr\341fica de " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"
+xG" }{TEXT -1 111 ", las rectas x=a, x=b y el eje de las x) alrededor \+
+del propio eje de las x, se obtiene un s\363lido de revoluci\363n." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 297 11 "Ejemplo \+
+1: " }{TEXT -1 12 "Sea  f(x) = " }{XPPEDIT 18 0 "2*x^2+3;" "6#,&*&\"\"
+#\"\"\"*$%\"xG\"\"#F&F&\"\"$F&" }{TEXT -1 27 "   en  el intervalo  [0,
+1]." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "restart;f:=x->2*x^2+3;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 184 "with(plots):a:=0;\nb:=1;\np:=plot(f(x),x=-0.5..1.5,c
+olor=blue):\nq:=plot(\{[a,t,t=0..f(a)],[b,t,t=0..f(b)]\},color=maroon)
+:\nl:= plots[textplot]([0.5,2,`R`],align = RIGHT):\ndisplay(\{p,q,l\})
+;" }}}{PARA 0 "" 0 "" {TEXT -1 115 "En nuestro caso, el s\363lido de r
+evoluci\363n obtenido al girar el trapecio curvil\355neo R (determinad
+o por la gr\341fica de " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }
+{TEXT -1 119 ", las rectas x=0, x=1 y el eje de las x) alrededor del p
+ropio eje de las x est\341 delimitado por la siguiente superficie:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+33 "with(plots):with(plots,tubeplot):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 78 "s:=tubeplot([x,0,0],x=0..1,radius=f(x),tubepoints=20)
+: display(s,axes=normal);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+40 "#presiona return cuando termines de leer" }}}{PARA 0 "" 0 "" 
+{TEXT -1 3 "El " }{TEXT 294 34 "volumen de un s\363lido de revoluci
+\363n" }{TEXT -1 1 " " }{TEXT 295 26 "alrededor del eje de las x" }
+{TEXT -1 28 " viene dado por la f\363rmula  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 257 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "V = Int(Pi*f
+(x)^2,x = a .. b);" "6#/%\"VG-%$IntG6$*&%#PiG\"\"\"*$-%\"fG6#%\"xG\"\"
+#F*/F/;%\"aG%\"bG" }{TEXT -1 1 "," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 24 "donde el producto A(x)= " }{XPPEDIT 18 0 
+"Pi*f(x)^2;" "6#*&%#PiG\"\"\"*$-%\"fG6#%\"xG\"\"#F%" }{TEXT -1 129 " r
+epresenta el \341rea de la secci\363n circular obtenida cortando el s
+\363lido de revoluci\363n por un plano perpendicular al eje de las x. \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "En nu
+estro ejemplo," }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "V:=Int(Pi*
+f(x)^2,x = 0 .. 1)=int(Pi*(f(x)^2),x=0..1);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return c
+uando termines de leer" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Si ahora queremos de
+terminar el volumen de un s\363lido de revoluci\363n" }{TEXT 298 1 " \+
+" }{TEXT -1 26 "alrededor del eje de las x" }{TEXT 299 1 " " }{TEXT 
+-1 77 "determinado por una regi\363n plana limitada por la gr\341ficas
+ de dos funciones   " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT 
+-1 4 " y  " }{XPPEDIT 18 0 "g(x);" "6#-%\"gG6#%\"xG" }{TEXT -1 69 ", p
+rimero tenemos que determinar  en que intervalos se verifica que  " }
+{XPPEDIT 18 0 "f(x) <= g(x);" "6#1-%\"fG6#%\"xG-%\"gG6#F'" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT 296 10 "Ejemplo 2:" }{TEXT -1 15 "  Sean
+  f(x) = " }{XPPEDIT 18 0 "2*x^2+3;" "6#,&*&\"\"#\"\"\"*$%\"xG\"\"#F&F
+&\"\"$F&" }{TEXT -1 47 "    y   g(x) = -2x +7  en  el intervalo  (0,2)
+," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "g:=x->-2*x+7;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 176 "with(plots):a:=0;\nb:=2;\np:=plot(\{f(x),g(x)\},x=0..2.5):\nq
+:=plot(\{[b,t,t=0..f(b)]\},color=maroon):\nk:= plots[textplot](\{[0.3,
+5,`R`],[1.7,5,`R`]\},\nalign = RIGHT):\ndisplay(\{p,q,k\});" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "solve(f(x)-g(x),x);" }}}
+{PARA 0 "" 0 "" {TEXT -1 237 "Podemos dibujar la regi\363n obtenida de
+l siguiente modo (la regi\363n es el s\363lido comprendido entre las d
+os superficies dibujadas, haz click sobre el dibujo que aparece y util
+iza el rat\363n para ver distintas perspectivas del s\363lido obtenido
+):" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 293 "with(plots):with(plot
+s,tubeplot):\np1:=tubeplot([x,0,0],x=0..1,radius=g(x),tubepoints=20): \+
+q1:=tubeplot([x,0,0],x=0..1,radius=f(x),tubepoints=20): p2:=tubeplot([
+x,0,0],x=1..2,radius=f(x),tubepoints=20):\nq2:=tubeplot([x,0,0],x=1..2
+,radius=g(x),tubepoints=20):\ndisplay(\{p1,p2,q1,q2\},axes=normal);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return cuando te
+rmines de leer" }}}{PARA 0 "" 0 "" {TEXT -1 32 "En nuestro ejemplo con
+   f(x) = " }{XPPEDIT 18 0 "2*x^2+3;" "6#,&*&\"\"#\"\"\"*$%\"xG\"\"#F&
+F&\"\"$F&" }{TEXT -1 223 "    y   g(x) = -2x+7    en  el intervalo  (0
+,2), el volumen del solido de revoluci\363n obtenido rotando alrededor
+ del eje de las x la regi\363n limitada por   y = f(x),  y = g(x), x =
+ 0  y   x = 2  ser\341 la suma de dos vol\372menes:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 130 "V:=Int(Pi
+*(g(x)^2-f(x)^2),x=0..1)+\nInt(Pi*(g(x)^2-f(x)^2),x=1..2)=\nint(Pi*(g(
+x)^2-f(x)^2),x=0..1)+\nint(Pi*(g(x)^2-f(x)^2),x=0..1);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 300 17 "M\351todo de capas:
+ " }{TEXT -1 5 "Sea  " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }
+{TEXT -1 126 "  una funci\363n continua y no negativa en un intervalo \+
+[a,b].  Al girar el trapecio curvil\355neo R (determinado por la gr
+\341fica de " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT -1 103 "
+, las rectas x=a, x=b y el eje de las x) alrededor del eje de las y se
+ obtiene un s\363lido de revoluci\363n." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT 301 11 "Ejemplo 3: " }{TEXT -1 17 "Sea, com
+o antes, " }{TEXT 303 1 " " }{TEXT -1 8 "f(x) = 2" }{XPPEDIT 18 0 "x^2
++3;" "6#,&*$%\"xG\"\"#\"\"\"\"\"$F'" }{TEXT -1 12 "   en [0,1]." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+217 "restart;with(plots):\nf:=x->2*x^2+3;\nu:=plot(f(x),x=0..1,color=b
+lue):\nv:=plot(\{[0.5,t,t=0..f(0.5)],[0.2,t,t=0..f(0.2)],\n[1,t,t=0..f
+(1)]\},color=maroon):\nw:= plots[textplot]([0.35,2,`A`],align = RIGHT)
+:\ndisplay(\{u,v,w\});" }}}{PARA 0 "" 0 "" {TEXT -1 104 "En el dibujo \+
+anterior se representa la porci\363n A de la regi\363n correspondiente
+ al intervalo [0.2,0.3].   " }}{PARA 0 "" 0 "" {TEXT -1 139 "La siguie
+nte figura representa la porci\363n de volumen de rotaci\363n alrededo
+r del eje y determinada por A, cuyo valor se puede aproximar por  " }
+{XPPEDIT 18 0 "2*Pi;" "6#*&\"\"#\"\"\"%#PiGF%" }{TEXT -1 15 " (0.4) f(
+0.4): " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 209 "with(plots):with(plots,tubeplot):\nc:=plot3d(0.2,the
+ta=0..2*Pi,z=0..f(0.2),\nstyle=patch,coords=cylindrical):\nd:=plot3d(0
+.5,theta=0..2*Pi,z=0..f(0.5),\nstyle=patch,coords=cylindrical):\ndispl
+ay(\{c,d\},axes=normal);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 66 "Entonces el volumen del s\363lido generado por la \+
+regi\363n R es igual a" }}{PARA 257 "" 0 "" {XPPEDIT 18 0 "Volumen = I
+nt(2*pi*x*f(x),x = a .. b);" "6#/%(VolumenG-%$IntG6$**\"\"#\"\"\"%#piG
+F*%\"xGF*-%\"fG6#F,F*/F,;%\"aG%\"bG" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "V:=Int(2*pi*
+x*f(x),x=0..1)=int(2*pi*x*f(x),x=0..1);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "#fin " }}}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 28 "Cuest
+iones sobre integraci\363n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+317 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 64 "1.  Estudia la convergenci
+a o la divergencia de la integral     " }{XPPEDIT 18 0 "Int(1/(exp(1)^
+x+15),x = 0 .. infinity);" "6#-%$IntG6$*&\"\"\"\"\"\",&)-%$expG6#\"\"
+\"%\"xGF(\"#:F(!\"\"/F/;\"\"!%)infinityG" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 24 "a)   La integral diverge" }}{PARA 0 "" 0 "" {TEXT 
+-1 29 "b)   La integral converge a  " }{XPPEDIT 18 0 "1/15*ln(exp(1)+1
+5)-1/15;" "6#,&*(\"\"\"\"\"\"\"#:!\"\"-%#lnG6#,&-%$expG6#\"\"\"F&\"#:F
+&F&F&*&\"\"\"F&\"#:F(F(" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 30 
+"c)   La integral converge a   " }{XPPEDIT 18 0 "4/15*ln(2);" "6#*(\"
+\"%\"\"\"\"#:!\"\"-%#lnG6#\"\"#F%" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{PARA 0 "" 0 "" {TEXT -1 63 "2.  Estudia la convergencia o la divergen
+cia de la integral    " }{XPPEDIT 18 0 "Int(1/sqrt(x^4-1),x = 1 .. 3);
+" "6#-%$IntG6$*&\"\"\"\"\"\"-%%sqrtG6#,&*$%\"xG\"\"%F(\"\"\"!\"\"F1/F.
+;\"\"\"\"\"$" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 30 "a)   La i
+ntegral converge  a  " }{XPPEDIT 18 0 ".9772817885;" "6#$\"+&)y\"Gx*!#
+5" }}{PARA 0 "" 0 "" {TEXT -1 29 "b)   La integral converge a  " }
+{XPPEDIT 18 0 "1/15*ln(exp(1)+15)-1/15;" "6#,&*(\"\"\"\"\"\"\"#:!\"\"-
+%#lnG6#,&-%$expG6#\"\"\"F&\"#:F&F&F&*&\"\"\"F&\"#:F(F(" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 31 "c)   La integral  converge a   " }
+{XPPEDIT 18 0 ".3473148625;" "6#$\"+D'[JZ$!#5" }{TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 15 "3. Sea F(x) =  " }{XPPEDIT 18 0 "Int(exp(t^2),t = 0 .. x)^2" "6
+#*$-%$IntG6$-%$expG6#*$%\"tG\"\"#/F+;\"\"!%\"xG\"\"#" }{TEXT -1 15 "  \+
+y sea G(x) = " }{TEXT 318 0 "" }{XPPEDIT 18 0 "exp(x^2);" "6#-%$expG6#
+*$%\"xG\"\"#" }{TEXT -1 26 ".  Se puede verificar que " }{XPPEDIT 18 
+0 "Limit(F(x),x = infinity);" "6#-%&LimitG6$-%\"FG6#%\"xG/F)%)infinity
+G" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "Limit(G(x),x = infinity);" "6#-%&
+LimitG6$-%\"GG6#%\"xG/F)%)infinityG" }{TEXT -1 3 " = " }{XPPEDIT 18 0 
+"infinity;" "6#%)infinityG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 48 "Utilizando la regla de L'H\364pital para calcular  " }{XPPEDIT 
+18 0 "Limit(F(x)/G(x),x = infinity);" "6#-%&LimitG6$*&-%\"FG6#%\"xG\"
+\"\"-%\"GG6#F*!\"\"/F*%)infinityG" }{TEXT -1 42 "    se verifica que e
+ste l\355mite es igual a" }}{PARA 0 "" 0 "" {TEXT -1 6 "a)   3" }}
+{PARA 0 "" 0 "" {TEXT -1 6 "b)   0" }}{PARA 0 "" 0 "" {TEXT -1 14 "c) \+
+  no existe" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{PARA 0 "" 0 "" {TEXT -1 18 "4.   Sean  f(x) = " }{XPPEDIT 18 0 "x^2-6
+;" "6#,&*$%\"xG\"\"#\"\"\"\"\"'!\"\"" }{TEXT -1 15 "    y   g(x) = " }
+{XPPEDIT 18 0 "12-x^2;" "6#,&\"#7\"\"\"*$%\"xG\"\"#!\"\"" }{TEXT -1 
+16 "    en   [-5,5]." }}{PARA 0 "" 0 "" {TEXT -1 77 "El \341rea de la \+
+regi\363n limitada por   y = f(x),  y = g(x), x = -5  y   x =5 es:" }}
+{PARA 0 "" 0 "" {TEXT -1 6 "a)    " }{XPPEDIT 18 0 "392/3;" "6#*&\"$#R
+\"\"\"\"\"$!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 4 "b)  " }{XPPEDIT 18 0 "
+-392/3;" "6#,$*&\"$#R\"\"\"\"\"$!\"\"F(" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 6 "c)    " }{XPPEDIT 18 0 "376/3;" "6#*&\"$w$\"\"\"\"\"$
+!\"\"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 
+0 "" 0 "" {TEXT -1 60 " 5.  Hallar el \341rea encerrada por la gr\341f
+ica de la funci\363n  " }{XPPEDIT 18 0 "f(x) = abs(x^2-4*x+3);" "6#/-%
+\"fG6#%\"xG-%$absG6#,(*$F'\"\"#\"\"\"*&\"\"%F.F'F.!\"\"\"\"$F." }
+{TEXT -1 18 "  entre x=0 y x=4." }}{PARA 0 "" 0 "" {TEXT -1 5 "a)  3" 
+}}{PARA 0 "" 0 "" {TEXT -1 5 "b)  4" }}{PARA 0 "" 0 "" {TEXT -1 6 "c) \+
+ -2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "" {TEXT -1 58 "6. Hallar el
+ \341rea encerrada por la gr\341fica de la funci\363n  " }{XPPEDIT 18 
+0 "f(x) = 1/(1+x^2);" "6#/-%\"fG6#%\"xG*&\"\"\"\"\"\",&\"\"\"F**$F'\"
+\"#F*!\"\"" }{TEXT -1 16 "  y su as\355ntota." }}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 5 "a)   " }{XPPEDIT 18 0 "2*Pi;" "6#*&\"\"#\"\"\"%#PiGF%" }
+}{PARA 0 "" 0 "" {TEXT -1 5 "b)   " }{XPPEDIT 18 0 "Pi;" "6#%#PiG" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "c)   " }{XPPEDIT 18 0 "Pi/2;" "6#*&%#PiG\"
+\"\"\"\"#!\"\"" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{PARA 0 "" 0 "" {TEXT -1 20 "7.  Sean     f(x) = " }
+{XPPEDIT 18 0 "x^2-6;" "6#,&*$%\"xG\"\"#\"\"\"\"\"'!\"\"" }{TEXT -1 
+15 "    y   g(x) = " }{XPPEDIT 18 0 "12-x^2;" "6#,&\"#7\"\"\"*$%\"xG\"
+\"#!\"\"" }{TEXT -1 35 "    en   [-5,5] .  (Ver Problema 4)" }}{PARA 
+0 "" 0 "" {TEXT -1 105 "El volumen del solido de revoluci\363n obtenid
+o rotando alrededor del eje de las x la regi\363n limitada por   " }}
+{PARA 0 "" 0 "" {TEXT -1 44 " y = f(x),  y = g(x),  x = -5  y   x =5  \+
+es:" }}{PARA 0 "" 0 "" {TEXT -1 5 "a)   " }{XPPEDIT 18 0 "784*Pi;" "6#
+*&\"$%y\"\"\"%#PiGF%" }}{PARA 0 "" 0 "" {TEXT -1 4 "b)  " }{XPPEDIT 
+18 0 "-784*Pi;" "6#,$*&\"$%y\"\"\"%#PiGF&!\"\"" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "c)  " }{XPPEDIT 18 0 "608*Pi;" "6#*&\"$3'\"\"\"%#PiGF%" }
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{PARA 0 "" 0 "" {TEXT -1 99 "8.  Sea  C la circunferencia de radio 2 c
+on centro en el punto (3,0). La ecuaci\363n que define C es  " }
+{XPPEDIT 18 0 "(x-3)^2+y^2 = 4;" "6#/,&*$,&%\"xG\"\"\"\"\"$!\"\"\"\"#F
+(*$%\"yG\"\"#F(\"\"%" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 109 "
+El volumen del solido de revoluci\363n obtenido rotando alrededor del \+
+eje de las y la regi\363n limitada por  C es:" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "a)   " }{XPPEDIT 18 0 "24*Pi^2;" "6#*&\"#C\"\"\"*$%#PiG\"
+\"#F%" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "b)  " }{XPPEDIT 
+18 0 "12*Pi^2;" "6#*&\"#7\"\"\"*$%#PiG\"\"#F%" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 5 "c)   " }{XPPEDIT 18 0 "6*Pi^2;" "6#*&\"\"'\"\"\"
+*$%#PiG\"\"#F%" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }
+}}{PARA 0 "" 0 "" {TEXT -1 65 "9. Halla el valor de la constante C tal
+ que la integral impropia " }{XPPEDIT 18 0 "Int(x/(x^2+1)-C/(3*x+1),x \+
+= 0 .. infinity);" "6#-%$IntG6$,&*&%\"xG\"\"\",&*$F(\"\"#F)\"\"\"F)!\"
+\"F)*&%\"CGF),&*&\"\"$F)F(F)F)\"\"\"F)F.F./F(;\"\"!%)infinityG" }
+{TEXT -1 11 "  converge." }}{PARA 0 "" 0 "" {TEXT -1 45 "a)   la integ
+ral diverge para todo valor de C" }}{PARA 0 "" 0 "" {TEXT -1 4 "b)  " 
+}{XPPEDIT 18 0 "C = 0;" "6#/%\"CG\"\"!" }{TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "C = 3;" "6#/%\"CG\"\"$" }{TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 
+0 "" 0 "" {TEXT -1 40 "10.  Verifica que la integral impropia  " }
+{XPPEDIT 18 0 "Int(x,x = -infinity .. infinity);" "6#-%$IntG6$%\"xG/F&
+;,$%)infinityG!\"\"F*" }{TEXT -1 25 "  diverge. Ahora calcula " }
+{XPPEDIT 18 0 "Limit(Int(x,x = -c .. c),c = infinity);" "6#-%&LimitG6$
+-%$IntG6$%\"xG/F);,$%\"cG!\"\"F-/F-%)infinityG" }{TEXT -1 2 ". " }}
+{PARA 0 "" 0 "" {TEXT -1 23 "       Se verifica que:" }}{PARA 0 "" 0 "
+" {TEXT -1 6 "a)    " }{XPPEDIT 18 0 "Limit(Int(x,x = -c .. c),c = inf
+inity)" "6#-%&LimitG6$-%$IntG6$%\"xG/F);,$%\"cG!\"\"F-/F-%)infinityG" 
+}{TEXT -1 9 "  diverge" }}{PARA 0 "" 0 "" {TEXT -1 6 "b)    " }
+{XPPEDIT 18 0 "Limit(Int(x,x = -c .. c),c = infinity) = 1/2;" "6#/-%&L
+imitG6$-%$IntG6$%\"xG/F*;,$%\"cG!\"\"F./F.%)infinityG*&\"\"\"\"\"\"\"
+\"#F/" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "c)    " }{XPPEDIT 
+18 0 "Limit(Int(x,x = -c .. c),c = infinity) = 0;" "6#/-%&LimitG6$-%$I
+ntG6$%\"xG/F*;,$%\"cG!\"\"F./F.%)infinityG\"\"!" }{TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}}}{MARK "10 0 0
+" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

@@ -1,0 +1,857 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "Times" 0 14 0 0 0 0 2 0 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 0 1 2 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 1 24 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "Maple Output" 0 259 "Times" 1 12 0 
+0 255 1 1 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 1 18 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 261 "Bookman Old Style" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 
+"" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 
+0 2 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "Times" 1 14 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 284 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 287 "Times" 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 289 
+"" 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" 0 296 "" 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "
+" 0 1 0 0 0 0 2 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 
+"" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 1 12 0 0 0 0 
+0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+}{CSTYLE "" -1 308 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+309 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 1 12 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 313 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 317 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 321 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 325 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 329 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 1 12 0 0 0 0 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 332 "" 1 12 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE 
+"" -1 333 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 1 
+12 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 1 12 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 337 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "He
+ading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 
+1 }1 1 0 0 6 6 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" 
+-1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Bullet Item
+" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 
+1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 16 
+3 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 
+1 2 2 2 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }{PSTYLE "Normal" -1 
+256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 1" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 
+1 2 2 2 2 1 1 1 }3 1 0 0 6 6 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 259 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 260 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "
+Maple Plot" -1 261 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "" 11 262 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 0 263 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 264 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 265 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 266 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 18 "" 0 "" {OLE 1 12120 
+1 "[xm]Br=WfoRrB:::wk;nyyI;G:;:j::>:B>N:F:nyyyyy]::yyyyyy:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::fyyyyyQ;nY^:
+f:n:v:>;F;V;nYnyyyYU:W:YJ:><<jBJCjCJDjDJyky;::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::JcvGYMt>^:fBWMtNHm=;:::::::
+n<Ejyyiy==:;THcV>whGYX>efI<VN=nN`H<::;CNuuw[BiCX:A:;d=B:VBYLa^DELajcJ:
+:::::::JCNZ;V:N:;B:yayA:<::::::=:OR=B:VB:E<VDglS>`:B:::::::JFNZ;f:vYxI
+>:<::::::JDJ:j:VBYmp>HYLkNG>::::::::N<^:vYxI>:<::::::g;i]:>:nYN:V:;J<>
+:EJ:n:v:>;F;N[:j?J@j@>:W:Y:[B:<jBJC>:a:c:e:gJ:v<>=;jFJGjGJHjHJIjIJJB:=
+C:N>V>^>f>;JMjMJNjNJOjOJPjPJQjQJRB:];_;a;c;e;wAi;Jyky;::::::::::::::::
+::::::::::::::::::::::::::::::B:>::::::::::J;f>C<;J\\uZ:>F<J<LJ<LL<xJL
+xjAxL<xjQxjAxlALlQLLLxLLxL\\xJLLNLLL\\xlQLN\\xLgxlQdoQLNgLnQdO\\LNgdO
+\\dOgdOldO\\LPgdOlLPgLPlLPwLPldQwLPwdQwdQ<eQ<eQwLR<eQ<MR<MRGMR<eSGeSGM
+RGecTxoTPmixoiPmTLGytQytQeuQeUWyTWOqtxstPqIystPuIysIySoxmYxuohpYipopqe
+WwyxqyJ<xxALnqMlAxXLLlqyLLxX\\xjqMNLxX\\xlqMN\\xXgxlqeOgxXgLpqMPgxXlLp
+qeQ\\xXwdqqMRwxX<MrqMRGyXGMrqeSGyxQesqytQyXWytqeUWyxaeuqyvayxqewqyxqyX
+wyxqeYweY<LJwMLLdYLxLwylAdyQLLwylQdY\\xJwMNLdY\\LNweOLdYgxLweO\\dYgdOw
+MpQdYldQweQ\\dYwdOweQwdY<MNwMRgdY<MPwMRwdY<MRweSwdYGeSwyTwdyQMRwyTGeyQ
+yTweUwdYWMRweUGeYWyTwyvQeyaeUwyvaeYgyTweWWeYgyVweWgeyqyVwyXgeYweY:B:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::ZyM;J:::
+::jcIj=XjyyyyyI::::::::::::::::::::jb@obxyyyyy;::::]\\KwYxI::::RNFdymy
+;::::]\\KwYxI::::rQ]TNjy;::::loh\\qyyyyyI:::::::::Tqvxyyyyy[p;yA::bF]T
+N]TNLpyyyyyybRNvYxiKkbffyyyyyYjbRNryvyKkbBGyyyxybRNvYxIRNFDVeyyyqGdKGd
+K[yMT@ob@obBOyyyxIFD@?vYwSN]TN]<auyyYNFDryxyy[KkbZyeH]TN]TNrVZK[lvyyyy
+y=]\\K[Nkn@ob@objywYFDryvYRNFDL=yyy]\\KK_xyyyyyA?]\\ymy;@?]DGryd=@onxy
+ywY]\\KsyvY:\\NSToyyyyyI\\qb@OhxyyyyysI]TNDpyyiy=:::::::::::::FD@?::Dm
+sxyyyyy;:@?]<::HAxI:jbRN::jsjy;:LMTDMTLMTDmb@_K;Zm[y=:::::::::::::::::
+::::::::::::::::::::>:<:ryvY:B:>:JPxyywy:J;@j:jysy:J:@j:@j:B:plyyiyAZ:
+B:Zymy;Z:FZ:B:=R:;jPjy=J:>:jysy:J:B:FZ::xY:B:Zymy;Z:J:@:;B:U;yI:@j:J:v
+YxI:>:;B:FZ:REry;j:@:;B:xIyA:<Z:>:=:Ysyxi:J::yay=:;Z:j:<:vY;Z:F:<J:xIy
+A:<j:j:jQry<J:FZ;Z:vYxI:>Z;Z;Zymy?Z::<J:xIyA:<:;R:@:yayE:>:jysy:J:B:Zy
+my?:<:ryvY:B:F:;R:ZyE:B:<J:vYxI:>:<j:F:;ryvY;Z::xIyA:<:=R::xi:J::yay=:
+;Z:F:=J:jy?:<:ryvY:B:>:jysy<:;:vYxI:>:<:ryvY;Z::xIyA:<:;:vYxi:R:;J:<:y
+ay=:;J:<:ryvY;j:J:ryvY:B:<J::yayE:>:jysy:J:B:Zymy?:<:ryvY:n<>:jysy<:;:
+v?xI:@:<:ryvY;Z:FZ;>:=BAry:>:<:jysy<:;R:=j:@j<xyywY:g:;:ryvY=Z:>Z;>:?j
+PxyywYZ:J::vYxidZ::b:oRDOCBY:;::xIya<Z::FZ;>Z:>Z:Z;>:<:jysyN[:J::F:>::
+:xIyA;j:J:Z;Z::A:;:vYxI@j:@:<::j:xI;B:Zymy[;B:>:R:;Z:FZ;vyyE:>:jysyZ>F
+Z:J::R<yyyxY:B:Zymy;tl:J:F:;R:DjyyiyE:>:jysy:^:=R:R:aryyqy;:>:<:::::::
+::=B:wyyAb<;jysy;THcV>R>:f>FcgGfagfh?^^gfZfccWflwgmwg`_hZ>dbwgnwgZfb^G
+gnwgl?^mn_jb=>ZGWdJ?gik\\LpnJ:l:;::WsFLyVDurB:;:::F:YD:Sml>:;:::::::::
+N;?jyyiy=J:B::::::>A^\\:J:J;<ja<:>D_mlVH[KRJ:<:::::::>=?B:yay=J:B:::::
+:^;>iMZ:::::::::::::yay=J:B:::::::::::::::::::jysy:>:<::::::::=J:DZ:B:
+:::::::::vYxy;>:CB:F:<jysy?:;:aP:vZAJbH[:>Z:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::yayY:^:F:vYxY;J:jck=:F:MZ=>o
+Cj:NhAJ:<j><Z:n^@v[:>;ydKUdNMDOytBAZ:n=EJ:<j?D:<j<J@Dj[^>Eb:vXHJ:@J<LJ
+<<JLLjA<JLxjA<jQLjA<jQxjA<:CC:YKL<jQv_:^bI^^:^b^^^:^biv_:^b>w_:Neiv_:N
+ECD:oDKYC:LN\\<JgdO\\<JgNe:^fT_b:^fTOe:BSoLl^f:Ni^_f:bXCE:oMw<JwLRw<J<
+eQw<J<MRw<:CF:Cf`CF:CNG=JGeS<=JGeSG=ZiPm:NMYG:Yg`oF:YweoF:YoQ=Ztxo:Nqt
+xo:JW=JWyVW=JWws:NqTySYxmYH:YhpYH:xXg=JgyXg=:YI:ohxYI:Yy=CB:Yy=CD:YICY
+jqMLLvwi^^:vw>w[:BKCC:v_:vWCD:YiPYC:YiPoD:YiPCE:YISoD:YISCE:YiXCD:YQw<
+jqMRw<jq_j:vw>Pm:vwT`j:vwTPMYyeonqwOYihY?oG:YymoG:YqawwiQUYyuYI:YixYI:
+Ny:Ny>^Z:Ny^^^:NYYC:oyEYB:oQL<JwylQNy>w[:NYCC:LN\\NyT_^:NYYC:oiPCD:oQg
+<JwMpQ<Z^Oi:Nyt_b:bXoD:NIoI[CD:LRg<:CE:oQwJ<=ZTPi:b`oNwyTw<Jw_j:NyiPMo
+qQOytPi:bhCF:oihoF:vOxvQ=:oOwyvaOyTyo:JW=JwewaKg=Jwyxa=ZiQUoixoI:;B:;:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::vY<J<<J:^`<j;>:eK<j=@j;NhAj[xJJ^S^b:f>;J:^BJ:>?;jLJ\\>
+:=J>>:;JJeZ:^R^R>Z;B:;B:^Z>^Z:v[>^^:v[I^>YB;YC:Yr=YC:CkQ<Z^v?YCC^^I^BC
+CCCD:YsECD:YCKC\\iNe:^biNe:v_>Oe:^b>Oe:bPoLgd_:^BCE:oLl<Z^_FCESJw<JldQ
+wNit[>LwdQ<=JwLR<_j>\\T`Jof`CF:CNGOmTPMxTGwOoNGesQ=JGytQwoixOdEYOWOqt
+\\IQQYxmo_TQQYxmYpaewaOuiySoPgwWo`tQu:^ZIvw:^bIvWYBCYI:CCCYI:xlq=Z>ww:
+BKYI:YCKYQ\\Lnqw_TwWodPYI:CePYQgLpq=JlLpq=J\\dqq=Jwdqq=Z>xw:^j>xw:Nm>x
+WCf`YI:of`YI:xtqwoixw:bhYI:oghYI:xvqwsIyw:NUYqqyxqcxYQweyq_Z>Ny:^^^Ny:
+v_^Ny:v[iNy:^^iNy:v_iNYYBKoQLLNw_b>OYCcPoI:YcPoQ\\dOwOEoI:YCSoQwLPw_bt
+Oy:NetOy:NitOYCD[oI:oD[oI:CE[oQwLRw_JoQwdSw=JGeSwOiiPy:^jiPy:NmiPYYOw=
+JwdUw=J<eUwOmtPYYghoI:xVw=JWOYYPwwoTQy:NqTQYYhpoQgeWwwsiQy:NuiQYoQw=J:
+<J::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::yyy<jyyiy=B;B:r>xiy=:B:;:xIbEJ:FZ;>:D:xi:J::yI:;Zy
+uyJ<>:<::Mryvy:J::yI:ryxI@:;J:Z;>:<j:@jyC:>:jy=:xiym:FZ:J:::@jyK::yI:r
+yxI;j:<:;:@:<:V:>:jy=Z:ryxiDB:<:Z;Z:::jy=:xiye:>Z::FZ;>:<:@J:B::yI:ryx
+YO>:;:J;dkN>>B::jy=:xiyIZ:J:@:?R:vYyAB:>::yI:ryxY:B:=R:@Z?ryxIZPZ::vy:
+Zyuy;Z:F:;B:=BAry:>:<:jy=:xiyA:<:rEvY:F:<J::yI:ryxY:B:Zymy;JEJ::yI:ryx
+Y:B:Zymy;Z:J::yI:ryxY:FZ:J:ryvY:B:<J::yI:ryxY:F:>:xIyA:<Z:>:jy=:xiyA:<
+:ryvY:B:>:jy=:xiyA:<:ryvY:B:>:jy=:xiyA:<:ryvY:B:>:jy=:xiyA:<:ryvY:B:>Z
+;FZ;jy=:yyyxY:B:Zymy;Z:j:>Z;>:<:yyyxY:R:;J:<Zymy;Z:J:@Z;B:yI:vyyuy;Z::
+xIyA:<:=R:Z:jyyiyA:<:ryvY:B:>:jy=:xiyA:@:;B:;ryvY:B:>Z;R:vy:jyyiyA:@Z:
+B:;ryvY:B:=:=:yI:vyyuy;B:<j:<Z:>Zymy;Z:F:F:v_:>:yayAZ:B:Zymy;Z:J:R:v?v
+YxY:FZ;J:<Zymy;Z:B:;j:jQjysy;j:J:<Zymy;Z:B:;Z;>:UC:vYxY:B:Zymy;Z:J:@:;
+B:U;yayA:<:ryvY:B:>:@:U;yayA:<:ryvY:B:=Z:FZ;jPjysy;B:DZ;J:xIyA:<j:@j:@
+:;jP:xY:<Z::xIyA:<:;:^_:jysy:::::B:Zy=::::Z::xI:::::<:ry:::::B:Zy=::::
+Z::xI:::::<:ry:cCGL]nRNFD:VHyqyC:Zy=FdKSN::jsjyC:Zy=FD@?::VHvY<:ry:]\\
+K;:ZljywY<:ry:::::B:Zy=::::Z::xI>CvyyyY>IryxIySNNFvy::xI@?]DGvyyeHRNM=
+yqbRNxIyI:ZymbRN^@vyKkbbLyyyyyy]\\KkyC:ZymbRNBOyqnjbjy;]<xi::xI]\\K;yQ
+WjbjsRNFDN`yyy::xI]\\K;yQYjbjs:]<xi::xI]\\K[U;FDvYyIG]\\KKdB:ZymbRNryv
+yKkbBGvyyID@?ya::xI_;]LljyA?]\\ymyGD@__sy<:ryZpkywYbWjy;:<:ry:::::B:Zy
+=:ZV;yyy:Z::xI::yTNvYxI:B:Zy=:jbRNyay=:<:ry::FD@oysy:Z::xI::]\\KwYxI:B
+:Zy=:ZK;xI:B:Zy=::::Z::xI:::::<:ry:::::B:^:;jM@jyyy;J:::::::::::::::::
+:::::::::JnfE>:::::::::::::::::::::::::::::::::::::::::::DmyB:B:::::::
+J:y]::;::1:" }}{PARA 18 "" 0 "" {TEXT -1 0 "" }{TEXT 288 21 "Bases de \+
+Matem\341ticas " }}{PARA 18 "" 0 "" {TEXT -1 10 "Pr\341ctica 4" }}
+{PARA 258 "" 0 "" {TEXT 258 11 " Derivaci\363n" }}{PARA 257 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 257 "" 0 "" {TEXT -1 29 "Por: R. Criado y A. Gal
+linari" }}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 22 "Objetivos de la sesi
+\363n" }}{PARA 15 "" 0 "" {TEXT -1 87 "Utilizar los comandos que Maple
+ lleva incorporados para manejar derivadas de funciones." }}{PARA 15 "
+" 0 "" {TEXT -1 137 "Recordar algunos de los comandos y recursos de pr
+ogramaci\363n de Maple con los que el alumno ya ha tenido contacto en \+
+pr\341cticas anteriores." }}{PARA 15 "" 0 "" {TEXT -1 60 "Repasar y vi
+sualizar el concepto de derivada de una funci\363n." }}{PARA 15 "" 0 "
+" {TEXT -1 31 "Analizar gr\341ficas de funciones." }}{PARA 15 "" 0 "" 
+{TEXT -1 56 "Aproximar ra\355ces de una funci\363n por el m\351todo de
+ Newton." }}{PARA 15 "" 0 "" {TEXT -1 51 "Usar el teorema de Taylor pa
+ra aproximar funciones." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#
+presiona return cuando termines de leer" }}}}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT 260 65 "Comandos de Maple necesarios para la realizaci\363n de e
+sta pr\341ctica" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 296 "En est
+a primera  parte de la pr\341ctica describiremos a trav\351s de ejempl
+os algunos comandos de Maple que utilizaremos para trabajar con los co
+rrespondientes conceptos. As\355 pues, el alumno deber\341 ejecutar  d
+ichos ejemplos y teclear\341 otros que le permitan comprender la aplic
+aci\363n de dichos comandos." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 98 "Los siguientes son comandos disponibles en Mapl
+e necesarios para la realizaci\363n de esta pr\341ctica :" }}{PARA 0 "
+" 0 "" {TEXT -1 41 "        diff        Diff         D(f)    " }}
+{PARA 0 "" 0 "" {TEXT -1 43 "        plot       implicitplot     isola
+te" }}{PARA 0 "" 0 "" {TEXT -1 25 "        taylor    convert" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#p
+resiona return cuando termines de leer" }}}{PARA 256 "" 0 "" {TEXT -1 
+0 "" }}{PARA 256 "" 0 "" {TEXT -1 40 "Descripci\363n de los comandos m
+encionados:" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 40 "Comandos para la d
+iferenciaci\363n en Maple" }}{PARA 0 "" 0 "" {TEXT -1 75 "Para calcula
+r la funci\363n derivada de una funci\363n f respecto de la variable \+
+" }{TEXT 265 0 "" }{TEXT -1 25 "x, utilizamos el comando " }{TEXT 266 
+12 "diff(f(x),x)" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "restart;f:=x->x^3;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Diff(f(x),x)=diff(f(x),x);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 37 "Tambi\351n se puede utilizar el comand
+o " }{TEXT 275 5 "D(f) " }{TEXT -1 37 "para definir la funci\363n deri
+vada de f" }{TEXT 276 1 ":" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 
+"D(f);" }}}{PARA 0 "" 0 "" {TEXT -1 76 "El valor de la derivada de f e
+n el punto x = 3 se puede calcular como sigue:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 23 "subs(x=3,diff(f(x),x));" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "D(f)(3);" }}
+}{PARA 0 "" 0 "" {TEXT -1 57 "Por ejemplo se calcula la funci\363n der
+ivada de la funci\363n " }{XPPEDIT 18 0 "sin(x)/(1+cos(x));" "6#*&-%$s
+inG6#%\"xG\"\"\",&\"\"\"F(-%$cosG6#F'F(!\"\"" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "f:=x->sin(x)/(1+co
+s(x));" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Diff(f(x),x)=diff(f(x),x);" }{TEXT 
+-1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 38 "y se simplifica el resultado o
+btenido:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "Se pueden calcular tambi
+\351n derivadas de orden mayor que 1, con el comando " }{TEXT 267 14 "
+diff(f(x),x$n)" }{TEXT -1 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "Por ejemplo se calcula la funci\363n deri
+vada tercera de la funci\363n " }{XPPEDIT 18 0 "sqrt(1+x^2);" "6#-%%sq
+rtG6#,&\"\"\"\"\"\"*$%\"xG\"\"#F(" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "restart;f:=x->sqrt(1+x^2);" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "Diff(f(x),x$3)=diff(f(x),x$3);" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }{TEXT -1 0 "
+" }}}{PARA 0 "" 0 "" {TEXT 256 0 "" }}{PARA 0 "" 0 "" {TEXT 257 7 "Eje
+mplo" }{TEXT 289 2 ": " }{TEXT -1 47 "El valor de la primera derivada \+
+de la funci\363n  " }{XPPEDIT 18 0 "z^2*sin(z);" "6#*&%\"zG\"\"#-%$sin
+G6#F$\"\"\"" }{TEXT -1 16 "   en el punto  " }{XPPEDIT 18 0 "3;" "6#\"
+\"$" }{TEXT -1 4 " es " }{XPPEDIT 18 0 "6*sin(3)+9*cos(3);" "6#,&*&\"
+\"'\"\"\"-%$sinG6#\"\"$F&F&*&\"\"*F&-%$cosG6#\"\"$F&F&" }{TEXT -1 2 " \+
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "f:=z->z^2*sin(z);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Diff(f(z),z)=diff(f(z),z);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "subs(z=3,diff(f(z),z));" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 
+0 "" {TEXT -1 37 "La gr\341fica de la funci\363n derivada es:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "plot(diff(f(z),z),z=-100..10
+0);" }}}{PARA 0 "" 0 "" {TEXT -1 49 "El valor de la 20-\351sima deriva
+da de la funci\363n   " }{XPPEDIT 18 0 "z^2*sin(z)" "6#*&%\"zG\"\"#-%$
+sinG6#F$\"\"\"" }{TEXT -1 15 "   en el punto " }{XPPEDIT 18 0 "1*Pi/4;
+" "6#*(\"\"\"\"\"\"%#PiGF%\"\"%!\"\"" }{TEXT -1 5 "  es " }{XPPEDIT 
+18 0 "-190*sqrt(2)-5*Pi*sqrt(2)+1/32*Pi^2*sqrt(2);" "6#,(*&\"$!>\"\"\"
+-%%sqrtG6#\"\"#F&!\"\"*(\"\"&F&%#PiGF&-F(6#\"\"#F&F+**\"\"\"F&\"#KF+F.
+\"\"#-F(6#\"\"#F&F&" }{TEXT -1 3 "  :" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "subs(z=(1/4)*Pi,diff(z^2*sin(z),z$20));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 0 "" }{TEXT 256 43 "Diferenciaci\363n
+ impl\355cita y comando implicit" }{TEXT 257 4 "plot" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 261 "" 0 "" {TEXT 297 62 "En las pr\341cticas \+
+anteriores se trabaj\363 con la librer\355a llamada" }{TEXT -1 1 " " }
+{TEXT 296 5 "plots" }{TEXT -1 79 " que contiene procedimientos definid
+os, y que se puede utilizar de dos maneras:" }}{PARA 16 "" 0 "" {TEXT 
+-1 93 "Podemos cargar en memoria todas las rutinas contenidas en dicha
+ librer\355a mediante el comando " }{TEXT 0 11 "with(plots)" }{TEXT 
+-1 60 ", y a continuaci\363n  usar la rutina deseada con la sintaxis: \+
+" }{TEXT 0 10 "display( )" }}{PARA 16 "" 0 "" {TEXT -1 114 "o bien, po
+demos usar directamente dicha rutina sin cargar todas las rutinas de l
+a librer\355a mediante la expresi\363n: " }{TEXT 0 38 "plots[display](
+\{conjunto de gr\341ficos\})" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "Si la curva que queremos \+
+dibujar est\341 definida en " }{TEXT 290 15 "forma impl\355cita" }
+{TEXT -1 49 " como, por ejemplo, la circunferencia unitaria   " }
+{XPPEDIT 18 0 "x^2+y^2 = 1;" "6#/,&*$%\"xG\"\"#\"\"\"*$%\"yG\"\"#F(\"
+\"\"" }{TEXT -1 1 "," }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "with
+(plots):expr1:=x^2+y^2=1;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 12 "el comando  " }{TEXT 268 43 "implicitplot(expr1,x
+=a..b,y=c..d,<options>)" }{TEXT -1 29 "  permite dibujar su gr\341fica
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 56 "implicitplot(expr1,x=-1
+..1,y=-1..1,scaling=CONSTRAINED);" }}}{PARA 0 "" 0 "" {TEXT -1 88 "Si \+
+consideramos la variable y como funci\363n de la variable x, para calc
+ular la derivada  " }{XPPEDIT 18 0 "Diff(y,x);" "6#-%%DiffG6$%\"yG%\"x
+G" }{TEXT -1 133 "  tenemos que substituir \"y\" por \"y(x)\"  (\351st
+e sirve para que Maple sepa cual es la variable dependiente) y utiliza
+r el comando diff:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "diff(x
+^2+y(x)^2=1,x);" }}}{PARA 0 "" 0 "" {TEXT -1 27 "Para despejar la expr
+esi\363n " }{XPPEDIT 18 0 "Diff(y,x)" "6#-%%DiffG6$%\"yG%\"xG" }{TEXT 
+-1 24 "  se utiliza el comando " }{TEXT 269 7 "isolate" }{TEXT -1 1 ":
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "readlib(isolate):\nisola
+te(diff(x^2+y(x)^2=1,x), diff(y(x),x));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}}}{SECT 
+1 {PARA 3 "" 0 "" {TEXT -1 9 "Derivadas" }{TEXT 261 0 "" }}{SECT 1 
+{PARA 4 "" 0 "" {TEXT -1 25 "Derivada y recta tangente" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "La siguiente animaci
+\363n muestra c\363mo la tangente en la gr\341fica de una funci\363n e
+n un punto  (" }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 4 ",
+ f(" }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 69 "))  es el \+
+l\355mite de una sucesi\363n de secantes que tambi\351n pasan por  (" 
+}{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 4 ", f(" }{XPPEDIT 
+18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 3 "))." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "Definimos la funci\363n f
+(x)= " }{XPPEDIT 18 0 "x^4;" "6#*$%\"xG\"\"%" }{TEXT -1 2 " :" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "restart;with(plots):" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "f:=x->x^4;" }}}{PARA 0 "" 0 "" {TEXT -1 169 "y buscamos la tange
+nte en el punto (3,81). Lo hacemos dibujando primero la secante de ecu
+aci\363n y = 272x-735, que pasa por los puntos (3,81) y (5,625) de la \+
+gr\341fica de f:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "plot(\{f
+(x),272*x-735\},x=1..5.5,y=-200..800,\ncolor=red,axes=boxed);" }}}
+{PARA 0 "" 0 "" {TEXT -1 200 "Ahora vemos c\363mo se obtiene la tangen
+te a la curva en el punto (3,81). Para ello ejecuta el siguiente coman
+do, haz click sobre el dibujo y utiliza los botones que aparecen en la
+ barra de herramientas:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "animate(\{f(x),(200-k+108)*(x-3)+3^
+4\},x=1..5.5,k=0..200,\ncolor=blue);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}{PARA 0 
+"" 0 "" {TEXT -1 51 "Sea I un intervalo abierto de los n\372meros real
+es y " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 62 " un punt
+o de I . Por definici\363n, una funci\363n  real   f : I -> " }
+{XPPEDIT 18 0 "R;" "6#%\"RG" }{TEXT -1 9 " se dice " }{TEXT 279 9 "der
+ivable" }{TEXT -1 13 " en el punto " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6
+#\"\"!" }{TEXT -1 16 " si en el punto " }{XPPEDIT 18 0 "x[0]" "6#&%\"x
+G6#\"\"!" }{TEXT -1 33 " existe el l\355mite de la funci\363n  " }
+{XPPEDIT 18 0 "F(x) = (f(x)-f(x[0]))/(x-x[0]);" "6#/-%\"FG6#%\"xG*&,&-
+%\"fG6#F'\"\"\"-F+6#&F'6#\"\"!!\"\"F-,&F'F-&F'6#F2F3F3" }{TEXT -1 89 "
+, que representa la pendiente de la secante a la gr\341fica de f(x) qu
+e pasa por los puntos " }}{PARA 0 "" 0 "" {TEXT -1 1 "(" }{XPPEDIT 18 
+0 "x[0]" "6#&%\"xG6#\"\"!" }{TEXT -1 4 ", f(" }{XPPEDIT 18 0 "x[0]" "6
+#&%\"xG6#\"\"!" }{TEXT -1 6 ")) y (" }{XPPEDIT 18 0 "x;" "6#%\"xG" }
+{TEXT -1 4 ", f(" }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 5 ")) . " }}
+{PARA 0 "" 0 "" {TEXT -1 23 "Para la funci\363n  f(x)= " }{XPPEDIT 18 
+0 "x^4;" "6#*$%\"xG\"\"%" }{TEXT -1 82 " del ejemplo anterior, su deri
+vada en el punto 4 es el valor del siguiente l\355mite:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "Limit((f(x)-f(4))/(x-4),x=4)=\nlimi
+t((f(x)-f(4))/(x-4),x=4);" }}}{PARA 0 "" 0 "" {TEXT -1 136 "que, como \+
+se puede comprobar, coincide con el valor de la funci\363n derivada de
+ f obtenida empleando el comando Df(x), en el punto x = 4 :" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "D(f)(4);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 19 "Aproxi
+maci\363n lineal" }}{PARA 0 "" 0 "" {TEXT -1 46 "Si una funci\363n  f(
+x) es derivable en un punto " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!
+" }{TEXT -1 23 ",  muy cerca del punto " }}{PARA 0 "" 0 "" {TEXT -1 1 
+"(" }{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#\"\"!" }{TEXT -1 4 ", f(" }
+{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#\"\"!" }{TEXT -1 46 ")) su grafo se co
+nfunde con la recta tangente." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+277 9 "Ejemplo: " }{TEXT -1 101 "La recta tangente a la gr\341fica de \+
+la funci\363n f(x) = ln(x)  en el punto (2,ln(2)) tiene ecuaci\363n  y
+ = " }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"\"\"\"\"\"#!\"\"" }{TEXT -1 12 "
+ (x-2)+ln(2)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "f:= x -> ln(
+x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "plot(\{f(x),(1/2)*(x
+-2)+ln(2)\}, x= 1..3);" }}}{PARA 0 "" 0 "" {TEXT -1 42 "En un entorno \+
+suficientemente peque\361o de  " }{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#\"\"
+!" }{TEXT -1 129 "=2, se puede observar como las gr\341ficas de la rec
+ta tangente y de la funci\363n misma se confunden; por eso se dice que
+ la expresi\363n" }}{PARA 257 "" 0 "" {TEXT -1 10 " y(x)= Df(" }
+{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#\"\"!" }{TEXT -1 4 ")(x-" }{XPPEDIT 
+18 0 "x[0]" "6#&%\"xG6#\"\"!" }{TEXT -1 4 ")+f(" }{XPPEDIT 18 0 "x[0]
+" "6#&%\"xG6#\"\"!" }{TEXT -1 1 ")" }}{PARA 0 "" 0 "" {TEXT -1 16 " re
+presenta una " }{TEXT 278 19 "aproximaci\363n lineal" }{TEXT -1 32 " d
+e la funci\363n f(x) en el punto " }{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#\"
+\"!" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "plot(
+\{f(x),(1/2)*(x-2)+ln(2)\}, x= 1.95..2.05);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 20 "
+An\341lisis de gr\341ficas" }}{PARA 0 "" 0 "" {TEXT -1 143 "Si  f(x) e
+s una funci\363n real definida sobre un intervalo I, los puntos extrem
+os (m\341ximos y m\355nimos relativos) de f(x) se encuentran entre los
+  " }{TEXT 280 15 "puntos cr\355ticos" }{TEXT -1 173 " de la funci\363
+n (es decir, entre los puntos interiores de I donde la primera derivad
+a no existe, o bien, se anula) o entre los puntos terminales (o extrem
+os) del intervalo I." }}{PARA 0 "" 0 "" {TEXT 298 0 "" }{TEXT 256 0 "
+" }{TEXT 262 0 "" }{TEXT 263 8 "Ejemplo:" }{TEXT 264 0 "" }{TEXT -1 
+50 "  Encontremos los puntos cr\355ticos de la  funci\363n  " }
+{XPPEDIT 18 0 "f(x) = x^3/(x^2-1);" "6#/-%\"fG6#%\"xG*&F'\"\"$,&*$F'\"
+\"#\"\"\"\"\"\"!\"\"F/" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 
+59 "en el intervalo I = (-1,1),  donde la funci\363n es derivable:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "f:=x->x^3/((x^2-1));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Diff(f(x),x)=simplify(D(f)(x
+));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "solve(D(f)(x));" }}}
+{PARA 0 "" 0 "" {TEXT -1 11 "Los puntos " }{XPPEDIT 18 0 "sqrt(3);" "6
+#-%%sqrtG6#\"\"$" }{TEXT -1 6 "  y   " }{XPPEDIT 18 0 "-sqrt(3);" "6#,
+$-%%sqrtG6#\"\"$!\"\"" }{TEXT -1 189 " no pertenecen al intervalo (-1,
+1) y, dibujando la gr\341fica de la funci\363n f(x) entre -1 y 1, pode
+mos comprobar si el punto x = 0 realmente corresponde a un punto de m
+\341ximo o m\355nimo relativo:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "plot(f(x),x=-1/4..1/4);" }}}{PARA 0 "" 0 "" {TEXT -1 26 "\277Qu
+\351 pasa en este ejemplo?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return cuando termines de
+ leer" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+213 "Los siguientes criterios se pueden utilizar para determinar m\341
+ximos y m\355nimos relativos de una funci\363n f(x) definida y derivab
+le en un intervalo abierto (a,b). Si c es un punto de (a,b) tal que Df
+(c) = 0, entonces" }}{PARA 0 "" 0 "" {TEXT 281 35 "Criterio de la  pri
+mera derivada:  " }}{PARA 0 "" 0 "" {TEXT -1 81 "1) si  Df(c) >0  para
+ x < c  y   Df(c) <0   para x > c, c es un  m\341ximo relativo," }}
+{PARA 0 "" 0 "" {TEXT -1 81 "2) si  Df(c) <0  para x < c  y   Df(c) >0
+   para x > c, c es un  m\355nimo relativo." }}{PARA 259 "" 0 "" 
+{TEXT 256 32 "Criterio de la segunda derivada:" }{TEXT 287 1 " " }
+{TEXT 282 1 " " }}{PARA 0 "" 0 "" {TEXT -1 88 "1) si  D(Df)(c) <0, la \+
+funci\363n f(x) es c\363ncava (hacia abajo) y c es un  m\341ximo relat
+ivo," }}{PARA 0 "" 0 "" {TEXT -1 93 "2) si  D(Df)(c) >0, la funci\363n
+ f(x) es convexa (c\363ncava hacia arriba) y c es m\355nimo relativo,
+" }}{PARA 0 "" 0 "" {TEXT -1 60 "3) si  D(Df)(c) =0, el criterio no pr
+oporciona informaci\363n. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 17 "Para la funci\363n  " }{XPPEDIT 18 0 "f(x) = x^3/
+(x^2-1);" "6#/-%\"fG6#%\"xG*&F'\"\"$,&*$F'\"\"#\"\"\"\"\"\"!\"\"F/" }
+{TEXT -1 73 "  del ejemplo anterior es f\341cil verificar que Df(0) = \+
+0 y D(D(f))(0) = 0:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "Diff(
+f(x),x$2)=simplify(diff(f(x),x$2));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "subs(x=0,diff(f(x),x$2));" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 27 "
+Aplicaciones de la derivada" }}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 12 "Pu
+ntos fijos" }}{PARA 0 "" 0 "" {TEXT -1 4 "Sea " }{XPPEDIT 18 0 "A;" "6
+#%\"AG" }{TEXT -1 42 " un subconjunto de n\372meros reales y sea   " }
+{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 34 "  una funci\363n con domini
+o igual a " }{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 23 " y tal que su \+
+imagen,  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 1 "(" }{XPPEDIT 18 
+0 "A;" "6#%\"AG" }{TEXT -1 25 "), sea un subconjunto de " }{XPPEDIT 
+18 0 "A;" "6#%\"AG" }{TEXT -1 35 ".  A partir de un punto arbitrario \+
+" }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 4 " de " }
+{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 29 ", se obtiene el  nuevo punt
+o " }{XPPEDIT 18 0 "x[1] = f;" "6#/&%\"xG6#\"\"\"%\"fG" }{TEXT -1 1 "(
+" }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 5 ") en " }
+{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 38 ", al cual se puede nuevamen
+te aplicar " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 25 "  para obtene
+r el valor  " }{XPPEDIT 18 0 "x[2] = f;" "6#/&%\"xG6#\"\"#%\"fG" }
+{TEXT -1 1 "(" }{XPPEDIT 18 0 "x[1];" "6#&%\"xG6#\"\"\"" }{TEXT -1 4 "
+) = " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 1 "(" }{XPPEDIT 18 0 "f;
+" "6#%\"fG" }{TEXT -1 2 " (" }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" 
+}{TEXT -1 6 ")) en " }{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 23 "La sucesi\363n  recursiva " }{XPPEDIT 18 
+0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "x[1];" "6
+#&%\"xG6#\"\"\"" }{TEXT -1 8 ", ... , " }{XPPEDIT 18 0 "x[n];" "6#&%\"
+xG6#%\"nG" }{TEXT -1 2 "= " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 2 
+" (" }{XPPEDIT 18 0 "x[n-1];" "6#&%\"xG6#,&%\"nG\"\"\"\"\"\"!\"\"" }
+{TEXT -1 58 "), definida mediante iteraciones sucesivas de la funci
+\363n  " }{XPPEDIT 18 0 "f" "6#%\"fG" }{TEXT -1 79 ",  puede ser conve
+rgente o divergente. Si la sucesi\363n converge a un punto L de " }
+{XPPEDIT 18 0 "A;" "6#%\"AG" }{TEXT -1 12 ", entonces  " }{XPPEDIT 18 
+0 "f;" "6#%\"fG" }{TEXT -1 27 "(L) = L, es decir, L es un " }{TEXT 
+256 10 "punto fijo" }{TEXT -1 4 " de " }{XPPEDIT 18 0 "f;" "6#%\"fG" }
+{TEXT -1 34 ", siendo soluci\363n de la ecuaci\363n  " }{XPPEDIT 18 0 
+"f;" "6#%\"fG" }{TEXT -1 1 "(" }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT 
+-1 4 ") = " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 1 "." }}{PARA 0 "
+" 0 "" {TEXT -1 38 "En la pr\341ctica anterior vimos que si  " }
+{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 125 ": [a,b] -> [a,b] es contra
+ctiva, entonces el teorema de la funci\363n contractiva nos dice que e
+xiste un \372nico punto fijo L de  " }{XPPEDIT 18 0 "f" "6#%\"fG" }
+{TEXT -1 48 " en [a,b]  y que L es el l\355mite de la sucesi\363n \{" 
+}{XPPEDIT 18 0 "x[n];" "6#&%\"xG6#%\"nG" }{TEXT -1 2 "\}." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "Sea ahora  " }
+{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 77 ": [a,b] -> [a,b] una funci
+\363n continua en [a,b] y derivable en (a,b) tal que  " }{XPPEDIT 18 
+0 "diff(f(x),x);" "6#-%%diffG6$-%\"fG6#%\"xGF)" }{TEXT -1 182 "  est
+\341 acotada por una constante 0<C<1 en el intervalo (a,b). Bajo estas
+ condiciones, el teorema del valor medio de Lagrange garantiza la exis
+tencia de un punto c en (a,b) tal que   " }}{PARA 257 "" 0 "" {TEXT 
+-1 0 "" }{XPPEDIT 18 0 "(f(b)-f(a))/(b-a);" "6#*&,&-%\"fG6#%\"bG\"\"\"
+-F&6#%\"aG!\"\"F),&F(F)F,F-F-" }{TEXT -1 11 " =  f '(c)." }}{PARA 0 "
+" 0 "" {TEXT -1 11 "Por tanto, " }}{PARA 257 "" 0 "" {TEXT -1 2 "  " }
+{XPPEDIT 18 0 "abs(f(b)-f(a)) <= C*abs(b-a);" "6#1-%$absG6#,&-%\"fG6#%
+\"bG\"\"\"-F)6#%\"aG!\"\"*&%\"CGF,-F%6#,&F+F,F/F0F," }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 125 "y  f(x) es contractiva con constante C. \+
+Por el teorema de la funci\363n contractiva f(x) tiene un \372nico pun
+to fijo  L en [a,b]. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#pr
+esiona return cuando termines de leer" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 25 "Aproximaci\363n de ra\355ces
+ y " }{TEXT 291 16 "m\351todo de Newton" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 188 "Supongamos que se quiera resolver u
+na ecuaci\363n del tipo  f(x)=b. Esta ecuaci\363n es equivalente a la \+
+ecuaci\363n  f(x)-b = 0, por lo que una soluci\363n de f(x)=b es una r
+a\355z de la funci\363n f(x)-b." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 3 "El " }{TEXT 270 20 "m\351todo de bisecci
+\363n " }{TEXT -1 183 "utilizado  para demostrar el teorema de la ra
+\355z para funciones continuas en intervalos es un ejemplo de aproxima
+ci\363n de ra\355ces. Este m\351todo es siempre convergente, pero es m
+uy lento. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 254 "Con objeto de  utilizar el concepto de punto fijo de una funci
+\363n, podemos reescribir nuestra ecuaci\363n f(x)-b=0 en la forma equ
+ivalente f(x)-b+x = x. Ahora, para resolver nuestro problema inicial f
+(x)=b, hace falta determinar un punto fijo de la funci\363n  " }
+{XPPEDIT 18 0 "g;" "6#%\"gG" }{TEXT -1 84 "(x) = f(x)-b+x. Como en el \+
+apartado anterior, se define recursivamente la sucesi\363n  " }
+{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 2 ", " }{XPPEDIT 18 
+0 "x[1];" "6#&%\"xG6#\"\"\"" }{TEXT -1 6 ", ...," }{XPPEDIT 18 0 "x[n]
+;" "6#&%\"xG6#%\"nG" }{TEXT -1 3 "=  " }{XPPEDIT 18 0 "g;" "6#%\"gG" }
+{TEXT -1 1 "(" }{XPPEDIT 18 0 "x[n-1];" "6#&%\"xG6#,&%\"nG\"\"\"\"\"\"
+!\"\"" }{TEXT -1 75 ")  y se calcula (si existe) su l\355mite. Este \+
+\372ltimo m\351todo es conocido como " }{TEXT 271 17 "m\351todo de Pic
+ard " }{TEXT -1 17 "y, si la funci\363n " }{XPPEDIT 18 0 "g;" "6#%\"gG
+" }{TEXT -1 80 "  satisface las hipotesis del teorema del punto fijo, \+
+el l\355mite de la sucesi\363n \{" }{XPPEDIT 18 0 "x[n]" "6#&%\"xG6#%
+\"nG" }{TEXT -1 56 "\} ser\341 una soluci\363n de nuestro problema ini
+cial f(x)=b. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 122 "Un tercer m\351todo (en general m\341s rapido, pero no s
+iempre convergente) de aproximaci\363n de ra\355ces de una funci\363n \+
+f(x) es el " }{TEXT 272 16 "m\351todo de Newton" }{TEXT -1 47 ", que v
+amos a explicar por medio de un ejemplo." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT 273 9 "Ejemplo: " }{TEXT -1 31 "Queremos \+
+aproximar el valor de " }{XPPEDIT 18 0 "sqrt(2);" "6#-%%sqrtG6#\"\"#" 
+}{TEXT -1 30 " . (Ver tambi\351n la Pr\341ctica 3)" }}{PARA 0 "" 0 "" 
+{TEXT -1 84 "El problema es equivalente a la determinaci\363n de  una \+
+ra\355z positiva r de la funci\363n " }}{PARA 257 "" 0 "" {TEXT -1 8 "
+ f(x) = " }{XPPEDIT 18 0 "x^2-2;" "6#,&*$%\"xG\"\"#\"\"\"\"\"#!\"\"" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 63 "Miremos a la gr\341fica \+
+de f(x) en un entorno del valor inicial   " }{XPPEDIT 18 0 "x(0) = 3/2
+;" "6#/-%\"xG6#\"\"!*&\"\"$\"\"\"\"\"#!\"\"" }{TEXT -1 1 ":" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "restart:f:=x->x^2-2;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "x(0):=3/2;" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 34 "plot(f(x),x=1.4..1.6,y=-0.2..0.5);" }}}{PARA 0 "
+" 0 "" {TEXT -1 123 "La ecuaci\363n de la recta tangente T a la funci
+\363n f en el punto (3/2, 1/4) es igual a  y(x) = Df(3/2) (x-3/2) + f(
+3/2), donde" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "D(f)(3/2);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "y := x->1/4+3*(x-3/2);" }}
+}{PARA 0 "" 0 "" {TEXT -1 114 "Podemos verificar gr\341ficamente que l
+a recta tangente T en (3/2, 1/4) es una buena aproximaci\363n de la gr
+\341fica de f:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "plot(\{f(x
+),y(x)\},x=1.4..1.6,y=-0.2..0.5,color=blue);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 108 "Para calcular el punto de  intersecci\363n (x(1),0) de T
+ con el eje de las x, tenemos que resolver la ecuaci\363n " }}{PARA 
+257 "" 0 "" {TEXT -1 31 "0 = f(3/2) + Df (3/2) (x-3/2). " }}{PARA 0 "
+" 0 "" {TEXT -1 104 "El  valor x(1) as\355 obtenido es una mejor aprox
+imaci\363n de  la ra\355z  r  y est\341 definido por  la f\363rmula   \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 0 "" {TEXT -1 53 "x(1
+) = 3/2- f(3/2) / Df(3/2) = x(0)-f(x(0))/Df (x(0))" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 31 "x(1) := solve(1/4+3*(x-3/2),x);" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "El " }{TEXT 292 
+16 "m\351todo de Newton" }{TEXT -1 52 " consiste en la definici\363n r
+ecursiva de la sucesi\363n " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+260 "" 0 "" {TEXT -1 49 "x(0),   x(n):=x(n-1)-f(x(n-1))/Df (x(n-1))   \+
+(si " }{XPPEDIT 18 0 "1 <= n;" "6#1\"\"\"%\"nG" }{TEXT -1 1 ")" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+73 "x:=proc(n)\nif n=0 then 3/2:\nelse evalf(x(n-1)-f(x(n-1))/D(f)(x(n
+-1))) fi:" }{TEXT -1 1 "\n" }{MPLTEXT 1 0 4 "end;" }{TEXT -1 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 43 "Los prime
+ros 6 valores de esta sucesi\363n son" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "seq(x(n),n=0..5);\nevalf(%);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "evalf(sqrt(2));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 274 6 "Nota: " }{TEXT -1 251 "El m\351todo d
+e Newton no siempre es eficaz. La sucesi\363n \{x(n)\} puede no ser co
+nvergente o converger a una ra\355z que no es la esperada. Adem\341s n
+o tiene sentido si Df(x(n))=0 para uno de los t\351rminos x(n) (la rec
+ta tangente ser\355a paralela al eje de las x)." }}{PARA 0 "" 0 "" 
+{TEXT -1 163 "A menudo, estos problemas se pueden arreglar utilizando \+
+una mezcla de los varios m\351todos de aproximaci\363n de ra\355ces y \+
+eligiendo oportunamente el valor inicial x(0)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 106 "Por otra parte, el m\351
+todo de Newton puede ser visto como la determinaci\363n de un punto fi
+jo de la funci\363n  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 
+0 "" {TEXT -1 20 "F(x)= x - f(x)/Df(x)" }}{PARA 0 "" 0 "" {TEXT -1 66 
+"y, por tanto, se puede intentar aplicar el teorema del punto fijo." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 140 "Vamos a
+ construir ahora un procedimiento para aplicar el m\351todo de Newton \+
+a una funci\363n f, con punto inicial  z  y  n pasos de aproximaci\363
+n:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 143 "newton:=proc(f,z,n)\nlocal i,x;\nx
+:=evalf(z);\nprint(x,f(x));\nfor i from 1 to n do\nx:=evalf(x-f(x)/D(f
+)(x));\nprint(evalf(x),evalf(f(x)))\nod;\nend;\n" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 28 "f:=x->x^2-2;newton(f,3/2,7);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona return cuando termines de
+ leer" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{SECT 1 {PARA 3 "" 0 "" 
+{TEXT -1 17 "Teorema de Taylor" }}{PARA 0 "" 0 "" {TEXT -1 244 "Hemos \+
+visto c\363mo la ecuaci\363n de la recta tangente a la gr\341fica de u
+na funci\363n f(x) en un punto proporciona una aproximaci\363n (lineal
+) de la funci\363n misma. En general interesa mejorar esta aproximaci
+\363n utilizando polinomios de grado superior a 1." }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "Si  " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 
+233 " es un punto del dominio de la funci\363n f(x) en el cual se pued
+en calcular todas las derivadas de f(x)  hasta la derivada de orden  n
++1, donde n es un n\372mero natural, entonces se puede determinar un p
+olinomio tal que sus derivadas en " }{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#
+\"\"!" }{TEXT -1 85 ",  hasta el orden n, tienen los mismos valores qu
+e las derivadas de f(x) en el punto " }{XPPEDIT 18 0 "x[0]" "6#&%\"xG6
+#\"\"!" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 201 "Veamos un eje
+mplo sobre c\363mo es posible determinar una aproximaci\363n c\372bica
+ (es decir, por medio de un polinomio de grado tres) de una funci\363n
+ desconocida f(x), de la cual conocemos algunas propiedades:" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 283 8 "Ejemplo:" }
+{TEXT -1 318 " Un avi\363n se dispone a iniciar la maniobra de aterriz
+aje cuando se encuentra a una distancia r de la cabecera de la pista y
+ a una altura h. En ese momento vuela con una velocidad horizontal con
+stante u, y queremos determinar un polinomio c\372bico cuya gr\341fica
+ pudiera seguirse como trayectoria aceptable de aproximaci\363n." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 244 "La funci
+\363n  que representa la altura del vuelo, depende de la distancia x a
+ la cabecera de la pista y tiene que verificar las siguientes condicio
+nes: \{f(r) = h, Df(r)=0, f(0)=0 , Df(0)=0\}. Se trata, pues, de defin
+ir un polinomio de grado tres, " }{XPPEDIT 18 0 "p(x) = a*x^3+b*x^2+c*
+x+d;" "6#/-%\"pG6#%\"xG,**&%\"aG\"\"\"*$F'\"\"$F+F+*&%\"bGF+*$F'\"\"#F
++F+*&%\"cGF+F'F+F+%\"dGF+" }{TEXT -1 88 ",   tal que satisfaga las sig
+uientes condiciones: \{p(r) = h, Dp(r)=0, p(0)=0 , Dp(0)=0\}." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "p:=x->a*x^3+b*x^2+c*x+d;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 48 "conds:=\{p(r) = h, D(p)(r)=0, p(0)=0, D(p)(0)=0\};" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "El sistema de ecua
+ciones correspondiente determina los coeficientes " }{TEXT 299 7 "a,b,
+c,d" }{TEXT -1 27 " del polinomio aproximador:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 30 "coefs:=solve(conds,\{a,b,c,d\});" }}}{PARA 0 "" 
+0 "" {TEXT -1 82 "La trayectoria resultante, en funci\363n de la dista
+ncia x,  est\341 dada por la funci\363n" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "T(x):=subs(coefs,p(x));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "#presiona return cuando termines de leer" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "M\341s en general
+, tenemos el resultado conocido como " }{TEXT 284 17 "Teorema de Taylo
+r" }{TEXT 300 2 ": " }{TEXT -1 184 "sean  n un n\372mero natural,  I =
+[a,b]  y   f: I -> R tales que f (x)  y  sus derivadas hasta el orden \+
+n son continuas en I y adem\341s la derivada de orden (n+1) de f exist
+e en (a,b). Si  " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 
+69 " es un punto de I, entonces para todo x en I existe un punto c ent
+re " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 15 " y x tal q
+ue   " }}{PARA 257 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "f(x);" "6#-%
+\"fG6#%\"xG" }{TEXT -1 6 "  =   " }{XPPEDIT 18 0 "f(x[0]);" "6#-%\"fG6
+#&%\"xG6#\"\"!" }{TEXT -1 6 " + Df(" }{XPPEDIT 18 0 "x[0]" "6#&%\"xG6#
+\"\"!" }{TEXT -1 2 ")(" }{XPPEDIT 18 0 "x-x[0];" "6#,&%\"xG\"\"\"&F$6#
+\"\"!!\"\"" }{TEXT -1 4 ") + " }{XPPEDIT 18 0 "D^2*f(x[0])/2!;" "6#*(%
+\"DG\"\"#-%\"fG6#&%\"xG6#\"\"!\"\"\"-%*factorialG6#\"\"#!\"\"" }{TEXT 
+-1 2 "  " }{XPPEDIT 18 0 "(x-x[0])^2;" "6#*$,&%\"xG\"\"\"&F%6#\"\"!!\"
+\"\"\"#" }{TEXT -1 8 " +  ... " }}{PARA 257 "" 0 "" {TEXT -1 3 "+  " }
+{XPPEDIT 18 0 "D^n*f(x[0])/n!;" "6#*()%\"DG%\"nG\"\"\"-%\"fG6#&%\"xG6#
+\"\"!F'-%*factorialG6#F&!\"\"" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "(x-x[
+0])^n;" "6#),&%\"xG\"\"\"&F%6#\"\"!!\"\"%\"nG" }{TEXT -1 5 "  +  " }
+{XPPEDIT 18 0 "D^(n+1)*f(c)/(n+1)!;" "6#*()%\"DG,&%\"nG\"\"\"\"\"\"F(F
+(-%\"fG6#%\"cGF(-%*factorialG6#,&F'F(\"\"\"F(!\"\"" }{TEXT -1 1 " " }
+{XPPEDIT 18 0 "(x-x[0])^(n+1);" "6#),&%\"xG\"\"\"&F%6#\"\"!!\"\",&%\"n
+GF&\"\"\"F&" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 15 "El polinom
+io   " }}{PARA 257 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "P[n](x);" "6
+#-&%\"PG6#%\"nG6#%\"xG" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "f(x[0]);" "6
+#-%\"fG6#&%\"xG6#\"\"!" }{TEXT -1 6 " + Df(" }{XPPEDIT 18 0 "x[0]" "6#
+&%\"xG6#\"\"!" }{TEXT -1 2 ")(" }{XPPEDIT 18 0 "x-x[0];" "6#,&%\"xG\"
+\"\"&F$6#\"\"!!\"\"" }{TEXT -1 4 ") + " }{XPPEDIT 18 0 "D^2*f(x[0])/2!
+;" "6#*(%\"DG\"\"#-%\"fG6#&%\"xG6#\"\"!\"\"\"-%*factorialG6#\"\"#!\"\"
+" }{TEXT -1 2 "  " }{XPPEDIT 18 0 "(x-x[0])^2;" "6#*$,&%\"xG\"\"\"&F%6
+#\"\"!!\"\"\"\"#" }{TEXT -1 9 " +  ... +" }}{PARA 257 "" 0 "" {TEXT 
+-1 3 "+  " }{XPPEDIT 18 0 "D^n*f(x[0])/n!;" "6#*()%\"DG%\"nG\"\"\"-%\"
+fG6#&%\"xG6#\"\"!F'-%*factorialG6#F&!\"\"" }{TEXT -1 3 "   " }
+{XPPEDIT 18 0 "(x-x[0])^n;" "6#),&%\"xG\"\"\"&F%6#\"\"!!\"\"%\"nG" }
+{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 6 "es el " }{TEXT 285 30 "
+polinomio de Taylor de orden n" }{TEXT -1 33 "  de la funci\363n f(x) \+
+en el punto " }{XPPEDIT 18 0 "x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 19 " \+
+ y   el valor     " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 0 "
+" {TEXT -1 0 "" }{XPPEDIT 18 0 "R[n];" "6#&%\"RG6#%\"nG" }{TEXT -1 1 "
+=" }{XPPEDIT 18 0 "D^(n+1)*f(c)/(n+1)!;" "6#*()%\"DG,&%\"nG\"\"\"\"\"
+\"F(F(-%\"fG6#%\"cGF(-%*factorialG6#,&F'F(\"\"\"F(!\"\"" }{TEXT -1 1 "
+ " }{XPPEDIT 18 0 "(x-x[0])^(n+1);" "6#),&%\"xG\"\"\"&F%6#\"\"!!\"\",&
+%\"nGF&\"\"\"F&" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "es el " }{TEXT 293 28 "residuo en forma de Lagrange" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 286 9 "Ejemplo: " }{TEXT -1 70 "Para calcular el polinomio de Ta
+ylor de orden 6 de la funci\363n  f(x) = " }{XPPEDIT 18 0 "exp(sen(x))
+;" "6#-%$expG6#-%$senG6#%\"xG" }{TEXT -1 13 " en el punto " }{XPPEDIT 
+18 0 "x[0] = 0;" "6#/&%\"xG6#\"\"!F'" }{TEXT -1 33 ", podemos utilizar
+ los comandos  " }{TEXT 294 8 "taylor  " }{TEXT -1 3 "y  " }{TEXT 295 
+7 "convert" }{TEXT -1 91 " y observar en la gr\341ficas como el proces
+o de aproximaci\363n tiene precisi\363n cada vez mayor: " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "resta
+rt;with(plots):f:=x-> exp(sin(x));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "t(x):=taylor(f(x),x=0,7);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 29 "pn(x):=convert(t(x),polynom);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 83 "for n from 0 to 3 do plot(\{f(x),convert(tayl
+or(f(x),x=0,n+1),polynom)\},x=-1..1);od;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "#fin " }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 
+{PARA 3 "" 0 "" {TEXT -1 27 "Cuestiones sobre derivaci\363n" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 301 3 "   " }}{PARA 0 "" 0 "" {TEXT 
+307 1 " " }{TEXT -1 109 "En los siguientes tres problemas se analizan \+
+algunas tasas de cambio relevantes en aplicaciones de la teor\355a " }
+}{PARA 0 "" 0 "" {TEXT -1 22 "de la derivaci\363n a la " }{TEXT 302 8 
+"econom\355a" }{TEXT -1 6 " y al " }{TEXT 303 8 "comercio" }{TEXT -1 
+50 ". Por tanto, fijamos la notaci\363n b\341sica utilizada." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#p
+resiona return cuando termines de leer" }}}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }{TEXT 304 0 "" }{TEXT 305 18 " T\351rminos b\341sicos:" }{TEXT -1 
+0 "" }}{PARA 4 "" 0 "" {TEXT -1 3 "   " }{TEXT 306 1 "x" }{TEXT 308 8 
+"  es el " }{TEXT 310 29 "n\372mero de unidades producidas" }{TEXT 
+311 15 " ( o vendidas)," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 3 "   " }{TEXT 309 6 "p(x)  " }{TEXT -1 73 "es el precio
+ por unidad que una empresa puede fijar si vende x unidades (" }{TEXT 
+336 18 "funci\363n de demanda" }{TEXT -1 3 "). " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }{TEXT 312 15 "R(x) =
+ x p(x)  " }{TEXT -1 5 "es el" }{TEXT 325 15 " ingreso total " }{TEXT 
+-1 37 "obtenido por la ventas de x unidades," }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }{TEXT 313 5 "C(x) " }
+{TEXT -1 7 " es el " }{TEXT 326 11 "coste total" }{TEXT -1 29 " de pro
+ducci\363n de x unidades," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 3 "   " }{TEXT 314 15 "c(x) = C(x)/x  " }{TEXT -1 5 "e
+s el" }{TEXT 324 1 " " }{TEXT -1 0 "" }{TEXT 327 11 "coste medio" }
+{TEXT -1 12 " por unidad," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 2 "  " }{TEXT 315 21 " P(x) = R(x) - C(x)  " }{TEXT 
+-1 6 "es el " }{TEXT 328 15 "beneficio total" }{TEXT -1 22 " al vender
+ x unidades." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 6 "   El " }{TEXT 316 19 "punto de equilibrio" }{TEXT -1 52 "  es  \+
+el n\372mero de unidades para el cu\341l  R(x)=C(x)." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "#presiona \+
+return cuando termines de leer" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 317 0 "" }{TEXT 318 24 " T\351rmi
+nos marginales:   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "   " }{TEXT 320 0 "" }{TEXT -1 2 "  " }{TEXT 319 0 "" }
+{XPPEDIT 18 0 "Diff(R(x),x);" "6#-%%DiffG6$-%\"RG6#%\"xGF)" }{TEXT -1 
+9 "   es el " }{TEXT 321 21 "ingreso marginal,    " }{XPPEDIT 18 0 "Di
+ff(C(x),x);" "6#-%%DiffG6$-%\"CG6#%\"xGF)" }{TEXT -1 8 "  es el " }
+{TEXT 322 16 " coste marginal " }{TEXT -1 6 "  y   " }{XPPEDIT 18 0 "D
+iff(P(x),x);" "6#-%%DiffG6$-%\"PG6#%\"xGF)" }{TEXT -1 9 "  es el  " }
+{TEXT 323 19 "beneficio marginal." }{TEXT -1 0 "" }}{PARA 262 "" 1 "" 
+{TEXT -1 65 "Estas funciones representan las tasas de cambio de las fu
+nciones " }{XPPEDIT 18 0 "R(x)" "6#-%\"RG6#%\"xG" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "C(x);" "6#-%\"CG6#%\"xG" }{TEXT -1 5 "  y  " }{XPPEDIT 
+18 0 "P(x);" "6#-%\"PG6#%\"xG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 12 "1.  Sea  x  " }{TEXT 
+329 6 "es el " }{TEXT 330 60 "n\372mero de unidades de un producto pro
+ducido por una empresa." }}{PARA 0 "" 0 "" {TEXT 331 28 "Se verifica q
+ue  si x es un " }{TEXT 332 6 "m\355nimo" }{TEXT 333 39 " para la func
+i\363n coste medio c(x) y un " }{TEXT 334 6 "m\341ximo" }{TEXT 335 48 
+" para la funci\363n beneficio total P(x), entonces " }}{PARA 0 "" 0 "
+" {TEXT -1 5 "a)   " }{XPPEDIT 18 0 "c(x) = Diff(C(x),x);" "6#/-%\"cG6
+#%\"xG-%%DiffG6$-%\"CG6#F'F'" }{TEXT -1 4 " =  " }{XPPEDIT 18 0 "Diff(
+R(x),x);" "6#-%%DiffG6$-%\"RG6#%\"xGF)" }{TEXT -1 1 " " }}{PARA 0 "" 
+0 "" {TEXT -1 5 "b)   " }{XPPEDIT 18 0 "c(x) = Diff(C(x),x);" "6#/-%\"
+cG6#%\"xG-%%DiffG6$-%\"CG6#F'F'" }{TEXT -1 6 "  y   " }{XPPEDIT 18 0 "
+Diff(P(x),x);" "6#-%%DiffG6$-%\"PG6#%\"xGF)" }{TEXT -1 4 " =  " }
+{XPPEDIT 18 0 "Diff(R(x),x);" "6#-%%DiffG6$-%\"RG6#%\"xGF)" }}{PARA 0 
+"" 0 "" {TEXT -1 5 "c)   " }{XPPEDIT 18 0 "c(x) = Diff(P(x),x);" "6#/-
+%\"cG6#%\"xG-%%DiffG6$-%\"PG6#F'F'" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "2.  En \+
+la comercializaci\363n de un producto se ha comprobado que la funci
+\363n demanda viene dada por " }}{PARA 263 "" 0 "" {XPPEDIT 18 0 "p(x)
+;" "6#-%\"pG6#%\"xG" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "500/sqrt(x);" "
+6#*&\"$+&\"\"\"-%%sqrtG6#%\"xG!\"\"" }{TEXT -1 10 "  pesetas." }}
+{PARA 0 "" 0 "" {TEXT -1 56 "El coste de producci\363n de x unidades e
+s C(x)= 5 x +5000." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 94 "Se verifica que el precio por unidad para el el que se co
+nsigue un beneficio m\341ximo es igual a" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "a)  20  pesetas" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "b)  10  pesetas" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "c)  15  p
+esetas" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 113 "3.  El coste C(x) de pedido y transporte de las c
+omponentes utilizadas en la fabricaci\363n de un cierto producto es" }
+}{PARA 264 "" 0 "" {XPPEDIT 18 0 "C(x) = 100*(200/(x^2)+x/(x+30));" "6
+#/-%\"CG6#%\"xG*&\"$+\"\"\"\",&*&\"$+#F**$F'\"\"#!\"\"F**&F'F*,&F'F*\"
+#IF*F0F*F*" }{TEXT -1 9 "        (" }{XPPEDIT 18 0 "1 <= x;" "6#1\"\"
+\"%\"xG" }{TEXT -1 3 " )," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 127 "donde C(x) se mide en miles de d\363lares y x es \+
+el tama\361o del pedido en cientos de unidades. El tama\361o x que min
+imiza el coste es" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "a)   " }{XPPEDIT 18 0 "10.62505428;" "6#$\"+Ga]i5!\")" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "b)   " }
+{XPPEDIT 18 0 "13.55695401;" "6#$\"+,apb8!\")" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "c)   " }{XPPEDIT 18 0 "40.
+44724133;" "6#$\"+LTsWS!\")" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "restart;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 49 "4.  En el intervalo [-20,20]  la funci\363n  f(x) = " }
+{XPPEDIT 18 0 "(x^2+7*x+3)/(x^2);" "6#*&,(*$%\"xG\"\"#\"\"\"*&\"\"(F(F
+&F(F(\"\"$F(F(*$F&\"\"#!\"\"" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "a)   tiene un m\341ximo a
+bsoluto" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+32 "b)   no tiene extremos relativos" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 29 "c)   tiene un m\355nimo absoluto" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "restart;" }}}{PARA 0 "" 0 "" {TEXT -1 61 "5. El valor de la funci
+\363n derivada de orden 5 de la funci\363n  " }{XPPEDIT 18 0 "tan(cos(
+2*x^4-ln(2*x)));" "6#-%$tanG6#-%$cosG6#,&*&\"\"#\"\"\"*$%\"xG\"\"%F,F,
+-%#lnG6#*&\"\"#F,F.F,!\"\"" }{TEXT -1 21 " , en el punto x=1 es" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "a)   " }
+{XPPEDIT 18 0 "-54109.3060;" "6#,$$\"*gI4T&!\"%!\"\"" }}{PARA 0 "" 0 "
+" {TEXT -1 5 "b)   " }{XPPEDIT 18 0 "-214.0054479;" "6#,$$\"+zW0S@!\"(
+!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 47 "c)   la derivada de la funci\363
+n no existe en x=1" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart
+;" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 71 "6. \277Cu\341les son los puntos en los que hay que evalua
+r la funci\363n f(x) = " }{XPPEDIT 18 0 "abs(4*x^3-5*x/2);" "6#-%$absG
+6#,&*&\"\"%\"\"\"*$%\"xG\"\"$F)F)*(\"\"&F)F+F)\"\"#!\"\"F0" }{TEXT -1 
+64 "  para determinar sus extremos en el intervalo I = [-1/4,1/4]  ?" 
+}}{PARA 0 "" 0 "" {TEXT -1 14 "a)   -1/4, 1/4" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "b)   0" }}{PARA 0 "" 0 "" {TEXT -1 17 "c)   -1/4, 0, 1/4" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "7.  La derivada de la f
+unci\363n  y(x)  definida impl\355citamente por la ecuaci\363n  " }}
+{PARA 265 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "x^2*y(x)^2 = (y(x)+1)^
+2*(4-y(x))" "6#/*&%\"xG\"\"#-%\"yG6#F%\"\"#*&,&-F(6#F%\"\"\"\"\"\"F/\"
+\"#,&\"\"%F/-F(6#F%!\"\"F/" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+10 "es igual a" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "a)    " }{XPPEDIT 18 0 "diff(y(x),x) = -2*x*y(x)^2/(2*x^2*
+y(x)+3*y(x)^2-12);" "6#/-%%diffG6$-%\"yG6#%\"xGF*,$**\"\"#\"\"\"F*F.-F
+(6#F*\"\"#,(*(\"\"#F.*$F*\"\"#F.-F(6#F*F.F.*&\"\"$F.*$-F(6#F*\"\"#F.F.
+\"#7!\"\"F@F@" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "b)    " }{XPPEDIT 18 0 "diff(y(x),x) = -2*x*y(x)^2/(2*x^2*
+y(x)-4*y(x)+3*y(x)^2-7);" "6#/-%%diffG6$-%\"yG6#%\"xGF*,$**\"\"#\"\"\"
+F*F.-F(6#F*\"\"#,**(\"\"#F.*$F*\"\"#F.-F(6#F*F.F.*&\"\"%F.-F(6#F*F.!\"
+\"*&\"\"$F.*$-F(6#F*\"\"#F.F.\"\"(F=F=F=" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "c)   " }{XPPEDIT 18 0 "diff(y(x),x)
+ = -2*x*y(x)^2/(2*x^2*y(x)+4*y(x)+3*y(x)^2-15);" "6#/-%%diffG6$-%\"yG6
+#%\"xGF*,$**\"\"#\"\"\"F*F.-F(6#F*\"\"#,**(\"\"#F.*$F*\"\"#F.-F(6#F*F.
+F.*&\"\"%F.-F(6#F*F.F.*&\"\"$F.*$-F(6#F*\"\"#F.F.\"#:!\"\"FDFD" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "restart; " }}}{PARA 0 "" 0 "" {TEXT -1 17 "8.  Sean  g(x) = " }
+{XPPEDIT 18 0 "x^4;" "6#*$%\"xG\"\"%" }{TEXT -1 275 " y  h(x)= x+3. Di
+buja sus gr\341ficas y utiliza el m\351todo de Newton con punto inicia
+l z=1.5 para aproximar, con siete decimales, las coordenadas x de uno \+
+de sus puntos de intersecci\363n . Se verifica que para obtener el gra
+do de precisi\363n pedido hay que aplicar el procedimiento  " }{TEXT 
+337 21 "newton:=proc(f,z,n)  " }{TEXT -1 62 "(ver teor\355a de esta pr
+\341ctica) a la funci\363n f(x)= g(x)-h(x) con" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "a)  n al menos igual a 2
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 "b)  n
+ al menos igual a 3" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 24 "c)  n al menos igual a 4" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "9. El polinomio de T
+aylor de orden 5 de la funci\363n   " }{XPPEDIT 18 0 "f(x) = 2^ln(3*x^
+3+2);" "6#/-%\"fG6#%\"xG)\"\"#-%#lnG6#,&*&\"\"$\"\"\"*$F'\"\"$F0F0\"\"
+#F0" }{TEXT -1 27 "  en un entorno de x=0  es:" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "a)  " }{XPPEDIT 18 0 "1.616806672+1.681027479*x^3-.3868710
+161*x^6;" "6#,($\"+sm!oh\"!\"*\"\"\"*&$\"+zu-\"o\"!\"*F'*$%\"xG\"\"$F'
+F'*&$\"+h,roQ!#5F'*$F-\"\"'F'!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 3 "b) \+
+" }{XPPEDIT 18 0 "1.616806672+1.681027479*x^3;" "6#,&$\"+sm!oh\"!\"*\"
+\"\"*&$\"+zu-\"o\"!\"*F'*$%\"xG\"\"$F'F'" }}{PARA 0 "" 0 "" {TEXT -1 
+4 "c)  " }{XPPEDIT 18 0 "2.141486065+1.484365028*x^3;" "6#,&$\"+lg[T@!
+\"*\"\"\"*&$\"+G]O%[\"!\"*F'*$%\"xG\"\"$F'F'" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 24 
+"10.  Si  R(x) denota la " }{TEXT 338 8 "reacci\363n" }{TEXT -1 47 " d
+e un cuerpo a alg\372n est\355mulo de tama\361o x, la " }{TEXT 339 12 
+"sensibilidad" }{TEXT -1 21 " S(x) se define como " }}{PARA 0 "" 0 "" 
+{TEXT -1 48 "la tasa de cambio de la reacci\363n  respecto de x." }}
+{PARA 0 "" 0 "" {TEXT -1 121 "Por ejemplo, si la intensidad x de una f
+uente de luz crece, el ojo reacciona disminuyendo el \341rea R(x) de l
+a pupila seg\372n" }}{PARA 0 "" 0 "" {TEXT -1 24 "la f\363rmula experi
+mental " }}{PARA 266 "" 0 "" {XPPEDIT 18 0 "R(x);" "6#-%\"RG6#%\"xG" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "(40+24*x^(2/5))/(1+4*x^(2/5));" "6#*&
+,&\"#S\"\"\"*&\"#CF&)%\"xG*&\"\"#F&\"\"&!\"\"F&F&F&,&\"\"\"F&*&\"\"%F&
+)F**&\"\"#F&\"\"&F.F&F&F." }{TEXT -1 9 "     si  " }{XPPEDIT 18 0 "0 <
+= x;" "6#1\"\"!%\"xG" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "Miran
+do a una gr\341fica, se observa que:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 32 "a)  R(x) y S(x) son decrecientes" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 30 "b)  R(x) \+
+y S(x) son crecientes" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 43 "c)  R(x) es decreciente y S(x) es creciente" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "#fin" }}}}}{MARK "1
+2 0 0" 27 }{VIEWOPTS 1 1 0 1 1 1803 }

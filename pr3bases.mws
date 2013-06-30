@@ -1,0 +1,1111 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 256 "Times" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 0 1 2 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 1 12 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 1 24 0 0 0 0 0 1 2 0 0 
+0 0 0 0 }{CSTYLE "Maple Output" 0 260 "Times" 1 12 0 0 255 1 1 2 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 
+"Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 1 14 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 1 18 0 0 0 0 0 2 2 0 0 0 
+0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 }{CSTYLE "" 
+-1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 1 14 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "msbm10" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 1 14 0 0 0 0 0 1 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 22 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "" 0 1 0 0 3 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 
+"" 0 1 0 0 24 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 255 1 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 22 0 0 1 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 283 "" 0 1 0 0 255 1 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 284 "" 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 
+152 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 78 134 1 0 0 1 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 84 134 21 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 1 134 15 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+289 "" 0 1 1 134 15 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" 
+-1 293 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 297 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 1 14 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 301 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "Times" 1 14 0 0 0 0 0 1 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 304 "Times" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 305 "" 1 24 0 0 0 0 0 1 2 0 0 0 0 0 0 }{CSTYLE "" -1 
+306 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 0 
+0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+310 "Times" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 312 "Times" 0 14 0 0 0 0 1 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 314 "msbm10" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 315 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 1 12 0 0 0 0 0 1 1 0 0 0 
+0 0 0 }{CSTYLE "" -1 318 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 319 "" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "" -1 322 "" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 326 "" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 327 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 1 14 
+0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "msbm10" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "msbm10
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 337 
+"" 1 14 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 1 14 0 0 0 0 
+0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 1 12 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "" -1 340 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 344 "" 0 1 84 134 21 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 345 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "" 1 18 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 348 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 350 "msbm10" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 
+1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 
+1 2 2 2 2 1 1 1 }1 1 0 0 6 6 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 
+4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 }1 1 0 0 
+4 4 1 0 1 0 2 2 0 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }
+{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 16 3 }{PSTYLE "Title" -1 18 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 }3 1 0 0 12 
+12 1 0 1 0 2 2 19 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }3 1 0 0 8 8 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 257 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 1 2 2 2 1 1 1 }3 1 0 0 12 
+12 1 0 1 0 2 2 19 1 }{PSTYLE "Title" -1 258 1 {CSTYLE "" -1 -1 "Times
+" 1 14 0 0 0 1 2 2 1 2 2 2 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }
+{PSTYLE "Normal" -1 259 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 2 2 
+2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 260 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 1 2 2 2 1 1 1 }1 1 0 0 12 
+12 1 0 1 0 2 2 19 1 }{PSTYLE "Title" -1 261 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 0 1 2 2 1 2 2 2 1 1 1 }1 1 0 0 12 12 1 0 1 0 2 2 19 1 }
+{PSTYLE "Maple Output" -1 262 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+263 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }3 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 264 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 1 2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 18 "" 0 "" {OLE 1 12128 
+1 "[xm]Br=WfoRrB:::wk;nyyI;G:;:j::>:B>N:F:nyyyyy]::yyyyyy:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::fyyyyyQ;nY^:
+f:n:v:>;F;V;nYnyyyYU:W:YJ:><<jBJCjCJDjDJyky;::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::JcvGYMt>^:fBWMtNHm=;:::::::
+n<Ejyyiy==:;THcV>whGYX>efI<VN=nN`H<::;CnMwW]BiCX:A:;d=B:VBYLa^DELajcJ:
+:::::::JCNZ;V:N:;B:yayA:<::::::=:OR=B:VB:E<VDglS>`:B:::::::JFNZ;f:vYxI
+>:<::::::JDJ:j:VBYmp>HYLkNG>::::::::N<^:vYxI>:<::::::g;i]:>:nYN:V:;J<>
+:EJ:n:v:>;F;N[:j?J@j@>:W:Y:[B:<jBJC>:a:c:e:gJ:v<>=;jFJGjGJHjHJIjIJJB:=
+C:N>V>^>f>n>v>>?F?N?V?^?f?;JQjQJRB:];_;a;c;e;wAi;Jyky;::::::::::::::::
+::::::::::::::::::::::::::::::B:>::::::::::J;f>C<;J\\uZ:>F<J<LJ<LL<xJL
+xjAxL<xjQxjAxlALlQLLLxLLxL\\xJLLNLLL\\xlQLN\\xLgxlQdoQLNgLnQdO\\LNgdO
+\\dOgdOldO\\LPgdOlLPgLPlLPwLPldQwLPwdQwdQ<eQ<eQwLR<eQ<MR<MRGMR<eSGeSGM
+RGecTxoTPmixoiPmTLGytQytQeuQeUWyTWOqtxstPqIystPuIysIySoxmYxuohpYipopqe
+WwyxqyJ<xxALnqMlAxXLLlqyLLxX\\xjqMNLxX\\xlqMN\\xXgxlqeOgxXgLpqMPgxXlLp
+qeQ\\xXwdqqMRwxX<MrqMRGyXGMrqeSGyxQesqytQyXWytqeUWyxaeuqyvayxqewqyxqyX
+wyxqeYweY<LJwMLLdYLxLwylAdyQLLwylQdY\\xJwMNLdY\\LNweOLdYgxLweO\\dYgdOw
+MpQdYldQweQ\\dYwdOweQwdY<MNwMRgdY<MPwMRwdY<MRweSwdYGeSwyTwdyQMRwyTGeyQ
+yTweUwdYWMRweUGeYWyTwyvQeyaeUwyvaeYgyTweWWeYgyVweWgeyqyVwyXgeYweY:B:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::ZyM;J:::
+::jcIj=XjyyyyyI::::::::::::::::::::jb@obxyyyyy;::::]\\KwYxI::::RNFdymy
+;::::]\\KwYxI::::rQ]TNjy;::::loh\\qyyyyyI:::::::::Tqvxyyyyy[p;yA::bF]T
+N]TNLpyyyyyybRNvYxiKkbffyyyyyYjbRNryvyKkbBGyyyxybRNvYxIRNFDVeyyyqGdKGd
+K[yMT@ob@obBOyyyxIFD@?vYwSN]TN]<auyyYNFDryxyy[KkbZyeH]TN]TNrVZK[lvyyyy
+y=]\\K[Nkn@ob@objywYFDryvYRNFDL=yyy]\\KK_xyyyyyA?]\\ymy;@?]DGryd=@onxy
+ywY]\\KsyvY:\\NSToyyyyyI\\qb@OhxyyyyysI]TNDpyyiy=:::::::::::::FD@?::Dm
+sxyyyyy;:@?]<::HAxI:jbRN::jsjy;:LMTDMTLMTDmb@_K;Zm[y=:::::::::::::::::
+::::::::::::::::::::>:<:ryvY:B:>:JPxyywy:J;@j:jysy:J:@j:@j:B:plyyiyAZ:
+B:Zymy;Z:FZ:B:=R:;jPjy=J:>:jysy:J:B:FZ::xY:B:Zymy;Z:J:@:;B:U;yI:@j:J:v
+YxI:>:;B:FZ:REry;j:@:;B:xIyA:<Z:>:=:Ysyxi:J::yay=:;Z:j:<:vY;Z:F:<J:xIy
+A:<j:j:jQry<J:FZ;Z:vYxI:>Z;Z;Zymy?Z::<J:xIyA:<:;R:@:yayE:>:jysy:J:B:Zy
+my?:<:ryvY:B:F:;R:ZyE:B:<J:vYxI:>:<j:F:;ryvY;Z::xIyA:<:=R::xi:J::yay=:
+;Z:F:=J:jy?:<:ryvY:B:>:jysy<:;:vYxI:>:<:ryvY;Z::xIyA:<:;:vYxi:R:;J:<:y
+ay=:;J:<:ryvY;j:J:ryvY:B:<J::yayE:>:jysy:J:B:Zymy?:<:ryvY:n<>:jysy<:;:
+v?xI:@:<:ryvY;Z:FZ;>:=BAry:>:<:jysy<:;R:=j:@j<xyywY:g:;:ryvY=Z:>Z;>:?j
+PxyywYZ:J::vYxidZ::b:oRDOCBY:;::xIya<Z::FZ;>Z:>Z:Z;>:<:jysyN[:J::F:>::
+:xIyA;j:J:Z;Z::A:;:vYxI@j:@:<::j:xI;B:Zymy[;B:>:R:;Z:FZ;vyyE:>:jysyZ>F
+Z:J::R<yyyxY:B:Zymy;tl:J:F:;R:DjyyiyE:>:jysy:^:=R:R:aryyqy;:>:<:::::::
+::=B:wyyAb<;jysy;THcV>R>:f>FcgGfagfh?^^gfZfccWflwgmwg`_hZ>dbwgnwgZfb^G
+gnwgl?^mn_jb=>ZGWdJ?gik\\LpnJ:l:;::WsFLyVDurB:;:::F:YD:Sml>:;:::::::::
+N;?jyyiy=J:B::::::>A^\\:J:J;<ja<:>D_mlVH[KRJ:<:::::::>=?B:yay=J:B:::::
+:^;>iMZ:::::::::::::yay=J:B:::::::::::::::::::jysy:>:<::::::::=J:DZ:B:
+:::::::::vYxy;>:CB:F:<jysy?:;:aP:vZAJbH[:>Z:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::yayY:^:F:vYxY;J:jck=:F:MZ=>o
+Cj:NhAJ:<j><Z:n^@v[:>;ydKUdNMDOytBAZ:n=EJ:<j?D:<j<J@Dj[^>Eb:vXHJ:@J<LJ
+<<JLLjA<JLxjA<jQLjA<jQxjA<:CC:YKL<jQv_:^bI^^:^b^^^:^biv_:^b>w_:Neiv_:N
+ECD:oDKYC:LN\\<JgdO\\<JgNe:^fT_b:^fTOe:BSoLl^f:Ni^_f:bXCE:oMw<JwLRw<J<
+eQw<J<MRw<:CF:Cf`CF:CNG=JGeS<=JGeSG=ZiPm:NMYG:Yg`oF:YweoF:YoQ=Ztxo:Nqt
+xo:JW=JWyVW=JWws:NqTySYxmYH:YhpYH:xXg=JgyXg=:YI:ohxYI:Yy=CB:Yy=CD:YICY
+jqMLLvwi^^:vw>w[:BKCC:v_:vWCD:YiPYC:YiPoD:YiPCE:YISoD:YISCE:YiXCD:YQw<
+jqMRw<jq_j:vw>Pm:vwT`j:vwTPMYyeonqwOYihY?oG:YymoG:YqawwiQUYyuYI:YixYI:
+Ny:Ny>^Z:Ny^^^:NYYC:oyEYB:oQL<JwylQNy>w[:NYCC:LN\\NyT_^:NYYC:oiPCD:oQg
+<JwMpQ<Z^Oi:Nyt_b:bXoD:NIoI[CD:LRg<:CE:oQwJ<=ZTPi:b`oNwyTw<Jw_j:NyiPMo
+qQOytPi:bhCF:oihoF:vOxvQ=:oOwyvaOyTyo:JW=JwewaKg=Jwyxa=ZiQUoixoI:;B:;:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::vY<J<<J:^`<j;>:eK<j=@j;NhAj[xJJ^S^b:f>;J:^BJ:>?;jLJ\\>
+:=J>>:;JJeZ:^R^R>Z;B:;B:^Z>^Z:v[>^^:v[I^>YB;YC:Yr=YC:CkQ<Z^v?YCC^^I^BC
+CCCD:YsECD:YCKC\\iNe:^biNe:v_>Oe:^b>Oe:bPoLgd_:^BCE:oLl<Z^_FCESJw<JldQ
+wNit[>LwdQ<=JwLR<_j>\\T`Jof`CF:CNGOmTPMxTGwOoNGesQ=JGytQwoixOdEYOWOqt
+\\IQQYxmo_TQQYxmYpaewaOuiySoPgwWo`tQu:^ZIvw:^bIvWYBCYI:CCCYI:xlq=Z>ww:
+BKYI:YCKYQ\\Lnqw_TwWodPYI:CePYQgLpq=JlLpq=J\\dqq=Jwdqq=Z>xw:^j>xw:Nm>x
+WCf`YI:of`YI:xtqwoixw:bhYI:oghYI:xvqwsIyw:NUYqqyxqcxYQweyq_Z>Ny:^^^Ny:
+v_^Ny:v[iNy:^^iNy:v_iNYYBKoQLLNw_b>OYCcPoI:YcPoQ\\dOwOEoI:YCSoQwLPw_bt
+Oy:NetOy:NitOYCD[oI:oD[oI:CE[oQwLRw_JoQwdSw=JGeSwOiiPy:^jiPy:NmiPYYOw=
+JwdUw=J<eUwOmtPYYghoI:xVw=JWOYYPwwoTQy:NqTQYYhpoQgeWwwsiQy:NuiQYoQw=J:
+<J::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::yyy<jyyiy=B;B:r>xiy=:B:;:xIbEJ:FZ;>:D:xi:J::yI:;Zy
+uyJ<>:<::Mryvy:J::yI:ryxI@:;J:Z;>:<j:@jyC:>:jy=:xiym:FZ:J:::@jyK::yI:r
+yxI;j:<:;:@:<:V:>:jy=Z:ryxiDB:<:Z;Z:::jy=:xiye:>Z::FZ;>:<:@J:B::yI:ryx
+YO>:;:J;dkN>>B::jy=:xiyIZ:J:@:?R:vYyAB:>::yI:ryxY:B:=R:@Z?ryxIZPZ::vy:
+Zyuy;Z:F:;B:=BAry:>:<:jy=:xiyA:<:rEvY:F:<J::yI:ryxY:B:Zymy;JEJ::yI:ryx
+Y:B:Zymy;Z:J::yI:ryxY:FZ:J:ryvY:B:<J::yI:ryxY:F:>:xIyA:<Z:>:jy=:xiyA:<
+:ryvY:B:>:jy=:xiyA:<:ryvY:B:>:jy=:xiyA:<:ryvY:B:>:jy=:xiyA:<:ryvY:B:>Z
+;FZ;jy=:yyyxY:B:Zymy;Z:j:>Z;>:<:yyyxY:R:;J:<Zymy;Z:J:@Z;B:yI:vyyuy;Z::
+xIyA:<:=R:Z:jyyiyA:<:ryvY:B:>:jy=:xiyA:@:;B:;ryvY:B:>Z;R:vy:jyyiyA:@Z:
+B:;ryvY:B:=:=:yI:vyyuy;B:<j:<Z:>Zymy;Z:F:F:v_:>:yayAZ:B:Zymy;Z:J:R:v?v
+YxY:FZ;J:<Zymy;Z:B:;j:jQjysy;j:J:<Zymy;Z:B:;Z;>:UC:vYxY:B:Zymy;Z:J:@:;
+B:U;yayA:<:ryvY:B:>:@:U;yayA:<:ryvY:B:=Z:FZ;jPjysy;B:DZ;J:xIyA:<j:@j:@
+:;jP:xY:<Z::xIyA:<:;:^_:jysy:::::B:Zy=::::Z::xI:::::<:ry:::::B:Zy=::::
+Z::xI:::::<:ry:cCGL]nRNFD:VHyqyC:Zy=FdKSN::jsjyC:Zy=FD@?::VHvY<:ry:]\\
+K;:ZljywY<:ry:::::B:Zy=::::Z::xI>CvyyyY>IryxIySNNFvy::xI@?]DGvyyeHRNM=
+yqbRNxIyI:ZymbRN^@vyKkbbLyyyyyy]\\KkyC:ZymbRNBOyqnjbjy;]<xi::xI]\\K;yQ
+WjbjsRNFDN`yyy::xI]\\K;yQYjbjs:]<xi::xI]\\K[U;FDvYyIG]\\KKdB:ZymbRNryv
+yKkbBGvyyID@?ya::xI_;]LljyA?]\\ymyGD@__sy<:ryZpkywYbWjy;:<:ry:::::B:Zy
+=:ZV;yyy:Z::xI::yTNvYxI:B:Zy=:jbRNyay=:<:ry::FD@oysy:Z::xI::]\\KwYxI:B
+:Zy=:ZK;xI:B:Zy=::::Z::xI:::::<:ry:::::B:^:;jM@jyyy;J:::::::::::::::::
+:::::::::JnfE>:::::::::::::::::::::::::::::::::::::::::::::::::xM:C:;Z
+::BJ_E::<:N@>xbYJ1:" }}{PARA 18 "" 0 "" {TEXT 257 20 "Bases de Matem
+\341ticas" }}{PARA 257 "" 0 "" {TEXT 347 10 "Pr\341ctica 3" }}{PARA 
+258 "" 0 "" {TEXT 259 36 "L\355mites de sucesiones y de funciones" }}
+{PARA 19 "" 0 "" {TEXT -1 42 "Por:  R. Criado, A. Gallinari y J. Pfeif
+le" }}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 22 "Objetivos de la sesi\363n" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 15 "" 0 "" {TEXT -1 155 "Utili
+zar los comandos que Maple lleva incorporados para manejar variables y
+ funciones, dibujar las gr\341ficas de funciones y sucesiones y hallar
+ sus l\355mites." }}{PARA 15 "" 0 "" {TEXT -1 137 "Recordar algunos de
+ los comandos y recursos de programaci\363n de Maple con los que el al
+umno ya ha tenido contacto en pr\341cticas anteriores." }}{PARA 15 "" 
+0 "" {TEXT -1 110 "Repasar la teor\355a de los l\355mites de sucesione
+s y funciones y representar gr\341ficamente los resultados te\363ricos
+." }}{PARA 15 "" 0 "" {TEXT -1 101 "Estudiar la continuidad de una fun
+ci\363n y propiedades de punto fijo, aproximar ra\355ces de una ecuaci
+\363n." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return c
+uando termines de leer." }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT 348 65 "Com
+andos de Maple necesarios para la realizaci\363n de esta pr\341ctica" 
+}}{PARA 0 "" 0 "" {TEXT -1 296 "En esta primera  parte de la pr\341cti
+ca describiremos a trav\351s de ejemplos algunos comandos de Maple que
+ utilizaremos para trabajar con los correspondientes conceptos. As\355
+ pues, el alumno deber\341 ejecutar  dichos ejemplos y teclear\341 otr
+os que le permitan comprender la aplicaci\363n de dichos comandos." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando term
+ines de leer." }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 256 48 "Repaso de la d
+efinici\363n de variables y funciones" }{TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 70 "Para asignar un valor o funci\363n a una variable se em
+plea el s\355mbolo  \"" }{TEXT 278 2 ":=" }{TEXT -1 5 "''.  " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "A:=35;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 2 "A;" }}}{PARA 0 "" 0 "" {TEXT -1 161 "A la varia
+ble  ``A'' se le ha asignado el valor 35, valor con el que permanecer
+\341 a lo largo de la sesi\363n a menos que se le asigne otro valor o \+
+se le \"desasigne\"." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "5*A+1
+8;" }}}{PARA 0 "" 0 "" {TEXT -1 39 "Para desasignar la variable escrib
+imos:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "A:='A';" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "A;" }}}{PARA 0 "" 0 "" {TEXT -1 59 "
+Esencialmente existen dos formas de trabajar con funciones." }}{PARA 
+0 "" 0 "" {TEXT -1 113 "Una forma es definiendo una funci\363n como va
+riable. Supongamos que que queremos analizar la funci\363n dada por f(
+x)=" }{XPPEDIT 18 0 "x^3" "6#*$%\"xG\"\"$" }{TEXT -1 2 " ." }}{PARA 0 
+"" 0 "" {TEXT -1 39 "Podemos hacerlo de la siguiente manera:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "f:= x^3;" }}}{PARA 0 "" 0 "" 
+{TEXT -1 83 "Este comando define la funci\363n y podemos comprobar que
+ la representa si escribimos:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 2 "f;" }}}{PARA 0 "" 0 "" {TEXT -1 15 "Con el comando " }{TEXT 279 
+5 "subs " }{TEXT -1 57 " podemos evaluar esta funci\363n para un valor
+ determinado. " }}{PARA 0 "" 0 "" {TEXT -1 77 "El formato es  \"subs(v
+ariable = valor, funci\363n que contiene a la variable.)\"." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "subs(x=6,f);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "Habiendo definido " }
+{TEXT 280 1 "f" }{TEXT -1 54 " de la forma anterior, no tiene sentido \+
+la expresi\363n  " }{TEXT 341 1 "f" }{TEXT -1 89 "(6), tal como la rep
+resentamos usualmente, y Maple no la entiende. Veamos lo que resulta:
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 5 "f(x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "f(6);" }}}
+{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 81 "Si quere
+mos utilizar la notaci\363n estandar, podemos hacerlo mediante el s
+\355mbolo de" }{TEXT 281 1 " " }{TEXT 283 15 "menos-mayor que" }{TEXT 
+-1 5 "  \"->" }{TEXT 284 1 "\"" }{TEXT -1 64 ", formado por el signo \+
+\"menos\" seguido del s\355mbolo \"mayor que\". " }{TEXT 282 21 "Es co
+mo decir f ( x) " }{TEXT -1 17 "=  . Por ejemplo:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "f := x -> x^
+3;" }}}{PARA 0 "" 0 "" {TEXT -1 107 "Esta notaci\363n es la que emplea
+remos usualmente para representar funciones. Ahora s\355 es entendida \+
+por Maple:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "f(x);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "Ahora ten
+emos" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "f;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 5 "f(6);" }}}{PARA 0 "" 0 "" {TEXT -1 26 "es \+
+decir 6 elevado a tres." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 103 "Si ya hemos definido una expresi\363n y queremos co
+nvertirla en funci\363n, podemos usar el comando de Maple " }{TEXT 
+285 7 "unapply" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 16 "Supongamos que  " }{TEXT 342 1 "g" }
+{TEXT -1 52 " est\341 ya definida y queremos convertirla en funci\363n
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "g := x^5;" }}}{PARA 262 "" 1 "" {TEXT -1 14 "La expres
+i\363n  " }{TEXT 343 1 "g" }{TEXT -1 39 "  no se eval\372a como funci
+\363n como vemos:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 5 "g(3);" }}}{PARA 0 "" 0 "" {TEXT -1 30 "Si ahor
+a empleamos el comando " }{TEXT 286 7 "unapply" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 18 "g := unapply(g,x);" }}}{PARA 262 "" 1 "" {TEXT 
+-1 17 "Equivale a decir " }{TEXT 287 5 "g (x)" }{TEXT 344 3 " = " }
+{XPPEDIT 18 0 "x^5" "6#*$%\"xG\"\"&" }{TEXT 288 3 " . " }{TEXT -1 3 "A
+s\355" }{TEXT 289 2 ": " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "g(
+3);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "A
+ menudo interesa trabajar con funciones definidas " }{TEXT 290 8 "a tr
+ozos" }{TEXT -1 273 ", es decir con funciones que est\341n definidas p
+or reglas distintas en diferentes partes de sus dominios. Un ejemplo e
+s la funci\363n valor absoluto, f(x) = |x|,  definida sobre todos los \+
+n\372meros reales segun la regla  h(x) = x  si x es no negativo y h(x)
+ = -x si x es negativo." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "h
+:=proc(x)\nif x>0 then x\nelif x=0 then 0\nelse -x \nfi\nend:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "plot(h,-5..5);" }}}{PARA 0 "
+" 0 "" {TEXT -1 73 "Cualquiera de las formas expuestas son utilizadas \+
+para definir funciones." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#
+presiona return cuando termines de leer." }}}}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 256 35 "Repaso de gr\341ficos en 2D y comando " }
+{TEXT 257 7 "plot( )" }}{PARA 0 "" 0 "" {TEXT -1 26 "Maple dispone del
+ comando " }{TEXT 0 7 "plot( )" }{TEXT -1 196 " para representar la gr
+\341fica de funciones de una variable. As\355, si la funci\363n f  est
+\341 definida en un intervalo [a,b], podemos representarla gr\341ficam
+ente mediante una de las siguientes expresiones:" }}{PARA 16 "" 0 "" 
+{TEXT 0 22 "plot (f,a..b,opciones)" }{TEXT -1 0 "" }}{PARA 16 "" 0 "" 
+{TEXT 0 26 "plot(f(x),x=a..b,opciones)" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 24 "Veamos algunos ejemplos:" }}{PARA 0 "
+" 0 "" {TEXT -1 51 "Primero definimos la funci\363n. Por ejemplo:  f(x
+) = " }{XPPEDIT 18 0 "exp(-x)" "6#-%$expG6#,$%\"xG!\"\"" }{TEXT -1 10 
+" sin (4x)." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "f := x -> exp(-x)*sin(4*x);
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "Ahor
+a realizamos el gr\341fico para la funci\363n f en el intervalo I=[0,6
+] " }}{PARA 0 "" 0 "" {TEXT -1 21 "Para ello escribimos " }{TEXT 0 22 
+"plot(f,intervalo de x)" }{TEXT -1 97 ". El intervalo I se introduce s
+eparando el extremo izquierdo del derecho por dos puntos seguidos." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "plot(f,0..6);" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 98 "Tambi\351n podemos
+ dibujar la misma curva representando las coordenadas  x e y de la sig
+uiente forma:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "plot(f(x),x
+=0..6,y=-0.4..0.4);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 120 "Maple no realiza el gr\341fico correctamente si se exp
+resa la funci\363n como \" f \"  y se asigna un intervalo al argumento
+ x :" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "plot(f,x=0..3);" }}}
+{PARA 0 "" 0 "" {TEXT -1 68 "N\363tese que si hubi\351semos definido l
+a funci\363n a trav\351s de una f\363rmula" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "g:=exp(sin(x));" }}}{PARA 0 "" 0 "" {TEXT -1 56 "en
+tonces no habr\355a problema con la instrucci\363n anterior:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "plot(g,x=0..10);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de
+ leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+37 "Existe una librer\355a en Maple llamada " }{TEXT 0 5 "plots" }
+{TEXT -1 79 " que contiene procedimientos definidos, y que se puede ut
+ilizar de dos maneras:" }}{PARA 16 "" 0 "" {TEXT -1 93 "Podemos cargar
+ en memoria todas las rutinas contenidas en dicha librer\355a mediante
+ el comando " }{TEXT 0 11 "with(plots)" }{TEXT -1 60 ", y a continuaci
+\363n  usar la rutina deseada con la sintaxis: " }{TEXT 0 10 "display(
+ )" }}{PARA 16 "" 0 "" {TEXT -1 114 "o bien, podemos usar directamente
+ dicha rutina sin cargar todas las rutinas de la librer\355a mediante \+
+la expresi\363n: " }{TEXT 0 38 "plots[display](\{conjunto de gr\341fic
+os\})" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 66 "Para imprimir texto dentro de un gr\341fico utilizar
+emos el comando  " }}{PARA 0 "" 0 "" {TEXT 0 16 "plots[textplot]." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "A continu
+aci\363n presentamos un ejemplo que utiliza las rutinas " }{TEXT 0 4 "
+plot" }{TEXT -1 2 ", " }{TEXT 0 8 "textplot" }{TEXT -1 4 " y  " }
+{TEXT 0 7 "display" }{TEXT -1 59 ".  Es muy importante utilizar adecua
+damente los operadores " }{TEXT 0 1 ";" }{TEXT -1 3 " y " }{TEXT 0 1 "
+:" }{TEXT -1 2 ". " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "plot1 \+
+:= plot(f,0..3): # dos puntos" }}}{PARA 0 "" 0 "" {TEXT -1 29 "Hemos a
+signado a la variable " }{TEXT 0 5 "plot1" }{TEXT -1 58 " el gr\341fic
+o de la funci\363n f para x comprendido entre 0 y 3" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 83 "plot2 := plots[textplot]([0.7,0.8,`x=0.4336
+, y=0.615`],align = RIGHT): # dos puntos" }}}{PARA 0 "" 0 "" {TEXT -1 
+29 "Hemos asignado a la variable " }{TEXT 0 5 "plot2" }{TEXT -1 57 " e
+l texto \"x =0.4336,  y= 0.615\"  mediante la expresi\363n  " }{TEXT 
+0 18 "plots[textplot]( )" }{TEXT -1 169 "  en la posici\363n de coorde
+nadas x=0.7 e y = 0.8 (es decir hemos posicionado el texto con respect
+o al origen del sistema de coordenadas) y lo hemos alineado a la derec
+ha." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "plots[display](\{plot
+1,plot2\}); # punto y coma" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 218 "En lo precedente ha sido importante utilizar l
+os dos puntos, ya que de otra forma, (con punto y coma) al asignar a u
+na variable un gr\341fico, se obtiene una p\341gina completa de texto \+
+en Maple, definiendo la estructura de " }{TEXT 0 4 "plot" }{TEXT -1 
+36 " en lugar de un gr\341fico. El comando " }{TEXT 0 8 "textplot" }
+{TEXT -1 159 " ha sido utilizado para imprimir texto en el punto con l
+as coordenadas ( 0.7, 0.8) y alinearlo a la derecha (en este caso). Co
+mo se puede observar, el s\355mbolo " }{TEXT 0 1 "`" }{TEXT -1 53 " se
+ utiliza para encerrar el texto a imprimir:       " }{TEXT 0 18 "`x=0.
+4336,y=0.615`" }}{PARA 0 "" 0 "" {TEXT -1 32 "Otra forma de empleo del
+ comando" }{TEXT 268 1 " " }{TEXT 258 7 "display" }{TEXT 269 1 " " }
+{TEXT -1 63 "consiste en la superposici\363n de distintos gr\341ficos.
+ Por ejemplo" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "f1:=x->x^2 +
+1;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "f2:=x->sin(x)+1;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "p1:=plot(f1,0..2):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "p2:=plot(f2,0..2,color=blue)
+:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "plots[display](\{p1,p2
+\}); " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return c
+uando termines de leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 
+{PARA 4 "" 0 "" {TEXT -1 44 "Manejo de sucesiones y l\355mites de suce
+siones" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+286 "En esta parte de la pr\341ctica describiremos a trav\351s de ejem
+plos algunos comandos para manejar los l\355mites de sucesiones emplea
+ndo Maple. Como en los casos anteriores el alumno deber\341 ejecutar  \+
+dichos ejemplos y teclear\341 otros que le permitan comprender la apli
+caci\363n de dichos comandos." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 104 "Los siguientes son otros comandos dispon
+ibles en Maple necesarios para la realizaci\363n de esta pr\341ctica :
+" }}{PARA 0 "" 0 "" {TEXT -1 9 "         " }{TEXT 271 48 "seq         \+
+  limit         Limit         rsolve" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}{PARA 
+256 "" 0 "" {TEXT -1 40 "Descripci\363n de los comandos mencionados:" 
+}}{PARA 0 "" 0 "" {TEXT 256 8 "Ejemplo:" }{TEXT 259 1 " " }{TEXT -1 6 
+" Sea  " }{XPPEDIT 18 0 "a[n] = 1/n;" "6#/&%\"aG6#%\"nG*&\"\"\"\"\"\"F
+'!\"\"" }{TEXT -1 83 " . Calcular los valores correspondientes a los 2
+0 primeros t\351rminos de la sucesi\363n " }{XPPEDIT 18 0 "\{a[n]\}" "
+6#<#&%\"aG6#%\"nG" }{TEXT -1 28 " y estudiar su convergencia." }}
+{PARA 256 "" 0 "" {TEXT 270 26 "Definici\363n de la sucesi\363n:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+31 "restart;\nwith(plots):a:=n->1/n:" }}{PARA 256 "> " 0 "" {MPLTEXT 
+1 0 18 "seq(a(n),n=1..20):" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 9 "eval
+f(%);" }{TEXT -1 0 "" }}}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "
+" 0 "" {TEXT 257 38 "Representaci\363n gr\341fica de la sucesi\363n:" 
+}{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "n:=`n`:" }}
+{PARA 256 "> " 0 "" {MPLTEXT 1 0 42 "plot([seq([n,a(n)],n=1..20)],styl
+e=point);" }{TEXT -1 0 "" }}}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 
+259 "" 0 "" {TEXT 258 19 "C\341lculo del l\355mite:" }{TEXT 267 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "n:=`n`:" }}{PARA 256 "> " 0 
+"" {MPLTEXT 1 0 23 "limit(a(n),n=infinity);" }{TEXT -1 0 "" }}}{PARA 
+260 "" 0 "" {TEXT 272 42 "C\341lculo del l\355mite de modo \"m\341s es
+t\351tico\":" }{TEXT -1 0 "" }}{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 
+0 7 "n:=`n`:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 23 "Limit(a(n),n=infi
+nity):" }{TEXT -1 0 "" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 11 "%=value(
+%);" }{TEXT -1 0 "" }}}{PARA 261 "" 0 "" {TEXT 291 8 "Sea  L =" }
+{XPPEDIT 18 0 "limit(a[n],n = infinity);" "6#-%&limitG6$&%\"aG6#%\"nG/
+F)%)infinityG" }{TEXT 292 3 ".  " }{TEXT -1 35 "Determinaci\363n del n
+\372mero natural n(" }{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }{TEXT 
+-1 23 ") tal que los t\351rminos " }{XPPEDIT 18 0 "a[n];" "6#&%\"aG6#%
+\"nG" }{TEXT -1 5 " con " }{XPPEDIT 18 0 "n(epsilon) <= n;" "6#1-%\"nG
+6#%(epsilonGF%" }{TEXT -1 47 " aproximan el l\355mite con un error inf
+erior a   " }{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }{TEXT -1 25 "  (
+es decir, del valor n(" }{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }
+{TEXT -1 54 ") tal que si n es un n\372mero natural mayor o igual a n(
+" }{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }{TEXT -1 22 "), entonces  \+
+|a(n)-L|<" }{XPPEDIT 261 0 "epsilon;" "6#%(epsilonG" }{TEXT -1 1 ")" }
+{TEXT 340 1 ":" }}{PARA 0 "" 0 "" {TEXT -1 25 "En nuestro ejemplo L=0 \+
+y " }{XPPEDIT 18 0 "\{a[n]\} = 1/n;" "6#/<#&%\"aG6#%\"nG*&\"\"\"\"\"\"
+F(!\"\"" }{TEXT -1 2 " :" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "
+L:=0;a:=n->1/n; " }}}{PARA 0 "" 0 "" {TEXT -1 21 "elegimos un valor de
+ " }{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }{TEXT -1 32 "  y  resolve
+mos la desigualdad  " }{XPPEDIT 18 0 "abs(a[n]-L) < epsilon;" "6#2-%$a
+bsG6#,&&%\"aG6#%\"nG\"\"\"%\"LG!\"\"%(epsilonG" }{TEXT -1 28 "  respec
+to de la variable n:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "epsi
+lon:=0.01; solve(abs(a(n)-L)< epsilon,n);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 40 "Entonces se puede definir   n(0.01)=100." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}
+}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 30 "Manejo de l\355mites de funcione
+s" }}{PARA 0 "" 0 "" {TEXT -1 286 "En esta parte de la pr\341ctica des
+cribiremos a trav\351s de ejemplos algunos comandos para manejar los l
+\355mites de  funciones empleando Maple. Como en los casos anteriores \+
+el alumno deber\341 ejecutar  dichos ejemplos y teclear\341 otros que \+
+le permitan comprender la aplicaci\363n de dichos comandos." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 104 "Los siguientes
+ son otros comandos disponibles en Maple necesarios para la realizaci
+\363n de esta pr\341ctica :" }}{PARA 0 "" 0 "" {TEXT 309 51 "limit(fun
+ci\363n, punto de acumulaci\363n,right)         " }}{PARA 0 "" 0 "" 
+{TEXT 345 50 "limit(funci\363n, punto de acumulaci\363n,left)         \+
+" }}{PARA 0 "" 0 "" {TEXT 346 8 "@       " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}{PARA 
+256 "" 0 "" {TEXT -1 40 "Descripci\363n de los comandos mencionados:" 
+}}{PARA 0 "" 0 "" {TEXT 304 8 "Ejemplo:" }{TEXT 305 1 " " }{TEXT -1 1 
+" " }}{PARA 256 "" 0 "" {TEXT 315 25 "Definici\363n de la funci\363n:
+" }}{PARA 0 "" 0 "" {TEXT -1 22 "Definimos la funci\363n  " }{XPPEDIT 
+18 0 "f(x) = 1/x;" "6#/-%\"fG6#%\"xG*&\"\"\"\"\"\"F'!\"\"" }{TEXT -1 
+8 "   en   " }{TEXT 314 1 "R" }{TEXT -1 5 "\\\{0\}." }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "f(x):=1/x;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 264 "" 0 "" {TEXT 316 37 "Representaci\363n gr\341fica de la
+ funci\363n:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "plot(1/x,x=-1..1);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 259 "" 0 "" {TEXT 317 19 "C\341lculo de l
+\355mites:" }{TEXT 318 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "Resulta que
+ aparentemente la funci\363n \"tiende a cero\" cuando la variable" }
+{TEXT 310 1 " " }{TEXT 312 1 "x" }{TEXT -1 96 " \"crece\". Cuando quer
+emos observar hacia qu\351 valores se aproxima la funci\363n cuando la
+ variable  " }{TEXT 311 1 "x" }{TEXT -1 69 " \"crece\" mucho, tratamos
+ de calcular el l\355mite de la funci\363n cuando  " }{TEXT 313 1 "x" 
+}{TEXT -1 38 " tiende a infinito. Veamos qu\351 sucede." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Limit(1/x,x=infinity)=limit(1/x,x=i
+nfinity);" }}}{PARA 256 "" 0 "" {TEXT -1 10 "Igualmente" }{TEXT 319 
+31 ", el l\355mite cuando la variable " }{TEXT 320 2 "x " }{TEXT -1 
+29 "tiende a menos infinito es 0." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "Limit(1/x,x=-infinity)=limit(1/x,x=-infinity);" }}}
+{PARA 0 "" 0 "" {TEXT -1 40 "Si ahora queremos estudiar el l\355mite d
+e " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 62 "  en el punto 0, tendr
+emos que utilizar l\355mites por la derecha" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 42 "Limit(1/x,x=0,right)=limit(1/x,x=0,right);" }}}
+{PARA 0 "" 0 "" {TEXT -1 16 "y por la derecha" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 40 "Limit(1/x,x=0,left)=limit(1/x,x=0,left);" }}}
+{PARA 0 "" 0 "" {TEXT -1 13 "El l\355mite de " }{XPPEDIT 18 0 "f;" "6#
+%\"fG" }{TEXT -1 47 "  en el punto 0 no existe y tampoco es igual a " 
+}{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }{TEXT -1 7 "  o a -" }
+{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }{TEXT -1 2 " ." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 261 "" 0 
+"" {TEXT 307 21 "Sea  f una funci\363n y " }{TEXT 339 0 "" }{XPPEDIT 
+18 0 "a;" "6#%\"aG" }{TEXT -1 0 "" }{TEXT 321 50 " un punto de acumula
+ci\363n de su dominio tal que L =" }{XPPEDIT 18 0 "limit(f(x),x = a);
+" "6#-%&limitG6$-%\"fG6#%\"xG/F)%\"aG" }{TEXT -1 0 "" }{TEXT 308 11 " \+
+ existe.  " }}{PARA 261 "" 0 "" {TEXT -1 9 "Asignado " }{XPPEDIT 256 
+0 "epsilon" "6#%(epsilonG" }{TEXT -1 29 ">0, determinaci\363n del n
+\372mero " }{XPPEDIT 18 0 "delta;" "6#%&deltaG" }{TEXT -1 1 "(" }
+{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }{TEXT -1 27 ") >0 tal que  si
+  0< |x-a|<" }{XPPEDIT 18 0 "delta;" "6#%&deltaG" }{TEXT -1 1 "(" }
+{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" }{TEXT -1 21 ") entonces  |f(x
+)-L|<" }{XPPEDIT 260 0 "epsilon;" "6#%(epsilonG" }{TEXT 306 1 ":" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "Por ejemplo, sea  " }
+{XPPEDIT 18 0 "f(x) = x^3-2*x+5;" "6#/-%\"fG6#%\"xG,(*$F'\"\"$\"\"\"*&
+\"\"#F+F'F+!\"\"\"\"&F+" }{TEXT -1 18 " ,   a =1  y  L=4:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "resta
+rt;epsilon:=0.5;L:=4;f:=x->x^3-2*x+5;" }}}{PARA 0 "" 0 "" {TEXT -1 98 
+"si hacemos la gr\341fica de nuestra funci\363n en un entorno de 1 y d
+e las dos rectas horizontales  y=L+" }{XPPEDIT 256 0 "epsilon" "6#%(ep
+silonG" }{TEXT -1 7 " , y=L-" }{XPPEDIT 256 0 "epsilon" "6#%(epsilonG
+" }{TEXT -1 1 "," }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "plot(\{f
+(x),L+epsilon,L-epsilon\},x=-3..3,y=-10..10,color=blue);" }{TEXT -1 0 
+"" }}}{PARA 0 "" 0 "" {TEXT -1 127 "lo que interesa es determinar las \+
+abscisas de los puntos de corte entre las dos rectas horizontales y la
+ gr\341fica de la funci\363n:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 27 "s:=solve(f(x)=L+epsilon,x);" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 27 "t:=solve(f(x)=L-epsilon,x);" }}}{PARA 0 "" 0 
+"" {TEXT -1 27 "los valores buscados son   " }{XPPEDIT 18 0 ".25865202
+25;" "6#$\"+D-_'e#!#5" }{TEXT -1 5 "  y  " }{XPPEDIT 18 0 "1.267035098
+" "6#$\"+)4NqE\"!\"*" }{TEXT -1 35 " .  Entonces las rectas verticales
+ " }{XPPEDIT 18 0 "x = .2586520225, x = 1.267035098" "6$/%\"xG$\"+D-_'
+e#!#5/F$$\"+)4NqE\"!\"*" }{TEXT -1 51 " determinan el entorno de 1 que
+ tiene imagen en (L-" }{XPPEDIT 256 0 "epsilon" "6#%(epsilonG" }{TEXT 
+-1 4 ", L+" }{XPPEDIT 256 0 "epsilon" "6#%(epsilonG" }{TEXT -1 2 "):" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 221 "with(plots):with(plottool
+s):\na:=implicitplot(x=s[2],x=-3..3,y=-10..10):\nb:=plot(\{f(x),L+epsi
+lon,L-epsilon\},x=-3..3,y=-10..10,color=blue):\nc:=implicitplot(x=s[3]
+,x=-3..3,y=-10..10):\nwith(plottools):plots[display](\{a,b,c\});" }}}
+{PARA 0 "" 0 "" {TEXT -1 29 "Por tanto, podemos definir   " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "delta(epsilon):=s[3]-1;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de
+ leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }{TEXT 322 28 "Ejemplo: (l\355mites laterales)" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 26 "restart:f(x):=5*x^5/ln(x);" }}}{PARA 0 "" 0 "
+" {TEXT -1 32 "Su gr\341fica en un entorno de 1 es" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 22 "plot(f(x),x=0.9..1.1);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 69 "y presenta una as\355ntota vertical  x=1. Los l\355mites \+
+laterales en 1 son" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Limit(
+f(x),x=1,right)=limit(f(x),x=1,right);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "Limit(5*x^5/ln(x),x = 1,right) = infinity;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Limit(f(x),x=1,left)=limit(f
+(x),x=1,left);" }}}{PARA 0 "" 0 "" {TEXT -1 24 "Por tanto el l\355mite
+ de  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 47 "  en el punto 1 no \+
+existe y tampoco es igual a " }{XPPEDIT 18 0 "infinity;" "6#%)infinity
+G" }{TEXT -1 6 " o a -" }{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }
+{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 325 0 "" }{TEXT 
+326 35 "Ejemplo: (composici\363n de funciones)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Para " }{TEXT 323 9 "compo
+ner " }{TEXT -1 40 "funciones en MAPLE se emplea el s\355mbolo " }
+{TEXT 324 1 "@" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "restart;g:=x->x+3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"f:=x->sin(x-Pi);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "h:=g@f
+;h(x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(h(x),x=-3..5
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuan
+do termines de leer." }}}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 21 "L\355m
+ites de sucesiones" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 298 10 "Ejemplo1: " }{TEXT 300 10 "El  n\372mero
+" }{TEXT -1 1 " " }{TEXT 299 1 "e" }{TEXT -1 30 " es el l\355mite de l
+a sucesi\363n  " }{XPPEDIT 18 0 "\{a[n]\};" "6#<#&%\"aG6#%\"nG" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "\{(1+1/n)^n\};" "6#<#),&\"\"\"\"\"\"*
+&\"\"\"F'%\"nG!\"\"F'F*" }{TEXT -1 2 ". " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "
+exp(1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "evalf(%,15);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "a:=n->(1+1/n)^n:" }}{PARA 
+256 "> " 0 "" {MPLTEXT 1 0 18 "seq(a(n),n=1..30):" }{TEXT -1 0 "" }}
+{PARA 256 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "p1:=plot([seq([n,a(n)],n=1..
+30)],style=point,color=blue):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 25 "p2:=plot(exp(1),x=0..30):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 24 "plots[display](\{p1,p2\});" }}}{PARA 0 "" 0 "" {TEXT -1 13 "La
+ sucesi\363n  " }{XPPEDIT 18 0 "\{(1+1/n)^n\};" "6#<#),&\"\"\"\"\"\"*&
+\"\"\"F'%\"nG!\"\"F'F*" }{TEXT -1 93 " es creciente, acotada inferiorm
+ente por 2 y superiormente por 3 y su l\355mite es el n\372mero e: " }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Limit(a(n),n=infinity)=limi
+t(a(n),n=infinity);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#pre
+siona return cuando termines de leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 273 10 "Ejemplo 2:" }{TEXT 274 2 "  " }{TEXT -1 3 "La " }{TEXT 
+275 22 "sucesi\363n de Fibonacci " }{TEXT -1 16 "se define como  " }
+{XPPEDIT 18 0 "F[0];" "6#&%\"FG6#\"\"!" }{TEXT -1 1 "=" }{XPPEDIT 18 
+0 "F[1];" "6#&%\"FG6#\"\"\"" }{TEXT -1 27 "=1  y,  para  n>=2,  como  \+
+" }{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 1 "=" }{XPPEDIT 
+18 0 "F[n-1];" "6#&%\"FG6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 1 "+" }
+{XPPEDIT 18 0 "F[n-2];" "6#&%\"FG6#,&%\"nG\"\"\"\"\"#!\"\"" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 18 "Queremos definir  " }{XPPEDIT 18 
+0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 55 "  mediante un procedimiento \+
+y estudiar su convergencia." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+18 "restart;F:=proc(n)" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 14 "if n=0 \+
+then 1:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 16 "elif n=1 then 1:" }}
+{PARA 256 "> " 0 "" {MPLTEXT 1 0 22 "else F(n-1)+F(n-2) fi:" }{TEXT 
+-1 0 "" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 4 "end;" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 " Se cal
+culan los primeros t\351rminos de " }{XPPEDIT 18 0 "\{F[n]\};" "6#<#&%
+\"FG6#%\"nG" }{TEXT -1 31 " y se representan gr\341ficamente:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+18 "seq(F(n),n=1..20);" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 7 "n:=`n`:
+" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 42 "plot([seq([n,F(n)],n=1..20)],
+style=point);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona \+
+return cuando termines de leer." }}}{PARA 256 "" 0 "" {TEXT -1 0 "" }}
+{PARA 256 "" 0 "" {TEXT -1 17 "Parece claro que " }{XPPEDIT 18 0 "\{F[
+n]\};" "6#<#&%\"FG6#%\"nG" }{TEXT -1 46 " es propiamente divergente, (
+es decir,  que   " }{XPPEDIT 18 0 "Limit(F[n],n = infinity) = infinity
+;" "6#/-%&LimitG6$&%\"FG6#%\"nG/F*%)infinityGF," }{TEXT -1 64 "),  per
+o el comando limit  no permite determinar su divergencia:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Limit(F(n),n=infinity)=limit(F(n),n
+=infinity);" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 53 "Alternativamente, se puede utilizar, por ejemplo, el " }
+{TEXT 294 22 " criterio del cociente" }{TEXT -1 77 ": se determina la \+
+sucesi\363n de cocientes asociada, utilizando un procedimiento" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "r:=proc(n) F(n+1)/F(n) end:
+" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 18 "seq(r(n),n=1..15);" }}{PARA 
+256 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 30 " y se representa graficamente." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 7 "n:=`n`:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 42 "p
+lot([seq([n,r(n)],n=1..15)],style=point);" }{TEXT -1 0 "" }}}{PARA 0 "
+" 0 "" {TEXT -1 28 "Por su gr\341fica, la sucesi\363n " }{XPPEDIT 18 
+0 "\{a[n] = F[n+1]/F[n]\};" "6#<#/&%\"aG6#%\"nG*&&%\"FG6#,&F(\"\"\"\"
+\"\"F.F.&F+6#F(!\"\"" }{TEXT -1 106 "  parece converger r\341pidamente
+ a un l\355mite mayor que 1 y,  por el criterio del cociente, esto imp
+lica que " }{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 28 "  es
+ propiamente divergente." }}{PARA 0 "" 0 "" {TEXT -1 104 "Pero tenemos
+ un nuevo problema si queremos que Maple  calcule el l\355mite de la s
+ucesi\363n de los cocientes:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+46 "Limit(r(n),n=infinity)=limit(r(n),n=infinity);" }}}{PARA 0 "" 0 "
+" {TEXT -1 19 "Para verificar que " }{XPPEDIT 18 0 "\{F[n]\};" "6#<#&%
+\"FG6#%\"nG" }{TEXT -1 199 " es divergente se puede notar que es una s
+ucesi\363n mon\363tona creciente (cada t\351rmino se obtiene del anter
+ior a\361adendo un n\372mero positivo y los primeros dos t\351rminos s
+on iguales a 1), entonces  (por el " }{TEXT 295 33 "criterio de conver
+gencia mon\363tona" }{TEXT -1 38 ") converge si y s\363lo si est\341 a
+cotada. " }}{PARA 0 "" 0 "" {TEXT -1 39 "No teniendo una expresi\363n \+
+expl\355cita de " }{XPPEDIT 18 0 "F[n]" "6#&%\"FG6#%\"nG" }{TEXT -1 
+53 " , tampoco es sencillo verificar que no est\341 acotada." }}{PARA 
+0 "" 0 "" {TEXT -1 29 "Entonces vamos a utilizar el " }{TEXT 296 18 "c
+riterio de Cauchy" }{TEXT -1 2 ": " }{XPPEDIT 18 0 "\{F[n]\}" "6#<#&%
+\"FG6#%\"nG" }{TEXT -1 61 " es convergente si y s\363lo si es de Cauch
+y. Por su definici\363n," }}{PARA 263 "" 0 "" {XPPEDIT 18 0 "abs(F[n+1
+]-F[n]);" "6#-%$absG6#,&&%\"FG6#,&%\"nG\"\"\"\"\"\"F,F,&F(6#F+!\"\"" }
+{TEXT -1 4 "  = " }{XPPEDIT 18 0 "F[n-1];" "6#&%\"FG6#,&%\"nG\"\"\"\"
+\"\"!\"\"" }{TEXT -1 7 "   si  " }{XPPEDIT 18 0 "2 <= n;" "6#1\"\"#%\"
+nG" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 4 " y  " }{XPPEDIT 18 
+0 "F[n-1]" "6#&%\"FG6#,&%\"nG\"\"\"\"\"\"!\"\"" }{TEXT -1 45 "  es sie
+mpre mayor o igual que 1. Por tanto, " }{XPPEDIT 18 0 "abs(F[n+1]-F[n]
+)" "6#-%$absG6#,&&%\"FG6#,&%\"nG\"\"\"\"\"\"F,F,&F(6#F+!\"\"" }{TEXT 
+-1 41 "  no puede ser arbitrariamente peque\361o y " }{XPPEDIT 18 0 "
+\{F[n]\}" "6#<#&%\"FG6#%\"nG" }{TEXT -1 17 " no es de Cauchy." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "Lo que Ma
+ple puede calcular es una expresi\363n explicita del t\351rmino " }
+{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 23 " utilizando el c
+omando " }{TEXT 293 6 "rsolve" }{TEXT -1 104 ". Este comando resuelve \+
+ecuaciones recursivas como, por ejemplo, la que define la sucesi\363n \+
+de Fibonacci:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "F(n):=rsolv
+e(\{f(n+2)=f(n+1)+f(n),f(1)=1,f(2)=1\},f(n));" }}}{PARA 0 "" 0 "" 
+{TEXT -1 45 "Ahora que tenemos una expresi\363n expl\355cita de " }
+{XPPEDIT 18 0 "F[n];" "6#&%\"FG6#%\"nG" }{TEXT -1 33 ", Maple puede ca
+lcular su l\355mite:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Limi
+t(F(n),n=infinity)=limit(F(n),n=infinity);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 10 "Ejemplo \+
+3:" }{TEXT 263 1 " " }{TEXT -1 13 " Sea  a(n) = " }{XPPEDIT 18 0 "sin(
+n)/sqrt(n);" "6#*&-%$sinG6#%\"nG\"\"\"-%%sqrtG6#F'!\"\"" }{TEXT -1 
+109 ". Calcular los valores correspondientes a los 30 primeros t\351rm
+inos de la sucesi\363n y estudiar su convergencia." }}{PARA 0 "" 0 "" 
+{TEXT 262 0 "" }}{PARA 256 "" 0 "" {TEXT 264 26 "Definici\363n de la s
+ucesi\363n:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "a:=n->sin(n)/sqrt(n):" }}
+{PARA 256 "> " 0 "" {MPLTEXT 1 0 18 "seq(a(n),n=1..30):" }{TEXT -1 0 "
+" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }{TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando term
+ines de leer." }}}{PARA 0 "" 0 "" {TEXT 265 38 "Representaci\363n gr
+\341fica de la sucesi\363n:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "n:=`n`:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 42 "plot([seq([n,a(n)],
+n=1..30)],style=point);" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}{PARA 
+256 "" 0 "" {TEXT 266 19 "C\341lculo del l\355mite:" }{TEXT -1 0 "" }}
+{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 7 "n:=`n`:" }}{PARA 256 "> " 
+0 "" {MPLTEXT 1 0 23 "Limit(a(n),n=infinity);" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 11 "%=value
+(%);" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 56 "Notar que la conv
+ergencia de esta sucesi\363n se sigue del " }{TEXT 297 18 "teorema del
+ encaje" }{TEXT -1 10 ", ya que  " }{XPPEDIT 18 0 "a[n] = sin(n)/sqrt(
+n);" "6#/&%\"aG6#%\"nG*&-%$sinG6#F'\"\"\"-%%sqrtG6#F'!\"\"" }{TEXT -1 
+23 "  est\341 siempre entre   " }{XPPEDIT 18 0 "-1/sqrt(n);" "6#,$*&\"
+\"\"\"\"\"-%%sqrtG6#%\"nG!\"\"F+" }{TEXT -1 7 "   y   " }{XPPEDIT 18 
+0 "1/sqrt(n);" "6#*&\"\"\"\"\"\"-%%sqrtG6#%\"nG!\"\"" }{TEXT -1 2 " :
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "p1:=plot([seq([n,a(n)],n
+=1..30)],style=point):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "p
+2:=plot([seq([n,-1/sqrt(n)],n=1..30)],style=point,color=blue):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "p3:=plot([seq([n,1/sqrt(n)],
+n=1..30)],style=point,color=blue):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "plots[display](\{p1,p2,p3\});" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 303 46 "Ejemplo \+
+4 (aproximaci\363n de ra\355ces cuadradas): " }}{PARA 0 "" 0 "" {TEXT 
+-1 109 "El algoritmo que vamos a utilizar en este ejemplo fue desarrol
+lado en Mesopotamia (hace al menos 3,500 a\361os)." }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "Sea  " }{XPPEDIT 18 0 "0 < r;" "6#2\"\"!%\"rG" }{TEXT -1 
+66 " un n\372mero real. Queremos definir de forma recursiva una sucesi
+\363n " }{XPPEDIT 18 0 "\{a[n]\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 37 " \+
+ que converja a la ra\355z cuadrada de " }{XPPEDIT 18 0 "r;" "6#%\"rG
+" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "sqrt(r);" "6#-%%sqrtG6#%\"rG" }
+{TEXT -1 43 ", es decir a la soluci\363n S de la ecuaci\363n  " }
+{XPPEDIT 18 0 "x-sqrt(r) = 0;" "6#/,&%\"xG\"\"\"-%%sqrtG6#%\"rG!\"\"\"
+\"!" }{TEXT -1 30 ".  Asignado un valor inicial  " }{XPPEDIT 18 0 "0 <
+ a[1];" "6#2\"\"!&%\"aG6#\"\"\"" }{TEXT -1 37 ", tenemos que encontrar
+ una funci\363n  " }{XPPEDIT 18 0 "F(a[n]);" "6#-%\"FG6#&%\"aG6#%\"nG
+" }{TEXT -1 38 "  tal  que  la definici\363n recursiva   " }{XPPEDIT 
+18 0 "a[n+1] = F(a[n]);" "6#/&%\"aG6#,&%\"nG\"\"\"\"\"\"F)-%\"FG6#&F%6
+#F(" }{TEXT -1 32 "  nos proporcione una sucesi\363n  " }{XPPEDIT 18 
+0 "\{a[n]\}" "6#<#&%\"aG6#%\"nG" }{TEXT -1 10 " tal que  " }{XPPEDIT 
+18 0 "Limit(a[n],n = infinity) = S;" "6#/-%&LimitG6$&%\"aG6#%\"nG/F*%)
+infinityG%\"SG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 12 "Notamos
+ que " }{XPPEDIT 18 0 "S-sqrt(r) = 0;" "6#/,&%\"SG\"\"\"-%%sqrtG6#%\"r
+G!\"\"\"\"!" }{TEXT -1 18 "  si y s\363lo si    " }{XPPEDIT 18 0 "(S-s
+qrt(r))^2 = S^2+r-2*S*sqrt(r);" "6#/*$,&%\"SG\"\"\"-%%sqrtG6#%\"rG!\"
+\"\"\"#,(*$F&\"\"#F'F+F'*(\"\"#F'F&F'-F)6#F+F'F," }{TEXT -1 6 " = 0. \+
+" }}{PARA 0 "" 0 "" {TEXT -1 47 "De este \372ltima identidad, se obtie
+ne la f\363rmula" }}{PARA 263 "" 0 "" {XPPEDIT 18 0 "S;" "6#%\"SG" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "sqrt(r);" "6#-%%sqrtG6#%\"rG" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "(S+r/S)/2;" "6#*&,&%\"SG\"\"\"*&%\"rGF&F%!
+\"\"F&F&\"\"#F)" }{TEXT -1 13 "        (*) ." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "Ahora, si definimos  " }
+{XPPEDIT 18 0 "a[n+1]" "6#&%\"aG6#,&%\"nG\"\"\"\"\"\"F(" }{TEXT -1 3 "
+ = " }{XPPEDIT 18 0 "(a[n]+r/a[n])/2;" "6#*&,&&%\"aG6#%\"nG\"\"\"*&%\"
+rGF)&F&6#F(!\"\"F)F)\"\"#F." }{TEXT -1 20 "  y  probamos  que  " }
+{XPPEDIT 18 0 "\{a[n]\}" "6#<#&%\"aG6#%\"nG" }{TEXT -1 33 " es converg
+ente, se tendr\341 que   " }{XPPEDIT 18 0 "Limit(a[n],n = infinity);" 
+"6#-%&LimitG6$&%\"aG6#%\"nG/F)%)infinityG" }{TEXT -1 4 "  = " }
+{XPPEDIT 18 0 "Limit(a[n+1],n = infinity);" "6#-%&LimitG6$&%\"aG6#,&%
+\"nG\"\"\"\"\"\"F+/F*%)infinityG" }{TEXT -1 64 "   verifica la identid
+ad (*)  y es,  por tanto, una soluci\363n de " }{XPPEDIT 18 0 "x-sqrt(
+r) = 0" "6#/,&%\"xG\"\"\"-%%sqrtG6#%\"rG!\"\"\"\"!" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 51 "Vamos a utilizar nuestro algoritmo para a
+proximar  " }{XPPEDIT 18 0 "sqrt(r);" "6#-%%sqrtG6#%\"rG" }{TEXT -1 
+20 ",  por ejemplo si   " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 7 " \+
+=13 . " }}{PARA 0 "" 0 "" {TEXT -1 50 "Primero podemos pedir a Maple l
+a aproximaci\363n de  " }{XPPEDIT 18 0 "sqrt(r)" "6#-%%sqrtG6#%\"rG" }
+{TEXT -1 35 " por medio de 20 d\355gitos decimales:" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 14 "restart;r:=13;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "evalf(sqrt(r),20);" }}}{PARA 0 "" 0 "" {TEXT -1 38 
+"Ahora empleamos nuestro algoritmo con " }{XPPEDIT 18 0 "a[1] = 3;" "6
+#/&%\"aG6#\"\"\"\"\"$" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "a:=proc(n)" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 14 "if
+ n=1 then 3:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 32 "else (1/2)*(a(n-1
+)+r/a(n-1)) fi:" }{TEXT -1 0 "" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 4 "
+end;" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 44 "Los primeros 6  valores de esta sucesi\363n son" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "seq(a(n),n=1..6):" }}{PARA 
+256 "> " 0 "" {MPLTEXT 1 0 12 "evalf(%,20);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 16 "y su gr\341fica es " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 
+"n:=`n`:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 41 "plot([seq([n,a(n)],n=
+1..6)],style=point);" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 69 "S
+e puede notar que el t\351rmino de orden 6 nos da la aproximaci\363n  \+
+de  " }{XPPEDIT 18 0 "sqrt(13);" "6#-%%sqrtG6#\"#8" }{TEXT -1 26 " con
+ 20 d\355gitos decimales." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 
+"#presiona return cuando termines de leer." }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 54 "Ejemplo 5 (aproximaci\363n de \+
+una ra\355z de una ecuaci\363n): " }}{PARA 0 "" 0 "" {TEXT -1 21 "La f
+unci\363n continua  " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT 
+-1 4 " =  " }{XPPEDIT 18 0 "x^3-7*x+2;" "6#,(*$%\"xG\"\"$\"\"\"*&\"\"(
+F'F%F'!\"\"\"\"#F'" }{TEXT -1 14 "  es tal que  " }{XPPEDIT 18 0 "f(0)
+;" "6#-%\"fG6#\"\"!" }{TEXT -1 7 "=2  y  " }{XPPEDIT 18 0 "f(1);" "6#-
+%\"fG6#\"\"\"" }{TEXT -1 90 "= -4. Entonces, por el teorema del valor \+
+intermedio, existe una soluci\363n S de la ecuaci\363n " }{XPPEDIT 18 
+0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT -1 74 " = 0 en el intervalo (0,1). \+
+ Queremos aproximar el valor de esta soluci\363n." }}{PARA 0 "" 0 "" 
+{TEXT -1 22 "S es una soluci\363n de  " }{XPPEDIT 18 0 "f(x);" "6#-%\"
+fG6#%\"xG" }{TEXT -1 5 " =   " }{XPPEDIT 18 0 "x^3-7*x+2;" "6#,(*$%\"x
+G\"\"$\"\"\"*&\"\"(F'F%F'!\"\"\"\"#F'" }{TEXT -1 22 " = 0,  si y s\363
+lo si   " }{XPPEDIT 18 0 "S^3+2;" "6#,&*$%\"SG\"\"$\"\"\"\"\"#F'" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "7*S;" "6#*&\"\"(\"\"\"%\"SGF%" }
+{TEXT -1 12 "     y      " }{XPPEDIT 18 0 "S;" "6#%\"SG" }{TEXT -1 3 "
+ = " }{XPPEDIT 18 0 "(S^3+2)/7;" "6#*&,&*$%\"SG\"\"$\"\"\"\"\"#F(F(\"
+\"(!\"\"" }{TEXT -1 7 "  (**)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 57 "Como en el ejemplo anterior, para aproxim
+ar el valor de S" }{TEXT 301 1 " " }{TEXT -1 86 "se puede utilizar un \+
+procedimiento iterativo definiendo de forma recursiva la sucesi\363n" 
+}}{PARA 263 "" 0 "" {XPPEDIT 18 0 "a[1] = 1/2;" "6#/&%\"aG6#\"\"\"*&\"
+\"\"\"\"\"\"\"#!\"\"" }{TEXT -1 9 " , ... , " }{XPPEDIT 18 0 "a[n+1] =
+ a[n]^3/7+2/7;" "6#/&%\"aG6#,&%\"nG\"\"\"\"\"\"F),&*&&F%6#F(\"\"$\"\"(
+!\"\"F)*&\"\"#F)\"\"(F1F)" }{TEXT -1 5 " .   " }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "Si  " }{XPPEDIT 18 0 "\{a[n]\}" "6#<#&%\"aG6#%\"nG" }
+{TEXT -1 65 " es convergente, su l\355mite tendr\341 que verificar la \+
+relaci\363n (**)." }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "a:=proc(n)" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 16 "if
+ n=1 then 1/2:" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 29 "else (1/7)*((a(
+n-1)^3)+2) fi:" }{TEXT -1 0 "" }}{PARA 256 "> " 0 "" {MPLTEXT 1 0 4 "e
+nd;" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 44 "Los primeros 9 t
+\351rminos de esta sucesi\363n son" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "seq(a(n),n=1..9):" }}{PARA 256 "> " 0 "" {MPLTEXT 1 
+0 9 "evalf(%);" }}}{PARA 0 "" 0 "" {TEXT -1 16 "y su gr\341fica es " }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "n:=`n`:" }}{PARA 256 "> " 0 
+"" {MPLTEXT 1 0 41 "plot([seq([n,a(n)],n=1..9)],style=point);" }{TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return \+
+cuando termines de leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 25 "Si podemos verificar que " }{XPPEDIT 18 0 "\{a[n]
+\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 19 "  es una sucesi\363n  " }{TEXT 
+302 13 "contractiva  " }{TEXT -1 15 "(con constante " }{XPPEDIT 18 0 "
+C := 3/7;" "6#>%\"CG*&\"\"$\"\"\"\"\"(!\"\"" }{TEXT -1 26 "  ), entonc
+es sabemos que " }{XPPEDIT 18 0 "\{a[n]\}" "6#<#&%\"aG6#%\"nG" }{TEXT 
+-1 32 " es convergente y que su l\355mite " }{XPPEDIT 18 0 "S;" "6#%\"
+SG" }{TEXT -1 16 "  es tal que    " }{XPPEDIT 18 0 "S;" "6#%\"SG" }
+{TEXT -1 3 " = " }{XPPEDIT 18 0 "(S^3+2)/7;" "6#*&,&*$%\"SG\"\"$\"\"\"
+\"\"#F(F(\"\"(!\"\"" }{TEXT -1 41 "    (es decir, que S es una soluci
+\363n de  " }{XPPEDIT 18 0 "x^3-7*x+2 = 0;" "6#/,(*$%\"xG\"\"$\"\"\"*&
+\"\"(F(F&F(!\"\"\"\"#F(\"\"!" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Si   " }{XPPEDIT 18 0 "\{a
+[n]\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 71 " es contractiva  se pueden a
+dem\341s utilizar los t\351rminos de la sucesi\363n " }{XPPEDIT 18 0 "
+\{a[n]\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 56 " para aproximar  S con un
+a precisi\363n dada por la f\363rmula" }}{PARA 263 "" 0 "" {TEXT -1 0 
+"" }{XPPEDIT 18 0 "abs(a[n]-S) <= C^(n-1)*abs(a[2]-a[1])/(1-C);" "6#1-
+%$absG6#,&&%\"aG6#%\"nG\"\"\"%\"SG!\"\"*()%\"CG,&F+F,\"\"\"F.F,-F%6#,&
+&F)6#\"\"#F,&F)6#\"\"\"F.F,,&\"\"\"F,F1F.F." }{TEXT -1 3 ",  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "donde    \+
+" }{XPPEDIT 18 0 "abs(a[2]-a[1]);" "6#-%$absG6#,&&%\"aG6#\"\"#\"\"\"&F
+(6#\"\"\"!\"\"" }{TEXT -1 4 "  = " }{XPPEDIT 18 0 ".1964285714;" "6#$
+\"+9dGk>!#5" }{TEXT -1 8 " < 0.2 :" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "evalf(abs(a(2)-a(1)));" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "C:=3/7;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "Entonces   " }
+{XPPEDIT 18 0 "abs(a[n]-S) <= 3^(n-1)/(7^(n-2)*20);" "6#1-%$absG6#,&&%
+\"aG6#%\"nG\"\"\"%\"SG!\"\"*&)\"\"$,&F+F,\"\"\"F.F,*&)\"\"(,&F+F,\"\"#
+F.F,\"#?F,F." }{TEXT -1 8 " .      " }}{PARA 0 "" 0 "" {TEXT -1 13 "Po
+r ejemplo, " }{XPPEDIT 18 0 "abs(a[5]-S);" "6#-%$absG6#,&&%\"aG6#\"\"&
+\"\"\"%\"SG!\"\"" }{TEXT -1 20 "  es menor o igual a" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 24 "evalf((3^4)/((7^3)*20));" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "M\341s en general, s
+i  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 97 " :[a,b]-->[a,b]  es u
+na funci\363n definida sobre un intervalo [a,b] de la recta real, se d
+ir\341 que  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 4 " es " }{TEXT 
+334 11 "contractiva" }{TEXT -1 49 " si existe una constante positiva C
+<1  tal que   " }{XPPEDIT 18 0 "abs(f(x)-f(y)) <= C*abs(x-y);" "6#1-%$
+absG6#,&-%\"fG6#%\"xG\"\"\"-F)6#%\"yG!\"\"*&%\"CGF,-F%6#,&F+F,F/F0F," 
+}{TEXT -1 27 "   para todo par de puntos " }{XPPEDIT 18 0 "x,y;" "6$%
+\"xG%\"yG" }{TEXT -1 43 " en [a,b]. Se sigue de esta definici\363n que
+ " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 40 "  es una funci\363n con
+tinua en todo [a,b]." }}{PARA 0 "" 0 "" {TEXT -1 9 "Un punto " }
+{XPPEDIT 18 0 "s;" "6#%\"sG" }{TEXT -1 27 " del intervalo [a,b] es un \+
+" }{TEXT 335 11 "punto fijo " }{TEXT -1 15 "de la funci\363n  " }
+{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 6 "  si  " }{XPPEDIT 18 0 "f(s)
+ = s;" "6#/-%\"fG6#%\"sGF'" }{TEXT -1 6 " . El " }{TEXT 336 34 "Teorem
+a de la funci\363n contractiva " }{TEXT -1 40 "nos dice que existe un \+
+\372nico punto fijo " }{XPPEDIT 18 0 "s;" "6#%\"sG" }{TEXT -1 4 " de \+
+" }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 20 "  en [a,b]  y  que  " }
+{XPPEDIT 18 0 "s;" "6#%\"sG" }{TEXT -1 74 "  el l\355mite de la sucesi
+\363n (contractiva) definida de forma recursiva por  " }{XPPEDIT 18 0 
+"a[1];" "6#&%\"aG6#\"\"\"" }{TEXT -1 45 " igual a un valor arbitrario \+
+del dominio de  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 6 "   y  " }
+{XPPEDIT 18 0 "a[n+1] = f(a[n]);" "6#/&%\"aG6#,&%\"nG\"\"\"\"\"\"F)-%
+\"fG6#&F%6#F(" }{TEXT -1 4 " si " }{XPPEDIT 18 0 "1 <= n;" "6#1\"\"\"%
+\"nG" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 83 "En este \372ltim
+o ejemplo la funci\363n contractiva utilizada para definir la sucesi
+\363n   " }{XPPEDIT 18 0 "a[1] = 1/2;" "6#/&%\"aG6#\"\"\"*&\"\"\"\"\"
+\"\"\"#!\"\"" }{TEXT -1 5 " ,   " }{XPPEDIT 18 0 "a[n+1] = a[n]^3/7+2/
+7;" "6#/&%\"aG6#,&%\"nG\"\"\"\"\"\"F),&*&&F%6#F(\"\"$\"\"(!\"\"F)*&\"
+\"#F)\"\"(F1F)" }{TEXT -1 24 "  ha sido  la funci\363n   " }{XPPEDIT 
+18 0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "(x^3+
+2)/7;" "6#*&,&*$%\"xG\"\"$\"\"\"\"\"#F(F(\"\"(!\"\"" }{TEXT -1 1 "." }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando ter
+mines de leer." }}}{PARA 0 "" 0 "" {TEXT 277 11 "Ejercicio: " }{TEXT 
+-1 6 " Sea  " }{XPPEDIT 18 0 "a[0] = 1;" "6#/&%\"aG6#\"\"!\"\"\"" }
+{TEXT -1 30 "  y consideremos la sucesi\363n  " }{XPPEDIT 18 0 "a[n];
+" "6#&%\"aG6#%\"nG" }{TEXT -1 13 "  dada por   " }}{PARA 263 "" 0 "" 
+{XPPEDIT 18 0 "a[n] = -a[n-1]/2+1/a[n-1];" "6#/&%\"aG6#%\"nG,&*&&F%6#,
+&F'\"\"\"\"\"\"!\"\"F-\"\"#F/F/*&\"\"\"F-&F%6#,&F'F-\"\"\"F/F/F-" }
+{TEXT -1 3 ",  " }}{PARA 0 "" 0 "" {TEXT -1 15 "para todo n en " }
+{TEXT 276 1 "N" }{TEXT -1 103 ".  Determinar los diez primeros t\351rm
+inos de esta sucesi\363n y enunciar una conjetura acerca de su l\355mi
+te." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 64 "restart;a:=proc(n)\nif n=0 then 1\nelse -a(n-1)/2+1/a
+(n-1) fi;end;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "seq(a(n),n
+=1..10):evalf(%);" }}}{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 42 "plot
+([seq([n,a(n)],n=1..10)],style=point);" }{TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 46 "Limit(a(n),n=infinity)=limit(a(n),n=infinity);
+" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando ter
+mines de leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 3 "
+" 0 "" {TEXT -1 34 "L\355mites de funciones y continuidad" }}{PARA 0 "
+" 0 "" {TEXT 327 0 "" }{TEXT 328 11 "Ejemplo 1: " }{TEXT 329 0 "" }
+{TEXT -1 41 "Estudiemos la funci\363n definida \"a trozos\"" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "re
+start;f:=proc(x)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "   if x<=0 then
+ 1" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "        else if 0<x and x<2 t
+hen x" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "               else if 2<=
+x then x^2-2       " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "            \+
+        fi" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "             fi" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "  fi" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "end;" }}}{PARA 0 "" 0 "" {TEXT -1 14 "Su gr\341fica es " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "plot(f,-3..5);" }}}{PARA 0 "
+" 0 "" {TEXT -1 118 "Se puede notar que esta funci\363n presenta una d
+iscontinuidad no evitable en el punto 0 y que es continua en el punto \+
+2." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 330 0 "" }{TEXT 331 10 "Ejemplo 2:" }}
+{PARA 0 "" 0 "" {TEXT -1 34 "Consideramos la funci\363n racional  " }
+{XPPEDIT 18 0 "f:=(2*x^2-2)/(x-1)" "6#>%\"fG*&,&*&\"\"#\"\"\"*$%\"xG\"
+\"#F)F)\"\"#!\"\"F),&F+F)\"\"\"F.F." }{TEXT -1 38 "  y sustituimos dir
+ectamente el valor " }{XPPEDIT 18 0 "x=1" "6#/%\"xG\"\"\"" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "restart;f:=(2*x^2-2)/(x-1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "subs(x=1,f);" }}}{PARA 0 "" 
+0 "" {TEXT -1 21 "Es decir, la funci\363n " }{XPPEDIT 18 0 "f(x)" "6#-
+%\"fG6#%\"xG" }{TEXT -1 207 "  no est\341 definida para x=1. Sin embar
+go, es posible estudiar el valor de f(x) para valores tan pr\363ximos \+
+como queramos a x=1 tanto por la derecha como por la izquierda. Para e
+llo, construimos sendas tablas: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "f:=unapply(f,x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "tabla1:=array([[x,'f(x)'],seq([1.+1
+/10**i,f(1.+1/10**i)],i=1..9)]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 67 "tabla2:=array([[x,'f(x)'],seq([1.-1/10**i,f(1.-1/10**
+i)],i=1..9)]);" }}}{PARA 0 "" 0 "" {TEXT -1 85 "Las tablas anteriores \+
+nos permiten afirmar que para valores pr\363ximos a 1, la funci\363n \+
+" }{XPPEDIT 18 0 "f" "6#%\"fG" }{TEXT -1 88 " toma valores pr\363ximos
+ a 4. Si ahora calculamos el l\355mite de f(x) cuando x \"tiende a 1\"
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "Limit(f(x),x=1)=limit(f
+(x),x=1);" }}}{PARA 0 "" 0 "" {TEXT -1 98 "Se puede verificar facilmen
+te que los l\355mites laterales existen y coinciden con el valor obten
+ido:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Limit(f(x),x=1,right
+)=limit(f(x),x=1,right);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 
+"Limit(f(x),x=1,left)=limit(f(x),x=1,left);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 80 "Podemos dibujar la funci\363n para visualizar qu\351 es lo que \+
+realmente est\341 pasando:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "plot(f(x),x=-1..2);" }}}{PARA 0 "" 0 "" {TEXT -1 11 "La funci\363n
+ " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 125 " es discontinua en el \+
+punto 1 ya que 1 no pertenece a su dominio, pero es posible definir un
+a nueva funci\363n continua en todo " }{TEXT 332 2 "R " }{TEXT -1 19 "
+y que sea igual a  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 5 "  en \+
+" }{TEXT 333 1 "R" }{TEXT -1 35 " \\\{1\} (el numerador de la funci
+\363n  " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 103 " se  factoriza c
+omo 2(x-1)(x+1) y  se puede simplificar la expresi\363n (x-1) del deno
+minador). Por tanto " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 41 "  ti
+ene una discontinuidad evitable en 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando \+
+termines de leer." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 337 10 "Eje
+mplo 3:" }}{PARA 0 "" 0 "" {TEXT -1 17 "Para la  funci\363n " }
+{XPPEDIT 18 0 "f(x) = sen(Pi/x);" "6#/-%\"fG6#%\"xG-%$senG6#*&%#PiG\"
+\"\"F'!\"\"" }{TEXT -1 50 "   no existen los l\355mites laterales en e
+l punto 0:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 43 "restart;f:=x->sin(Pi/x);plot(f(x),x=-1..1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "Limit(f(x),x=0)=limit(f(x),x
+=0);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Limit(f(x),x=0,righ
+t)=limit(f(x),x=0,right);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+42 "Limit(f(x),x=0,left)=limit(f(x),x=0,left);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 338 10 "Ejemplo \+
+4:" }}{PARA 0 "" 0 "" {TEXT -1 14 "La funci\363n    " }{XPPEDIT 18 0 "
+f(x) = x*sen(1/x);" "6#/-%\"fG6#%\"xG*&F'\"\"\"-%$senG6#*&\"\"\"F)F'!
+\"\"F)" }{TEXT -1 47 "  tiene l\355mite igual a 0 en el punto 0 siendo
+  " }{XPPEDIT 18 0 "abs(sin(Pi/x)) <= abs(x);" "6#1-%$absG6#-%$sinG6#*
+&%#PiG\"\"\"%\"xG!\"\"-F%6#F-" }{TEXT -1 13 "   para todo " }{XPPEDIT 
+18 0 "x;" "6#%\"xG" }{TEXT -1 15 " distinto de 0:" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 146 "restart;f:=x->x*sin(1/x);a:=plot(f(x),x=-0.1
+..0.1):\nb:=plot(-abs(x),x=-0.1..0.1):c:=plot(abs(x),x=-0.1..0.1):\nwi
+th(plots):plots[display](\{a,b,c\});" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "Limit(f(x),x=0)=limit(f(x),x=0);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 4 "#fin" }}}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 
+53 "Cuestiones sobre l\355mites de sucesiones y de funciones" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 349 4 "    " }}{PARA 0 "" 0 "" {TEXT 
+-1 11 "1. Sea     " }{XPPEDIT 18 0 "a[n] = ((2*n)!/n!)^(1/n)/n;" "6#/&
+%\"aG6#%\"nG*&)*&-%*factorialG6#*&\"\"#\"\"\"F'F0F0-F,6#F'!\"\"*&\"\"
+\"F0F'F3F0F'F3" }{TEXT -1 23 "   el t\351rmino de orden " }{XPPEDIT 
+18 0 "n;" "6#%\"nG" }{TEXT -1 16 " de la sucesi\363n " }{XPPEDIT 18 0 
+"\{a[n]\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 16 "Se verifica que:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "a)   " }{XPPEDIT 18 0 "Limit(a[n],n = infi
+nity);" "6#-%&LimitG6$&%\"aG6#%\"nG/F)%)infinityG" }{TEXT -1 12 "   no
+ existe" }}{PARA 0 "" 0 "" {TEXT -1 4 "b)  " }{XPPEDIT 18 0 "Limit(a[n
+],n = infinity);" "6#-%&LimitG6$&%\"aG6#%\"nG/F)%)infinityG" }{TEXT 
+-1 7 "    =  " }{XPPEDIT 18 0 "4/exp(1);" "6#*&\"\"%\"\"\"-%$expG6#\"
+\"\"!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "c)  " }
+{XPPEDIT 18 0 "Limit(a[n],n = infinity);" "6#-%&LimitG6$&%\"aG6#%\"nG/
+F)%)infinityG" }{TEXT -1 7 "    =  " }{XPPEDIT 18 0 "4*exp(1);" "6#*&
+\"\"%\"\"\"-%$expG6#\"\"\"F%" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 8 "2. Sea  " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 
+28 "  un n\372mero real  y  sea    " }{XPPEDIT 18 0 "a[n] = ((n+1)/n)^
+((r*n^2+1)/(2*n));" "6#/&%\"aG6#%\"nG)*&,&F'\"\"\"\"\"\"F+F+F'!\"\"*&,
+&*&%\"rGF+*$F'\"\"#F+F+\"\"\"F+F+*&\"\"#F+F'F+F-" }{TEXT -1 23 "   el \+
+t\351rmino de orden " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 15 "de la sucesi\363n " }{XPPEDIT 18 0 "\{a[n
+]\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 12 ".  Calcula  " }{XPPEDIT 18 0 "
+r;" "6#%\"rG" }{TEXT -1 12 "  para que  " }{XPPEDIT 18 0 "Limit(a[n],n
+ = infinity);" "6#-%&LimitG6$&%\"aG6#%\"nG/F)%)infinityG" }{TEXT -1 3 
+" = " }{XPPEDIT 18 0 "exp(1)^2;" "6#*$-%$expG6#\"\"\"\"\"#" }{TEXT -1 
+2 " ." }}{PARA 0 "" 0 "" {TEXT -1 5 "a)   " }{XPPEDIT 18 0 "r;" "6#%\"
+rG" }{TEXT -1 4 " = 2" }}{PARA 0 "" 0 "" {TEXT -1 26 "b)  no existe ni
+ng\372n tal  " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 2 " ." }}{PARA 
+0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 4 
+" = 4" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 9 "3. \+
+Sea   " }{XPPEDIT 18 0 "a[n] = ln(1+1/n)/(2^(1/n)-1);" "6#/&%\"aG6#%\"
+nG*&-%#lnG6#,&\"\"\"\"\"\"*&\"\"\"F.F'!\"\"F.F.,&)\"\"#*&\"\"\"F.F'F1F
+.\"\"\"F1F1" }{TEXT -1 23 "  el t\351rmino de orden  " }{XPPEDIT 18 0 
+"n;" "6#%\"nG" }{TEXT -1 17 " de la  sucesi\363n " }{XPPEDIT 18 0 "\{a
+[n]\};" "6#<#&%\"aG6#%\"nG" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT 
+-1 96 "Mirando a la gr\341fica de la sucesi\363n, establecer su conver
+gencia o divergencia. Se verifica que :" }}{PARA 0 "" 0 "" {TEXT -1 5 
+"a)   " }{XPPEDIT 18 0 "Limit(a(n),n = infinity);" "6#-%&LimitG6$-%\"a
+G6#%\"nG/F)%)infinityG" }{TEXT -1 5 "  =  " }{XPPEDIT 18 0 "1/ln(2);" 
+"6#*&\"\"\"\"\"\"-%#lnG6#\"\"#!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "b)  " }{XPPEDIT 18 0 "Limit(a(n),n = infinity);" "6#-%&Lim
+itG6$-%\"aG6#%\"nG/F)%)infinityG" }{TEXT -1 11 "  no existe" }}{PARA 
+0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "Limit(a(n),n = infinity);
+" "6#-%&LimitG6$-%\"aG6#%\"nG/F)%)infinityG" }{TEXT -1 5 " =   " }
+{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 17 "4. El polinomio  " }{XPPEDIT 18 0 "x
+^3-7*x+2 = 0;" "6#/,(*$%\"xG\"\"$\"\"\"*&\"\"(F(F&F(!\"\"\"\"#F(\"\"!
+" }{TEXT -1 44 " contiene una ra\355z r en el intervalo (0,1). " }}
+{PARA 0 "" 0 "" {TEXT -1 41 "Si se aproxima r por medio de la sucesi
+\363n" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "x[1] = 1/2;" "6#/&%\"xG6#\"\"
+\"*&\"\"\"\"\"\"\"\"#!\"\"" }{TEXT -1 5 " ,   " }{XPPEDIT 18 0 "x[n+1]
+;" "6#&%\"xG6#,&%\"nG\"\"\"\"\"\"F(" }{TEXT -1 4 " =  " }{XPPEDIT 18 
+0 "x[n]^3/7+2/7;" "6#,&*&&%\"xG6#%\"nG\"\"$\"\"(!\"\"\"\"\"*&\"\"#F,\"
+\"(F+F," }{TEXT -1 50 "  ( para todo n >=1)  (ver ejemplo 5 del aparta
+do " }}{PARA 0 "" 0 "" {TEXT -1 78 "L\355mites de sucesiones de la teo
+r\355a de esta Pr\341ctica), decidir si el valor de  " }{XPPEDIT 18 0 
+"abs(r-x[8]);" "6#-%$absG6#,&%\"rG\"\"\"&%\"xG6#\"\")!\"\"" }{TEXT -1 
+16 "   es menor que " }}{PARA 0 "" 0 "" {TEXT -1 4 "a)  " }{XPPEDIT 
+18 0 ".4425998400e-4;" "6#$\"++%)*fU%!#9" }}{PARA 0 "" 0 "" {TEXT -1 
+4 "b)  " }{XPPEDIT 18 0 ".3098198880e-3;" "6#$\"+!)))>)4$!#8" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 ".929459663
+9e-3;" "6#$\"+Rmf%H*!#8" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 
+25 "C\363mo en el ejemplo 5,    " }{XPPEDIT 18 0 "abs(x[n]-r) <= 3^(n-
+1)/(7^(n-2)*20);" "6#1-%$absG6#,&&%\"xG6#%\"nG\"\"\"%\"rG!\"\"*&)\"\"$
+,&F+F,\"\"\"F.F,*&)\"\"(,&F+F,\"\"#F.F,\"#?F,F." }{TEXT -1 16 "      y
+,  para  " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 20 "=8, se obtiene \+
+que  " }{XPPEDIT 18 0 "abs(r-x[8]);" "6#-%$absG6#,&%\"rG\"\"\"&%\"xG6#
+\"\")!\"\"" }{TEXT -1 23 " es menor que el valor " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 9 "restart; " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 73 "5.  Sea  f (x) = x  \+
+  y   sea   g(x)  la funci\363n definida a trozos  por  " }}{PARA 0 "
+" 0 "" {TEXT -1 39 "g(2)=1 y g(x)=3 si x es distinto de 2. " }}{PARA 
+0 "" 0 "" {TEXT -1 35 "Estudiar los l\355mites laterales de \"" }
+{XPPEDIT 18 0 "`@`(g,f);" "6#-%\"@G6$%\"gG%\"fG" }{TEXT -1 59 "  \"  (
+ la funci\363n compuesta de g con f ) en el punto x=2.  " }}{PARA 0 "
+" 0 "" {TEXT -1 17 "Se verifica que :" }}{PARA 0 "" 0 "" {TEXT -1 7 "a
+)     " }{XPPEDIT 18 0 "Limit(g(f(x)),x = 2);" "6#-%&LimitG6$-%\"gG6#-
+%\"fG6#%\"xG/F,\"\"#" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "3;" "6#\"\"$" 
+}{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "b)    " }{XPPEDIT 18 0 "L
+imit(g(f(x)),x = 2,right);" "6#-%&LimitG6%-%\"gG6#-%\"fG6#%\"xG/F,\"\"
+#%&rightG" }{TEXT -1 8 "    y   " }{XPPEDIT 18 0 "Limit(g(f(x)),x = 2,
+left);" "6#-%&LimitG6%-%\"gG6#-%\"fG6#%\"xG/F,\"\"#%%leftG" }{TEXT -1 
+16 "   son distintos" }}{PARA 0 "" 0 "" {TEXT -1 8 "c)      " }
+{XPPEDIT 18 0 "Limit(g(f(x)) = 1,x = 2);" "6#-%&LimitG6$/-%\"gG6#-%\"f
+G6#%\"xG\"\"\"/F-\"\"#" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 46 "6. Observando la gr\341fica, encuent
+ra un n\372mero " }{XPPEDIT 18 0 "delta;" "6#%&deltaG" }{TEXT -1 10 " \+
+tal que  " }{XPPEDIT 18 0 "abs(2*x^2-18) < 1/5;" "6#2-%$absG6#,&*&\"\"
+#\"\"\"*$%\"xG\"\"#F*F*\"#=!\"\"*&\"\"\"F*\"\"&F/" }{TEXT -1 8 "   si \+
+  " }{XPPEDIT 18 0 "abs(x-3) < delta;" "6#2-%$absG6#,&%\"xG\"\"\"\"\"$
+!\"\"%&deltaG" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT -1 4 "a)  " }
+{XPPEDIT 18 0 "delta = .1e-1;" "6#/%&deltaG$\"\"\"!\"#" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 4 "b)  " }{XPPEDIT 18 0 "delta = .5e-1;" 
+"6#/%&deltaG$\"\"&!\"#" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "c
+)  " }{XPPEDIT 18 0 "delta = .2e-1;" "6#/%&deltaG$\"\"#!\"#" }{TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 36 "7.  Estudia la funci\363n definida en  " }{TEXT 350 3 "R  " }
+{TEXT -1 6 "por   " }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "f(x) = x*exp(1)^(
+-1/x);" "6#/-%\"fG6#%\"xG*&F'\"\"\")-%$expG6#\"\"\",$*&\"\"\"F)F'!\"\"
+F2F)" }{TEXT -1 7 "   si  " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 9 
+" <0,   f(" }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 7 ")=0 si " }
+{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 8 "=0,   f(" }{XPPEDIT 18 0 "x;
+" "6#%\"xG" }{TEXT -1 2 ")=" }{XPPEDIT 18 0 "sqrt(x^2+1);" "6#-%%sqrtG
+6#,&*$%\"xG\"\"#\"\"\"\"\"\"F*" }{TEXT -1 7 "  si   " }{XPPEDIT 18 0 "
+0 < x;" "6#2\"\"!%\"xG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 4 "
+a)  " }{XPPEDIT 18 0 "Limit(x*exp(1)^(-1/x),x = 0,left) = infinity;" "
+6#/-%&LimitG6%*&%\"xG\"\"\")-%$expG6#\"\"\",$*&\"\"\"F)F(!\"\"F2F)/F(
+\"\"!%%leftG%)infinityG" }{TEXT -1 10 "     y    " }{XPPEDIT 18 0 "Lim
+it(sqrt(x^2+1),x = 0,right) = 1;" "6#/-%&LimitG6%-%%sqrtG6#,&*$%\"xG\"
+\"#\"\"\"\"\"\"F./F,\"\"!%&rightG\"\"\"" }}{PARA 0 "" 0 "" {TEXT -1 
+44 "b)  sus l\355mites laterales en 0 son distintos" }}{PARA 0 "" 0 "
+" {TEXT -1 34 "c)    la funci\363n es continua en   " }{XPPEDIT 18 0 "
+x;" "6#%\"xG" }{TEXT -1 4 " = 0" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 23 "8.  Dada la ecuaci\363n   " }{XPPEDIT 18 
+0 "2*x^4-14*x^2+14*x-1;" "6#,**&\"\"#\"\"\"*$%\"xG\"\"%F&F&*&\"#9F&*$F
+(\"\"#F&!\"\"*&\"#9F&F(F&F&\"\"\"F." }{TEXT -1 54 " = 0, utiliza el te
+orema de la ra\355z para verificar que" }}{PARA 0 "" 0 "" {TEXT -1 41 
+"a)  existe una  soluci\363n real en (-5,-4) " }}{PARA 0 "" 0 "" 
+{TEXT -1 56 "b)  existe una  soluci\363n real en (0,1) y otra en (1,1.
+5)" }}{PARA 0 "" 0 "" {TEXT -1 23 "c)  no tiene soluciones" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 67 "9. Utilizar el teo
+rema del encaje y las gr\341ficas de las funciones  " }{XPPEDIT 18 0 "
+f(x) := -x;" "6#>-%\"fG6#%\"xG,$F'!\"\"" }{TEXT -1 3 " , " }{XPPEDIT 
+18 0 "g(x) := x*exp(1)^(x/(x+1));" "6#>-%\"gG6#%\"xG*&F'\"\"\")-%$expG
+6#\"\"\"*&F'F),&F'F)\"\"\"F)!\"\"F)" }{TEXT -1 7 "   y   " }{XPPEDIT 
+18 0 "h(x) := x*exp(1);" "6#>-%\"hG6#%\"xG*&F'\"\"\"-%$expG6#\"\"\"F)
+" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 19 "para demostrar que " 
+}{XPPEDIT 18 0 "Limit(g(x),x = 0);" "6#-%&LimitG6$-%\"gG6#%\"xG/F)\"\"
+!" }{TEXT -1 12 "  es igual a" }}{PARA 0 "" 0 "" {TEXT -1 6 "a)  -1" }
+}{PARA 0 "" 0 "" {TEXT -1 5 "b)  0" }}{PARA 0 "" 0 "" {TEXT -1 5 "c)  \+
+1" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 10 "10. Sea   " }{XPPEDIT 18 0 "f(x);" "6#-%
+\"fG6#%\"xG" }{TEXT -1 36 " la funci\363n que a cada n\372mero real  \+
+" }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 51 "  le asocia el mayor n
+\372mero entero menor o igual a " }{XPPEDIT 18 0 "x;" "6#%\"xG" }
+{TEXT -1 66 " . Su definici\363n en Maple V es la siguiente :  f: =  x
+-> floor(x)." }}{PARA 0 "" 0 "" {TEXT -1 15 "Los l\355mites de " }
+{XPPEDIT 18 0 "f(x)" "6#-%\"fG6#%\"xG" }{TEXT -1 53 " por la derecha y
+ por la izquierda en el punto 8 son:" }}{PARA 0 "" 0 "" {TEXT -1 6 "a)
+    " }{XPPEDIT 18 0 "Limit(floor(x),x = 8,right);" "6#-%&LimitG6%-%&f
+loorG6#%\"xG/F)\"\")%&rightG" }{TEXT -1 23 "   no existe     y     " }
+{XPPEDIT 18 0 "Limit(floor(x),x = 8,left) = 7;" "6#/-%&LimitG6%-%&floo
+rG6#%\"xG/F*\"\")%%leftG\"\"(" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 6 "b)    " }{XPPEDIT 18 0 "Limit(floor(x),x = 8,right) = 8;" "6#/-%
+&LimitG6%-%&floorG6#%\"xG/F*\"\")%&rightG\"\")" }{TEXT -1 12 "     y  \+
+    " }{XPPEDIT 18 0 "Limit(floor(x),x = 8,left);" "6#-%&LimitG6%-%&fl
+oorG6#%\"xG/F)\"\")%%leftG" }{TEXT -1 13 "    no existe" }}{PARA 0 "" 
+0 "" {TEXT -1 6 "c)    " }{XPPEDIT 18 0 "Limit(floor(x),x = 8,right) =
+ 8;" "6#/-%&LimitG6%-%&floorG6#%\"xG/F*\"\")%&rightG\"\")" }{TEXT -1 
+12 "     y      " }{XPPEDIT 18 0 "Limit(floor(x),x = 8,left) = 7;" "6#
+/-%&LimitG6%-%&floorG6#%\"xG/F*\"\")%%leftG\"\"(" }{TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{MARK "10 0 0" 53 }{VIEWOPTS 1 1 0 1 
+1 1803 }

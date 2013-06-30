@@ -1,0 +1,984 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" 0 21 "" 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 }{CSTYLE "" -1 256 "
+" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "Times" 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "Times" 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 0 2 0 0 0 0 0 0 }{CSTYLE "" -1 263 "Times" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 264 "Times" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 266 "Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "Times
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 1 24 0 0 0 0 0 
+2 2 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 1 24 0 0 0 0 0 1 2 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "Times" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "Times" 0 1 0 0 0 0 1 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 278 "Times" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 279 "Times" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 280 "Times" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 288 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "Maple Out
+put" 0 289 "Times" 1 12 0 0 255 1 1 2 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+290 "Times" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "Times" 
+0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 "Times" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+}{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+295 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 302 "Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 303 "Times" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "Tim
+es" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "msbm10" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 312 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "Helvetica
+" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "Helvetica" 1 9 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 317 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 321 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 325 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 326 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 329 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 333 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 337 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 341 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 345 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 346 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 347 "Times" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 348 "Times" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 349 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 350 
+"" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 353 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 354 
+"" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 355 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 356 "" 1 18 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 357 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 358 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 359 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 360 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 361 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 362 
+"" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 363 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 }{CSTYLE "" -1 364 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 }1 1 0 0 6 6 
+1 0 1 0 2 2 0 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times" 
+1 14 0 0 0 1 2 1 2 2 2 2 1 1 1 }1 1 0 0 4 4 1 0 1 0 2 2 0 1 }{PSTYLE "
+Bullet Item" -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 1 1 1 }1 1 0 0 3 3 1 0 1 0 2 2 15 2 }{PSTYLE "Title" -1 18 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 }3 1 0 0 12 
+12 1 0 1 0 2 2 19 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 }3 1 0 0 8 8 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Title" -1 257 1 
+{CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 1 2 2 2 1 1 1 }3 1 0 0 12 
+12 1 0 1 0 2 2 19 1 }{PSTYLE "Title" -1 258 1 {CSTYLE "" -1 -1 "Times
+" 1 14 0 0 0 1 2 2 1 2 2 2 1 1 1 }3 1 0 0 12 12 1 0 1 0 2 2 19 1 }
+{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 260 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 261 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 18 "" 0 "" {OLE 1 11976 
+1 "[xm]Br=WfoRrB:::wk;nyyI;G:;:j::>:B>N:F:nyyyyy]::yyyyyy:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::fyyyyyQ;nY^:
+f:n:v:>;F;V;nYnyyyYU:W:YJ:><<jBJCjCJDjDJyky;::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::JcvGYMt>^:fBWMtNHm=;:::::::
+n<Ejyyiy==:;THcV>whGYX>efI<VN=nN`H<::XjgpqBlU\\Aj;JZt:<:AlanCcl\\nCVD>
+::::::::N<?R:A:?Z:vYxY:B::::::F:N[GZ:j[:fBjcnDaKR<Z::::::::kJ;@j<jysyJ
+:B:::::::c:;:=j[vGUMrvC?MoJ::::::::JCJ<jysyJ:B::::::n@vH<J:JyK;j;>:CJ:
+f:;J=j=<:K:M:OB:V;^;f;;JAjAJB<Z:F<N<;jCJDjDJE>:i:kJ:F=N=V=^=f=n=v=>><j
+J<:?;A;C;E;G;I;K;M;O;Q;S;U;W;Y;[[:F@N@V@^@f@nYv@:wAyA:::::::::::::::::
+:::::::::::::::::::::::::::::Z:J:::::::::::?jL^B>:Ch=<JjB:CB;CBCCr=Cs=
+YrECr=Ys=YrEYBCYCCCsECsECt=CCKCCCCtEYCKCtEotEYcPYCKoDKYcPCDKodPCdPodPC
+ePCDSodPCESoDSCESoESCeXoESoeXoeXCfXCfXoE[CfXCF[CF[oF[Cf`of`oF[of`dsQeS
+GytQyTGeCoveYweYghYghoweoOWeuaeUWyvaeUgyvayvaOuIysiQuTywTQUYipoyuYy=Cr
+uYBKYICYruCCCYyECsuCt=YIKCsuCtEYIKCtuotEYiPotuoDSYISotuCESYiXCtuoeXYI[
+ouuCF[YI[ovuoF[Yi`ovuYg`YyeYwuoweYihowuYhhYymYxuYipYyuYyuoyuYixoixCB;o
+ICCcxCsEoyEYbxYCCoyEYcxCt=oIKCcxCDKoiPCcxotEoiPCdxodPoISYcxCeXoiXCdxoe
+PoiXoexCFKoI[odxCFSoI[oexCF[oi`oexof`oyeoexYG[oyeofxYweoihoexoG[oihofx
+oweoymYgxYhhoymYhxoxeoipogxoxmoipohxYymoyuohxoix;Z::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::xI?:;:::::ax:Ir;yyyyyy::
+:::::::::::::::::::]TN]tyyyyyA::::FD@oysy::::ZKkbxIyA::::FD@oysy::::ZY
+GdK;yA::::BQuDXyyyyyy:::::::::bWmuyyyyyATAvY::ZlFdKGdKCSyyyyyy]\\Kkysy
+@?]llxyyyyy;]\\K[ymyA?]\\nvyyuy]\\KkysyZKkbjgxyyYqb@ob@?xIcSN]TN]\\Nwy
+yuyjbRNjyoaKGdKGDVhyyyKkbZyuyyA@?]<xitFdKGdK[m;@?DmyyyyyIFD@?L?MUN]TN]
+<yqykbZymy[KkbBGvyyID@?OtyyyyyYNFDxIyARNFdnZyeHRNMuyyqyGD@_ymy;BL_cOyy
+yyyyBX]TNstyyyyyayFdKcRyyyxI:::::::::::::jbRN::bFauyyyyyA:RNFD::rVry::
+]\\K;::a=yA:BGccFcCGccF]TN@?:HAxI:::::::::::::::::::::::::::::::::::::
+J:B:Zymy;Z:J::Ssyyqy=:?R:=:yay=:;R:=R:=Z:REyyyxY:<Z::xIyA:<j:<Z:FZ;>:U
+;yI:;J::yay=:;Z:j:<:ry;Z::xIyA:<:;R:>Z:f?vy:R:=:;jysy:J:>Z:j:<ZgZyA:=R
+:>Z:ryvY:B:<J:F:v_yuy<:;:vYxI:>:<:=B:jy?:<j:B:;ryvY:B:=:=:Y[yE:;j:@:<j
+ysy:J:@:@:xIyQ:<:B:;ryvY:B:>Z;R:vYxi:J::yay=:;Z::xIyQ:B:Zymy;Z:j:>Z;:x
+i:Z:B:;jysy:J:B:=j:>Zymy?:<:ryvY:B:FZ;:ry<:;:vYxI:>:<j:F:;:yQ:B:Zymy;Z
+:J::yayE:>:jysy:J:B:Zymy?:<:ryvY:B:>:jysy<Z;>:;B:vYxI:>:;B:Zymy?:=:;Zy
+my;Z:B:;:vYxi:J::yay=:;Z::xIyQ:B:Zymy;JEJ::yayE:>:jQry:R:B:Zymy?:<j:@J
+:FZVZy=J:B::yayE:>Z;F:=R:Eryyqy;n<>:ZymyG:<J:@J:N:Usyyqy;<:;:jysyd<<:Z
+<N]cN_Zv;>::ryvYD:<:j:@J:<J:<:@J:B::yayM?<:;:j:J:::ryvY>:=:;:@:<:V:>:j
+ysyR:=R:B:::=ry>Z::xIyA@Z:J:Z;>:<j:@jyyi:J::yay=Lj:<:;:ZCvyyuy;Z::xIyA
+bE=:;j:>Z;b:yyyxi:J::yay=J<FZ;Z;V\\yyYyA:J:B:::::::::FZ:nyyYZD>:yayAbs
+^lKZK:jLj^ppjXpltPJLpl<l``pkDqqHqqTPt<Lb\\pqLqq<l\\LpnLqqDQJHMQ<]HJ:pn
+c<Onx@EDSM=;B=>::n_mBwmcf]]:>:::j:vc:^GEM:>:::::::::J?N:yyyxI:;Z::::::
+JVJD<:;:?B:YD:JbNHEms>@[;;B:::::::JFNZ:vYxI:;Z::::::J@JvH;<:::::::::::
+:vYxI:;Z::::::::::::::::::::yay=J:B::::::::F:;b:<Z::::::::::jysyAJ:^Z:
+j:B:yayQ:>:VT;j=X:[t><J:<:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::vYxy;J<j:jysy?:;:a@I:j:F;HJNa:=JsX:;B:MB:<JMTjA
+<J>ve@gcLGcNwe]V:<JIf:;B:Qb:B:E:Sb:ALLfZ<jus:;R:CB;CB:CC;YB:Cs=YB:YC;Y
+B:Ys=YB:^^:v?CC:YkQ<J\\xJL<J\\LLL<J\\xlQ<J\\LnQ<JgxlQ<Jg^b:Ne>w_:BKCD:
+odPCD:oLg<JldO\\<JldOg<Z^OECMl<JwLPl<Zt_f:NIoE:oE[oE:CfXoE:CF[oE:^j:^j
+T`j:^JoF:of`CF:of`oF:xTG=JGwo:voTPm:voiPm:vOYG:duQ=JWeuQ=:oG:owmoG:ooa
+=JWewawsIys:vsTys:ruoH:oxuoH:vw:Nutyw:vwI^Z:vwI^b:vw^v;YICCkqyLL<jqMnA
+<Z>_^:jQ<jq_b:vwTw_:vwTOe:vwT_f:vw^Oe:vw^_f:vwt_b:vWoE:YI[oE:YQ<=jqMRG
+=jqeS<=jqeSGwwiPMYqQwwtxONq:vwIQq:vWYpqyXgwwiyw:vwtyw:Jw=JwMJ<<JwMLL<J
+ww_:Nyiv[:NYCC:oyEYKwMnA<Jw_^:BKCLweOL<Jww_:NyT_b:NYoD:oISYC:LPw<JweQ
+\\<ZtOe:JwNy>`b:B[oD:^f:NYo=CF:dSw<ZTPMoyeoE:oQ<=JwyTGOYYOweUw<Zt`j:Ny
+tPm:jQsmYG:NQoymYPwewQ=:oG:oipY@oH:oyuYH:xXgOytQy:>Z:>::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:jyC:CB:;JTD:AJ:f@C:IR:AJsX:At=;K`K\\<jL>:;J\\:;JN>:E;CL:F:KJ:>:;g<<J
+\\K\\K:@Z:>Z:J<LJ<<jALJL<jAxJLv[>v_:v[Iv_:^>YC:LlQv_^JLxJ\\^^^^b:v_i^b
+:v_>_BxLg<J\\xLg<jQLNg<J\\LNg<ZTOEodP<J\\^f:NECE:LPl^f^;oE:CeXoMwdALBo
+eXCF:oE[CN<MBdS<OmT`j:^JoNGeSGseonQOMof`YG:oveYoQytQchvOoOWeExVWwsIQQd
+WWwsIySYhpYPgyxaOUopqOUdYg=J<xjq=J\\xjqw[^vw:^^^vw:rEYI:Lnq=Z>ww:v_>wW
+CDKYqQdoqOeTww:^fTwWoDSYI:CESYI:CdXYI:oeXYI:Lrq=J<Mrq=JGMrq_jTxw:NmTxw
+:reYqQytq=Ztxw:Nqtxw:rmYqayvq=JgwWYyuYatyWoixYQ<LJw=JLLLw=jQLLw=jAxLw=
+JLxLw=jQxLww[>OYCCKoQ\\LNw_^TOy:v_TOYCdPoQgNy:v_^OYoESoQ\\dQw=JgdQw=Jw
+dQw_b>Py:Ne>Py:^f>PYoE[oQ<OYoe`oI:of`oQwxTw=J<yTw=JGyTwwOoI:oehoI:Cfho
+QGeUwwotPy:rmoI:oOwwSoqQeWw=JWeWwwsTQYohpoqayXw=JgyXwOYoI:;B:;::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::vyyE:yyyxIZ>Z:ZMryxI:Z:>:ryZh:;j:@J:b:ry<:;:vy:>:xiy=CJ:B::F[
+ymy=:;:vy:ZyuyR:>:;:@J:B:=R:ya:J::yI:ryxI=j:<:;::R:yA;:vy:Zyuy>:=B:>:R
+:B:j;J::yI:<ZyuydZ:B::@:<:::yI:ryxi<J:<:j:@J:B:R:;Z::vy:ZyuyOK:>::?b@M
+KJZ:::yI:ryxy:<:;R:NZ;jywYZ:J::vy:Zyuy;Z:FZ;R:PZyuy:T;<:jy=:xiyA:<j:>Z
+:FZVZy=J:B::yI:ryxY:B:Zijy;j:B:;:vy:Zyuy;Z::xIyA:g:;:vy:Zyuy;Z::xIyA:<
+:;:vy:Zyuy;j:<:;Zymy;Z:B:;:vy:Zyuy;j:J:ryvY:B:<J::yI:ryxY:B:Zymy;Z:J::
+yI:ryxY:B:Zymy;Z:J::yI:ryxY:B:Zymy;Z:J::yI:ryxY:B:Zymy;Z:J:@j:@:yI:vyy
+uy;Z::xIyA:<:=J:@J:B:vyyuy;Z;>:;B:xIyA:<:;R:@Z:vy:jyyiyA:<:ryvY:B:FZ;:
+<:yyyxY:B:Zymy;Z:J::yI:ryxY:R:>Z:>Zymy;Z:J:@Z;jy=:yyyxY:R:<Z:>Zymy;Z:F
+:F:vy:jyyiyAZ:B:=B:<J:xIyA:<j:j:jQ<J:vYxY:<Z::xIyA:<:;Z;jQjysy;j:@:;B:
+xIyA:<Z:>:=:Y;yayA:=:;B:xIyA:<Z:>:@J:f_:jysy;Z::xIyA:<:;R:>Z:f?vYxY:B:
+Zymy;Z:J:R:f?vYxY:B:Zymy;Z:F:<j:@:U;yayAZ:b:@:;ryvY:B:=R:=R:>:U;ry;B:<
+:ryvY:B:>:JP<:yay=::::Z::xI:::::<:ry:::::B:Zy=::::Z::xI:::::<:ry:::::B
+:Zy=^`nBGL]Kkb:jsvYya::xIjb@_K;::a=ya::xIjbRN::jsjyC:Zy=FD@?::D=yqyC:Z
+y=::::Z::xI:::::<:ryJ^jyyyyKvZyuyvaKKkjy=:ryRNFdnjyyitZKGGvY]\\Ksyvy::
+xI]\\KKTjyA?]\\DwyyyyyID@?ya::xI]\\K[NwYM=]<yAFDry<:ryFD@?vYo;]<a]KkbJ
+Sxyy=:ryFD@?vYw;]<a=FDry<:ryFD@?h?jbjywynFD@?c\\::xI]\\K[ymyA?]\\njyyy
+bRNvY<:ryN@FDC=yYNFDxIyqbRNP`yE:Zy=TAyqy[p;yA:B:Zy=::::Z::xI::l?vyy=:<
+:ry::veKkysy:Z::xI::]\\KwYxI:B:Zy=:jbRNyay=:<:ry::FD@oysy:Z::xI::@?ry:
+Z::xI:::::<:ry:::::B:Zy=::::Z:J<>:IS:yyyA:;::::::::::::::::::::::::::K
+mhJ:::::::::::::::::::::::::<I;:::::3:" }}{PARA 18 "" 0 "" {TEXT 262 
+21 "Bases de Matem\341ticas " }}{PARA 257 "" 0 "" {TEXT 356 10 "Pr\341
+ctica 2" }}{PARA 258 "" 0 "" {TEXT 268 1 " " }{TEXT 269 18 "N\372meros
+ Complejos " }{TEXT -1 0 "" }}{PARA 19 "" 0 "" {TEXT -1 41 "Por: R. Cr
+iado, A. Gallinari y E. Schiavi" }}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 
+22 "Objetivos de la sesi\363n" }}{PARA 15 "" 0 "" {TEXT -1 82 "Utiliza
+r los comandos que Maple lleva incorporados para manejar n\372meros co
+mplejos." }}{PARA 15 "" 0 "" {TEXT -1 193 "Recordar algunos de los rec
+ursos de programaci\363n con los que el alumno ya ha tenido contacto (
+tanto en la primera pr\341ctica de esta asignatura como en la correspo
+ndiente de Matem\341tica Discreta)." }}{PARA 15 "" 0 "" {TEXT -1 146 "
+Repasar el concepto de n\372mero complejo, sus distintas representacio
+nes y la descripci\363n de sus operaciones en cada  una de estas repre
+sentaciones." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona re
+turn cuando termines de leer." }}}}{SECT 1 {PARA 4 "" 0 "" {TEXT 354 
+65 "Comandos de Maple necesarios para la realizaci\363n de esta pr\341
+ctica" }}{PARA 0 "" 0 "" {TEXT -1 269 "En esta primera parte de la pr
+\341ctica se describen a trav\351s de ejemplos algunos comandos para m
+anejar los n\372meros complejos empleando Maple. As\355 pues el alumno
+ deber\341 ejecutar  dichos ejemplos y teclear\341 otros que le permit
+an comprender la aplicaci\363n de dichos comandos." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 121 "Los si
+guientes son algunos comandos disponibles en Maple que pueden ser nece
+sarios para la realizaci\363n de esta pr\341ctica :" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 258 9 "   abs(z)" }{TEXT -1 42 "    Halla el m
+\363dulo del n\372mero complejo z." }}{PARA 0 "" 0 "" {TEXT -1 2 "  " 
+}{TEXT 256 12 " argument(z)" }{TEXT -1 30 "    Calcula el argumento de
+ z." }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }{TEXT 259 5 "Re(z)" }{TEXT 
+270 4 "    " }{TEXT -1 28 "Calcula la parte real de z. " }}{PARA 0 "" 
+0 "" {TEXT -1 3 "   " }{TEXT 257 5 "Im(z)" }{TEXT 271 2 "  " }{TEXT 
+-1 35 "   Halla la parte Imaginaria de z. " }}{PARA 0 "" 0 "" {TEXT 
+-1 3 "   " }{TEXT 260 12 "conjugate(z)" }{TEXT -1 46 "   Obtiene el n
+\372mero complejo conjugado de z. " }}{PARA 0 "" 0 "" {TEXT -1 3 "   \+
+" }{TEXT 261 16 "convert(z,polar)" }{TEXT -1 62 "   Obtiene la expresi
+\363n del n\372mero complejo en su forma polar." }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "   " }{TEXT 274 9 "assume( )" }{TEXT -1 48 "  Permite impo
+ner restricciones a las variables." }}{PARA 0 "" 0 "" {TEXT -1 3 "   \+
+" }{TEXT 284 17 "evalc(expresion) " }{TEXT -1 85 "  Simplifica la expr
+esi\363n compleja al m\341ximo y suele dar la salida en forma bin\363m
+ica." }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }{TEXT 345 24 "combine(expres
+ion,trig) " }{TEXT -1 71 "Simplifica la expresi\363n compleja aplicand
+o identidades trigonom\351tricas." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}{PARA 
+0 "" 0 "" {TEXT -1 40 "Descripci\363n de los comandos mencionados:" }}
+{PARA 0 "" 0 "" {TEXT -1 55 "Maple permite trabajar con n\372meros com
+plejos. La letra " }{TEXT 294 1 "I" }{TEXT -1 68 " representa la unida
+d imaginaria (es decir, la ra\355z cuadrada de -1)." }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{PARA 0 "" 0 "" {TEXT -1 27 "Da
+do el n\372mero complejo en " }{TEXT 298 14 "forma bin\363mica" }
+{TEXT -1 2 "  " }{XPPEDIT 18 0 "z = a+bi;" "6#/%\"zG,&%\"aG\"\"\"%#biG
+F'" }{TEXT -1 40 ", su expresi\363n en Maple es la siguiente:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "z:=a+b*I;" }}}{PARA 0 "" 0 "
+" {TEXT -1 11 "El comando " }{TEXT 295 5 "Im( )" }{TEXT -1 62 " nos pe
+rmite hallar la parte imaginaria de n\372meros complejos. " }}{PARA 0 
+"" 0 "" {TEXT -1 12 "Por ejemplo:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "z:=3-2*I;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 
+"Im(z);" }}}{PARA 0 "" 0 "" {TEXT -1 121 "Este comando halla la parte \+
+imaginaria del n\372mero complejo dado, aunque el n\372mero complejo n
+o aparezca en forma bin\363mica:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 25 "z:=sqrt(((3+2*I)/5-2*I));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "Im(z);" }}}{PARA 0 "" 0 "" {TEXT -1 11 "El comando " }
+{TEXT 296 5 "Re( )" }{TEXT -1 23 " obtiene la parte real:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "Re(z);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "Re((2+2*I)/(3-2*I));" }}}{PARA 0 "" 0 "" {TEXT -1 11 
+"El comando " }{TEXT 272 6 "assume" }{TEXT 297 1 " " }{TEXT -1 91 "sir
+ve para imponer restricciones a las variables. Por ejemplo, si  dado e
+l n\372mero complejo " }{TEXT 300 6 "z=a+bi" }{TEXT -1 96 ",  queremos
+ hallar su parte real o imaginaria, utilizando ese comando podemos ind
+icar que tanto " }{TEXT 299 1 "a" }{TEXT -1 6 " como " }{TEXT 273 1 "b
+" }{TEXT -1 20 " son n\372meros reales:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "assume(a,real):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 
+"assume(b,real):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "z:=a+b*I;" }}}
+{PARA 0 "" 0 "" {TEXT -1 79 "Este comando tambi\351n sirve para impone
+r otro tipo de restricciones. Por ejemplo" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "assume(a>0);" }}}{PARA 0 "" 0 "" {TEXT -1 52 "introdu
+ce al s\355mbolo \"a\" como una variable positiva." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "Dado el n\372mero complej
+o" }{TEXT 275 1 " " }{TEXT 301 8 "z = a+bi" }{TEXT -1 13 ", el comando
+ " }{TEXT 256 13 "conjugate(z) " }{TEXT 276 12 "devuelve el " }{TEXT 
+303 26 "n\372mero complejo conjugado " }{TEXT 304 2 "de" }{TEXT 277 1 
+" " }{TEXT 278 2 "z," }{TEXT 302 1 " " }{TEXT 279 11 "es decir,  " }
+{TEXT 280 6 "a - bi" }{TEXT 348 2 " :" }{TEXT 347 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 9 "z:=2-7*I;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "conjugate(z);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "conjugate(3+5*I);" }}}{PARA 0 "" 0 "" {TEXT -1 11 "El comando \+
+" }{TEXT 281 6 "abs(z)" }{TEXT -1 13 " devuelve el " }{TEXT 305 6 "m
+\363dulo" }{TEXT -1 4 " de " }{TEXT 282 1 "z" }{TEXT -1 12 ", es decir
+, " }{TEXT 306 0 "" }{XPPEDIT 18 0 "sqrt(a^2+b^2);" "6#-%%sqrtG6#,&*$%
+\"aG\"\"#\"\"\"*$%\"bG\"\"#F*" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 7 "abs(z);" }}}{PARA 0 "" 0 "" {TEXT -1 112 "De paso
+ recordemos que el producto de un complejo por su conjugado es el m
+\363dulo del n\372mero complejo al cuadrado:" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 18 "x:=z*conjugate(z);" }}}{PARA 0 "" 0 "" {TEXT -1 
+12 "\nEl comando " }{TEXT 283 12 "argument(z) " }{TEXT -1 44 "devuelve
+ el argumento de un n\372mero complejo " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "argument(I);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "argument(1+I);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "eva
+lf(argument(3+2*I));" }}}{PARA 0 "" 0 "" {TEXT -1 11 "El comando " }
+{TEXT 285 18 "convert(z,polar)  " }{TEXT -1 66 "nos permite obtener la
+ representaci\363n polar de un n\372mero complejo:" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "convert(1+I,polar);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 27 "Por otra parte, el comando " }{TEXT 286 5 "evalc" }{TEXT 
+-1 86 " simplifica una expresi\363n compleja al m\341ximo y suele dar \+
+la salida en forma bin\363mica.." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 31 "evalc(sqrt(((1+2*I)/(1-2*I))));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}}{SECT 
+1 {PARA 3 "" 0 "" {TEXT -1 17 "N\372meros Complejos" }{TEXT 311 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 197 "En matem\341ticas es preciso introducir
+ los n\372meros complejos debido a que el cuadrado de cualquier n\372m
+ero real es siempre un n\372mero positivo, por lo que ecuaciones cuadr
+\341ticas elementales tales como " }{XPPEDIT 18 0 "x^2 = -1;" "6#/*$%
+\"xG\"\"#,$\"\"\"!\"\"" }{TEXT -1 133 " no tienen soluci\363n en el co
+ntexto de los n\372meros reales. Los n\372meros complejos nos permiten
+ obtener soluciones de estas ecuaciones. " }}{PARA 0 "" 0 "" {TEXT -1 
+12 "El conjunto " }{XPPEDIT 18 0 "R^2;" "6#*$%\"RG\"\"#" }{TEXT -1 93 
+" = RxR =\{(a,b): a y b son n\372meros reales\} con las siguientes ope
+raciones de suma y producto: " }}{PARA 19 "" 0 "" {TEXT -1 71 "(a,b) +
+ (c,d) = (a+c, b+d)              (a,b) (c,d) = (ac-bd, ad+bc) , " }}
+{PARA 0 "" 0 "" {TEXT -1 67 "(donde a,b,c y d son n\372meros reales), \+
+tiene estructura de  cuerpo, " }{TEXT 312 36 "el cuerpo C de los n\372
+meros complejos" }{TEXT 313 2 ". " }{TEXT 314 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 9 "Se llama " }{TEXT 256 17 "unidad imaginaria" }{TEXT -1 20 
+" al n\372mero complejo " }{TEXT 315 7 "i=(0,1)" }{TEXT -1 29 ", que s
+atisface la relaci\363n  " }{XPPEDIT 18 0 "i^2 = (-1, 0);" "6#/*$%\"iG
+\"\"#6$,$\"\"\"!\"\"\"\"!" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" {TEXT 
+-1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 12 "(0,0) es el " }{TEXT 320 29 "e
+lemento neutro de la adici\363n" }{TEXT -1 5 ", el " }{TEXT 321 7 "opu
+esto" }{TEXT -1 34 " de (a,b) es (-a,-b). (1,0) es el " }{TEXT 349 37 
+"elemento neutro de la multiplicaci\363n " }{TEXT -1 37 " y, si (a,b) \+
+no es igual a (0,0), el " }{TEXT 322 7 "inverso" }{TEXT -1 16 " de (a,
+b) es  ( " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 2 "/(" }{XPPEDIT 
+18 0 "a^2+b^2;" "6#,&*$%\"aG\"\"#\"\"\"*$%\"bG\"\"#F'" }{TEXT -1 4 "),
+ -" }{XPPEDIT 18 0 "b;" "6#%\"bG" }{TEXT -1 2 "/(" }{XPPEDIT 18 0 "a^2
++b^2;" "6#,&*$%\"aG\"\"#\"\"\"*$%\"bG\"\"#F'" }{TEXT -1 3 "))." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 111 "El conju
+nto R de los n\372meros reales se identifica con el subconjunto Rx\{0
+\}= \{(a,0): a es un n\372mero real\} de C. " }}{PARA 0 "" 0 "" {TEXT 
+-1 31 "Entonces podemos escribir que  " }{XPPEDIT 18 0 "i^2 = -1.;" "6
+#/*$%\"iG\"\"#,$$\"\"\"\"\"!!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "Todo " }{TEXT 308 15 "n
+\372mero complejo" }{TEXT -1 1 " " }{TEXT 309 1 "z" }{TEXT -1 1 "=" }
+{TEXT 310 5 "(a,b)" }{TEXT -1 52 "  puede expresarse, tambi\351n, en l
+a que se llama su  " }{TEXT 316 15 "forma  bin\363mica" }{TEXT -1 8 ",
+ que es" }{TEXT 317 7 " z=a+bi" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" 
+{TEXT -1 18 "El n\372mero a es su " }{TEXT 318 10 "parte real" }{TEXT 
+-1 32 ",  a=Re(z), y el n\372mero b es su " }{TEXT 319 16 "parte imagi
+naria" }{TEXT -1 10 ", b=Im(z)." }}{PARA 0 "" 0 "" {TEXT -1 4 "    " }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "z:=evalc(sqrt((5-2*I)/(2-3*
+I)));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "Re(z);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "Im(z);" }}}{PARA 0 "" 0 "" {TEXT -1 
+12 "La ecuaci\363n " }{XPPEDIT 18 0 "x^2+1 = 0;" "6#/,&*$%\"xG\"\"#\"
+\"\"\"\"\"F(\"\"!" }{TEXT -1 69 ", que no tiene soluciones reales, s
+\355 que tiene soluciones complejas: " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 
+"solve(x^2+1=0);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 323 55 "Los n\372meros complejos se pueden representar en un pla
+no" }{TEXT -1 137 ", en el que el eje de abcisas es el eje real, y el \+
+eje de ordenadas el imaginario. Veamos cu\341l es la representaci\363n
+ del n\372mero complejo  " }{TEXT 287 4 "1+i " }{TEXT -1 8 "y de su " 
+}{TEXT 307 10 "conjugado " }{TEXT -1 95 "(el complejo que tiene la mis
+ma parte real y la parte imaginaria opuesta al dado, en este caso " }
+{TEXT 288 3 "1-i" }{TEXT -1 2 "):" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "l :=[[Re(1+I),Im(1+I)],[Re(1-I),Im(1-I)]];" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "plot(l,style=point,symbol=ci
+rcle);" }}}{PARA 0 "" 0 "" {TEXT -1 123 "Como puede verse, el conjugad
+o de z es el punto sim\351trico de z respecto del eje real (el eje de \+
+abcisas o eje horizontal). " }}{PARA 0 "" 0 "" {TEXT -1 39 "Al conjuga
+do de z se le representa por " }{XPPEDIT 18 0 "conjugate(z);" "6#-%*co
+njugateG6#%\"zG" }{TEXT -1 13 " . As\355 pues, " }{XPPEDIT 18 0 "conju
+gate(1+i) = 1-i;" "6#/-%*conjugateG6#,&\"\"\"\"\"\"%\"iGF),&\"\"\"F)F*
+!\"\"" }{TEXT -1 5 " .   " }}{PARA 0 "" 0 "" {TEXT -1 74 "Los n\372mer
+os complejos se multiplican de la forma habitual, recordando que " }
+{XPPEDIT 18 0 "I^2 = -1;" "6#/*$%\"IG\"\"#,$\"\"\"!\"\"" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "z:=( 2+2*I )*( 3-2*I );" }}}{PARA 
+0 "" 0 "" {TEXT -1 132 "Obviamente, el resto de las operaciones elemen
+tales (suma, resta, divisi\363n) se pueden efectuar directamente, teni
+\351ndose por ejemplo:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "( \+
+2+3*I )+( 4+5*I ), ( 2+3*I )-( 4+5*I ),  ( 2+3*I )/( 4+5*I );" }}}
+{PARA 0 "" 0 "" {TEXT -1 107 "Obs\351rvese que las operaciones anterio
+res se han podido hacer de forma consecutiva (separandolas por comas).
+" }}{PARA 0 "" 0 "" {TEXT -1 175 "El n\372mero complejo z=a+b*I se ide
+ntifica con el punto (a,b) del plano complejo. (En particular la unida
+d imaginaria I ser\341 en este caso el punto (0,1) del plano complejo)
+. El " }{TEXT 324 6 "m\363dulo" }{TEXT -1 1 " " }{TEXT 355 17 "o valor
+ absoluto " }{TEXT -1 79 "de un n\372mero complejo z=(a,b) es el valor
+ de su distancia al punto (0,0), |z| =" }{XPPEDIT 18 0 "sqrt(a^2+b^2);
+" "6#-%%sqrtG6#,&*$%\"aG\"\"#\"\"\"*$%\"bG\"\"#F*" }{TEXT -1 138 ". Po
+r eso se suele emplear una flecha que une el punto (0,0) con el punto \+
+(a,b), cuya longitud es el valor del m\363dulo del n\372mero complejo.
+" }}{PARA 0 "" 0 "" {TEXT -1 78 "Para representarlos de ese modo neces
+itamos algunos comandos que est\341n en las " }{TEXT 325 88 "librer
+\355as plots y plottools, por lo que utilizamos el comando \"with( )\"
+ para invocarlas:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "with(pl
+ots): with(plottools):" }}}{PARA 0 "" 0 "" {TEXT -1 139 "Ahora podemos
+ representar de forma gr\341fica y clara el complejo z=1+I, su conjuga
+do w=1-I, sus m\363dulos, y de paso comprobar que son iguales:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "z:= arrow ([0,0],[1,1],0.01,
+0.02,0.01) :" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "w:= arrow (
+[0,0],[1,-1],0.01,0.02,0.01) :" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 54 "display(\{z,w\},color=COLOR(HUE,0),scaling=constrained);" }}}
+{PARA 0 "" 0 "" {TEXT -1 110 "Para verificar que el m\363dulo de z=1+I
+ y de su conjugado w=1-I son iguales, se puede utilizar el comando abs
+():" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "m1:=abs(1+I);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "m2:=abs(1-I);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "is(m1=m2);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 19 "Un n\372mero complejo " }{XPPEDIT 18 0 "z;" "6#%\"zG" }
+{TEXT -1 64 " (a excepci\363n del 0) tambi\351n se puede representar p
+or su m\363dulo " }{XPPEDIT 18 0 "abs(z);" "6#-%$absG6#%\"zG" }{TEXT 
+-1 73 " y el \341ngulo que forma con el eje real, pero teniendo en cue
+nta que, si  " }{XPPEDIT 18 0 "z = a+ib;" "6#/%\"zG,&%\"aG\"\"\"%#ibGF
+'" }{TEXT -1 32 ",  hay una infinidad de valores " }{XPPEDIT 18 0 "the
+ta;" "6#%&thetaG" }{TEXT -1 26 " (\341ngulos) que satisfacen " }
+{XPPEDIT 18 0 "a = abs(z)*cos(theta);" "6#/%\"aG*&-%$absG6#%\"zG\"\"\"
+-%$cosG6#%&thetaGF*" }{TEXT -1 3 " e " }{XPPEDIT 18 0 "b = abs(z)*sen(
+theta);" "6#/%\"bG*&-%$absG6#%\"zG\"\"\"-%$senG6#%&thetaGF*" }{TEXT 
+-1 48 " , y que todos ellos difieren en un m\372ltiplo de " }{XPPEDIT 
+18 0 "2*Pi;" "6#*&\"\"#\"\"\"%#PiGF%" }{TEXT -1 41 ". Por ello se suel
+e distinguir al n\372mero " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }
+{TEXT -1 28 " que est\341 en el intervalo ( " }{XPPEDIT 18 0 "-Pi,Pi;
+" "6$,$%#PiG!\"\"F$" }{TEXT -1 67 "]   y que satisface dichas igualdad
+es. A \351se n\372mero se le denomina " }{TEXT 326 25 "argumento princ
+ipal de z." }}{PARA 0 "" 0 "" {TEXT -1 52 "Con Maple le podemos recupe
+rar empleando el comando " }{TEXT 293 11 "argument:  " }{TEXT -1 9 "  \+
+       " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 159 "z:=1+I; display(
+\{arrow ([0,0],[1,1],0.01,0.02,0.01),plots[textplot](\{[0.4,0.1,`argum
+ento principal`],[1.05,1,`1+I`]\})\},color=COLOR(HUE,0),scaling=constr
+ained);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "argument(1+I);" }}}{PARA 0 "" 0 "" {TEXT -1 119 "Pues
+to que cualquier complejo no nulo viene determinado por su m\363dulo y
+ su argumento, a dichos valores se les denomina " }{TEXT 327 19 "coord
+enadas polares" }{TEXT -1 37 " del n\372mero complejo dado, o tambi
+\351n " }{TEXT 328 12 "forma polar " }{TEXT -1 21 "del n\372mero compl
+ejo. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 329 8 "
+Ejemplo:" }{TEXT -1 100 " Expresar en forma bin\363mica y polar los si
+guientes n\372meros complejos: (1,-1), (3,-2), (1,1), (0,-4)." }}
+{PARA 0 "" 0 "" {TEXT 262 16 "Forma bin\363mica: " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 50 "restart; C1=1-I, C2=(3-2*I), C3=(1+I), C4=(0-
+4*I);" }}}{PARA 0 "" 0 "" {TEXT 263 12 "Forma polar:" }{TEXT -1 25 " p
+ara ello se llama a la " }{TEXT 257 8 "librer\355a" }{TEXT -1 7 " pola
+r " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "readlib(polar):\n" }}}
+{PARA 0 "" 0 "" {TEXT -1 24 "y se utiliza la funci\363n " }{TEXT 256 
+5 "polar" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "polar(a+b*I);" }
+}}{PARA 0 "" 0 "" {TEXT -1 88 "donde el argumento calculado por MAPLE \+
+es el argumento principal. En efecto, el comando " }{TEXT 259 24 "map(
+evalc, polar(a+bI)) " }{TEXT -1 49 " (donde map es un operador que apl
+ica el comando " }{TEXT 264 5 "evalc" }{TEXT -1 40 " de evaluaci\363n \+
+simb\363lica a la expresi\363n " }{TEXT 256 11 "polar(a+bI)" }{TEXT 
+-1 35 ") nos muestra que la forma polar es" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "map(evalc, %);" }}}{PARA 0 "" 0 "" {TEXT -1 43 "En \+
+nuestro caso concreto se tiene por tanto" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "C1:=polar(1-I);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "C2:=polar(3-2*I);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "C3:=polar(1+I);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "C4:=polar(-4*I); " }}}{PARA 0 "" 0 "" {TEXT -1 112 "O
+tra forma, alternativa, de obtener una representaci\363n polar del n
+\372mero complejo consiste en utilizar el comando" }{TEXT 258 9 " conv
+ert:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "convert(3+3*I, polar
+);" }}}{PARA 0 "" 0 "" {TEXT -1 103 "Como hemos dicho, los argumentos \+
+principales de cada n\372mero complejo se obtienen utilizando el coman
+do " }{TEXT 265 9 "argument " }{TEXT -1 18 "y vienen dados por" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "argument(C1);" }}}{PARA 0 "
+" 0 "" {TEXT -1 126 "N\363tese que si queremos saber un valor aproxima
+do de la funci\363n arcotangente en el punto -2/3 tendremos que utiliz
+ar el comando" }{TEXT 266 7 " evalf " }{TEXT -1 32 "aplicado a la expr
+esi\363n anterior" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "argumen
+t(C2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "apC2:=evalf(argum
+ent(C2));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "argument(C3);
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "apC3:=evalf(argument(C3
+));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "argument(C4);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "apC4:=evalf(argument(C4));" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 261 44 "Forma
+ trigonom\351trica de un n\372mero complejo. " }{TEXT -1 20 "Todo n
+\372mero complejo" }{TEXT 331 2 "  " }{XPPEDIT 18 0 "z;" "6#%\"zG" }
+{TEXT -1 32 "  no nulo se puede expresar en  " }{TEXT 330 21 "forma tr
+igonom\351trica:" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "z = r*(cos(theta)+
+I*sin(theta));" "6#/%\"zG*&%\"rG\"\"\",&-%$cosG6#%&thetaGF'*&%\"IGF'-%
+$sinG6#F,F'F'F'" }{TEXT -1 9 ",  donde " }{XPPEDIT 18 0 "r = abs(z);" 
+"6#/%\"rG-%$absG6#%\"zG" }{TEXT -1 5 "  y  " }{XPPEDIT 18 0 "theta;" "
+6#%&thetaG" }{TEXT -1 21 "  es el argumento de " }{XPPEDIT 18 0 "z;" "
+6#%\"zG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 84 "Para obtener l
+a forma trigonom\351trica de un n\372mero complejo, hay que usar el co
+mando " }{TEXT 332 21 "evalc(polar(r,theta))" }{TEXT -1 9 ", siendo " 
+}{TEXT 267 5 "evalc" }{TEXT -1 87 " el comando de evaluaci\363n simb
+\363lica especial para n\372meros complejos introducido antes: " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "evalc(polar(r,theta));" }}}
+{PARA 0 "" 0 "" {TEXT -1 169 "Definiendo convenientemente la funci\363
+n anterior (que proporciona la forma trigonom\351trica buscada) para o
+btener una expresi\363n m\341s clara (sacando factor com\372n r) se ti
+ene:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "E:=factor(evalc(pola
+r(r,theta)));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 335 51 "Producto y potencia entera en forma trigonom\351trica." 
+}{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "Sean   " }{XPPEDIT 18 0 "
+z1;" "6#%#z1G" }{TEXT -1 2 "= " }{XPPEDIT 18 0 "r*(cos(theta)+I*sin(th
+eta));" "6#*&%\"rG\"\"\",&-%$cosG6#%&thetaGF%*&%\"IGF%-%$sinG6#F*F%F%F
+%" }{TEXT -1 5 "  y  " }{XPPEDIT 18 0 "z2 = s*(cos(phi)+I*sin(phi));" 
+"6#/%#z2G*&%\"sG\"\"\",&-%$cosG6#%$phiGF'*&%\"IGF'-%$sinG6#F,F'F'F'" }
+{TEXT -1 48 " dos n\372meros complejos en forma trigonom\351trica. " }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "restart; readlib(polar): z1
+:= r*(cos(theta)+I*sin(theta));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 30 "z2 := s*(cos(phi)+I*sin(phi));" }}}{PARA 0 "" 0 "" {TEXT -1 3 
+"El " }{TEXT 341 10 "producto  " }{XPPEDIT 18 0 "z1*z2;" "6#*&%#z1G\"
+\"\"%#z2GF%" }{TEXT -1 24 "  es el n\372mero complejo " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "z3:=factor(evalc(z1*z2));" }}}
+{PARA 0 "" 0 "" {TEXT -1 26 "que tiene m\363dulo igual a  " }{XPPEDIT 
+18 0 "r*s;" "6#*&%\"rG\"\"\"%\"sGF%" }{TEXT -1 73 "  y  argumento igua
+l ( utilizando algunas identidades trigonom\351tricas) a " }{XPPEDIT 
+18 0 "theta+phi;" "6#,&%&thetaG\"\"\"%$phiGF%" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 342 8 "Ejemplo.
+" }{TEXT -1 102 " Podemos comprobar gr\341ficamente que el n\372mero c
+omplejo resultado de multiplicar dos n\372meros complejos " }}{PARA 0 
+"" 0 "" {TEXT -1 125 "es el que tiene como m\363dulo el producto de lo
+s m\363dulos y como argumento la suma de los argumentos de los dos com
+plejos dados." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "z1:=1+I;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "z2:=1+2*I;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "z3:=z1*
+z2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "c1:=polar(z1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "c2:=polar(z2);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "c3:=polar(z3);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 29 "with(plots): with(plottools):" }}}{PARA 0 "
+" 0 "" {TEXT -1 188 "Podemos representar los tres n\372meros de forma \+
+gr\341fica (obs\351rvese que necesitamos conocer el valor de los compl
+ejos en forma bin\363mica para poder representar las \"flechas\" corre
+spondientes):" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "z:= arrow (
+[0,0],[1,1],0.01,0.02,0.01) :" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 40 "w:= arrow ([0,0],[1,2],0.01,0.02,0.01) :" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 41 "p:= arrow ([0,0],[-1,3],0.01,0.02,0.01) :" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{MPLTEXT 1 0 56 "display(\{z,w,p
+\},color=COLOR(HUE,0),scaling=constrained);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 348 "A partir de aqu\355, est\341 claro que multiplicar por un n
+\372mero complejo cuyo m\363dulo sea igual a 1 es equivalente a \"real
+izar un giro\" en el plano en torno al origen, de \341ngulo el argumen
+to de dicho n\372mero complejo. Por ejemplo, veamos que multiplicar  u
+n n\372mero complejo por la unidad imaginaria (cuyo m\363dulo es 1) es
+ equivalente a realizar un giro de " }{XPPEDIT 18 0 "Pi/2;" "6#*&%#PiG
+\"\"\"\"\"#!\"\"" }{TEXT -1 29 "  radianes en torno al (0,0):" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "z1:=2+3*I;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 14 "z2:=(2+3*I)*I;" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 40 "z:= arrow ([0,0],[2,3],0.01,0.02,0.01) :" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "w:= arrow ([0,0],[-3,2],0.01
+,0.02,0.01) :" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 54 "display(\{z,w\},color=COLOR(HUE,0),scaling=const
+rained);" }}}{PARA 0 "" 0 "" {TEXT -1 14 "Para calcular " }{TEXT 343 
+31 "la potencia  entera de orden n " }{TEXT -1 3 "de " }{XPPEDIT 18 0 
+"z;" "6#%\"zG" }{TEXT -1 46 " , donde n es un elemento de Z, se utiliz
+a la " }{TEXT 344 21 "f\363rmula de de Moivre:" }}{PARA 0 "" 0 "" 
+{TEXT -1 61 "                                                         \+
+    " }{XPPEDIT 18 0 "z^n = r^n*(cos(n*theta)+I*sin(n*theta))" "6#/)%
+\"zG%\"nG*&)%\"rGF&\"\"\",&-%$cosG6#*&F&F*%&thetaGF*F**&%\"IGF*-%$sinG
+6#*&F&F*F0F*F*F*F*" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "Si n >0, esta f\363rmula se obtiene simpl
+emente multiplicando " }{XPPEDIT 18 0 "z;" "6#%\"zG" }{TEXT -1 32 " po
+r s\355 mismo n veces, si n=0,  " }{XPPEDIT 18 0 "z^n = 1;" "6#/)%\"zG
+%\"nG\"\"\"" }{TEXT -1 50 "  y si n<0 es una consecuencia de  la ident
+idad   " }{XPPEDIT 18 0 "z^(-1) = conjugate(z)/(abs(z)^2);" "6#/)%\"zG
+,$\"\"\"!\"\"*&-%*conjugateG6#F%\"\"\"*$-%$absG6#F%\"\"#F(" }{TEXT -1 
+4 " .  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "restart; readlib(
+polar):conjugate(z)/abs(z)^2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 32 "simplify(conjugate(z)/abs(z)^2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "z:=r*(cos(theta)+I*sin(theta));" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 31 "z^(-1)=simplify(evalc(z^(-1)));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "z^2=factor(combine(z^(2),trig));" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "z^(-2)=simplify(evalc(fact
+or(combine(z^(-2),trig))));" }}}{PARA 0 "" 0 "" {TEXT 346 8 "Ejemplo.
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "z:= 3*(cos(Pi/3)+I*sin(P
+i/3));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "evalc(z^(3));" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalc(z^(-3));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return cuando termines de
+ leer." }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 336 
+41 "Forma exponencial de un n\372mero complejo. " }{TEXT -1 80 "Otra f
+orma de representar los n\372meros complejos es a partir de la definic
+i\363n de " }{TEXT 337 33 "exponencial de un n\372mero complejo" }
+{TEXT -1 2 "  " }{XPPEDIT 18 0 "z = a+bi;" "6#/%\"zG,&%\"aG\"\"\"%#biG
+F'" }{TEXT -1 1 ":" }}{PARA 259 "" 0 "" {TEXT -1 9 "exp(z) = " }
+{XPPEDIT 18 0 "exp(a+I*b);" "6#-%$expG6#,&%\"aG\"\"\"*&%\"IGF(%\"bGF(F
+(" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "exp(a)*(cos(b)+i*sen(b));" "6#*&-
+%$expG6#%\"aG\"\"\",&-%$cosG6#%\"bGF(*&%\"iGF(-%$senG6#F-F(F(F(" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "restart;z:=a
++b*I;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "exp(z);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "factor(evalc(exp(z)));" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "Si " }{XPPEDIT 18 
+0 "a = 0;" "6#/%\"aG\"\"!" }{TEXT -1 13 ", entonces   " }{XPPEDIT 18 
+0 "z = b*I;" "6#/%\"zG*&%\"bG\"\"\"%\"IGF'" }{TEXT -1 30 "   y se obti
+ene la identidad  " }{XPPEDIT 18 0 "exp(I*b);" "6#-%$expG6#*&%\"IG\"\"
+\"%\"bGF(" }{TEXT -1 2 "= " }{XPPEDIT 18 0 "cos(b)+I*sin(b);" "6#,&-%$
+cosG6#%\"bG\"\"\"*&%\"IGF(-%$sinG6#F'F(F(" }{TEXT -1 2 ". " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "exp(I*b)=factor(evalc(exp(I*b)));" 
+}}}{PARA 0 "" 0 "" {TEXT -1 12 "Por ejemplo," }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 18 "z1:=exp((Pi/2)*I);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "z2:=exp((Pi/4)*I);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 14 "Entonces, si  " }{XPPEDIT 18 0 "z = r*(
+cos(theta)+I*sin(theta));" "6#/%\"zG*&%\"rG\"\"\",&-%$cosG6#%&thetaGF'
+*&%\"IGF'-%$sinG6#F,F'F'F'" }{TEXT -1 48 " es la forma trigonom\351tri
+ca del n\372mero complejo " }{XPPEDIT 18 0 "z;" "6#%\"zG" }{TEXT -1 5 
+", su " }{TEXT 340 17 "forma exponencial" }{TEXT -1 19 " ser\341 igual
+ a      " }}{PARA 260 "" 0 "" {TEXT 338 3 "z =" }{TEXT -1 4 "    " }
+{XPPEDIT 18 0 "r*exp(I*theta);" "6#*&%\"rG\"\"\"-%$expG6#*&%\"IGF%%&th
+etaGF%F%" }{TEXT -1 5 " =   " }{XPPEDIT 18 0 "r*(cos(theta)+I*sin(thet
+a));" "6#*&%\"rG\"\"\",&-%$cosG6#%&thetaGF%*&%\"IGF%-%$sinG6#F*F%F%F%
+" }{TEXT -1 3 ",  " }}{PARA 0 "" 0 "" {TEXT -1 5 "donde" }{TEXT 339 4 
+" r =" }{XPPEDIT 18 0 "abs(z);" "6#-%$absG6#%\"zG" }{TEXT -1 16 " es s
+u m\363dulo y " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 14 " su
+ argumento:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "z:=3-5*I;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "r:=abs(z);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 19 "theta:=argument(z);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 28 "r*(cos(theta)+I*sin(theta));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "simplify(r*(cos(theta)+I*sin(theta)
+));" }}}{PARA 0 "" 0 "" {TEXT -1 111 "El producto y las potencias ente
+ras de n\372meros complejos en forma exponencial tienen expresiones mu
+y sencillas:" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 27 "restart;z1:=r*exp(I*theta);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 17 "z2:=s*exp(I*phi);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 16 "simplify(z1*z2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "expand(simplify(z1^(n))); " }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 17 "simplify(z1^(4));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "simplify(z1^(-4));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 37 " Vamos ahora a ver c\363mo se resuelven
+ " }{TEXT 334 22 "ecuaciones polin\363micas" }{TEXT -1 138 " en el pla
+no complejo. Para ello en primer lugar vamos a hallar y representar gr
+\341ficamente todas las ra\355ces (soluciones) de la ecuaci\363n   " }
+{XPPEDIT 18 0 "z^4-16 = 0;" "6#/,&*$%\"zG\"\"%\"\"\"\"#;!\"\"\"\"!" }
+{TEXT -1 3 "  :" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "r:=solve(z^4 -16=0, z);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 124 "Podemos visualizar gr\341ficamente la
+s 4 ra\355ces encontradas. Para ello necesitamos nuevamente algunos co
+mandos que est\341n en la " }{TEXT 258 14 "librer\355a plots" }{TEXT 
+290 36 ", por lo que utilizamos el comando \"" }{TEXT 291 7 "with( )" 
+}{TEXT 292 16 "\" para llamarla:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 29 "with(plots): with(plottools):" }}}{PARA 0 "" 0 "" {TEXT -1 
+140 "y a continuaci\363n escribimos las cuatro ra\355ces obtenidas por
+ medio de su representaci\363n en el plano complejo como 4  pares de n
+\372meros reales:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 96 "for i f
+rom 1 by 1 to 4 do raiz[i]:=disk([Re(r[i]),Im(r[i])], 0.06, color=blac
+k, filled=true) od:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "disp
+lay(\{seq(raiz[i],i=1..4)\},scaling=constrained);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 100 "N\363tese como las ra\355ces est\341n todas en el c\355r
+culo centrado en el origen y de radio el (mismo) m\363dulo." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "C:=disk([0,0],2,color=grey):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "display(\{seq(raiz[i],i=1..4
+),C\},scaling=constrained);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 83 "Otra forma alternativa de visualizar las ra\355
+ces es la que hemos visto al principio:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 87 "plot([seq([Re(r[i]),Im(r[i])],i=1..4)],style=point, s
+ymbol=circle,scaling=constrained);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "#presiona return cuando termines de leer." }}}{PARA 
+0 "" 0 "" {TEXT -1 141 "El ejemplo anterior sirve para introducir el c
+oncepto de ra\355z de un n\372mero complejo. Dado un n\372mero complej
+o no nulo z, existen exactamente  " }{TEXT 353 1 "n" }{TEXT -1 20 " n
+\372meros complejos  " }{XPPEDIT 18 0 "z[1];" "6#&%\"zG6#\"\"\"" }
+{TEXT -1 5 ",...," }{XPPEDIT 18 0 "z[n];" "6#&%\"zG6#%\"nG" }{TEXT -1 
+118 "  tales que la potencia n-\351sima de cada uno de ellos nos da co
+mo resultado el n\372mero complejo z, es decir la ecuaci\363n " }
+{TEXT 350 5 "x^n=z" }{TEXT -1 7 " tiene " }{TEXT 351 2 "n " }{TEXT -1 
+65 "soluciones distintas. A dichos n\372meros complejos se les denomin
+a " }{TEXT 333 20 "ra\355ces n-\351simas de z" }{TEXT -1 77 ". Todos e
+llos tienen como  m\363dulo la ra\355z n-\351sima del m\363dulo de z  \+
+y, siendo " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 57 " el arg
+umento de z, sus argumentos satisfacen la relaci\363n" }}{PARA 261 "" 
+0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "theta[k];" "6#&%&thetaG6#%\"kG" }
+{TEXT -1 2 "= " }{XPPEDIT 18 0 "theta/n+2*k*Pi/n;" "6#,&*&%&thetaG\"\"
+\"%\"nG!\"\"F&**\"\"#F&%\"kGF&%#PiGF&F'F(F&" }{TEXT -1 19 "    (k=0,..
+.,n-1), " }}{PARA 0 "" 0 "" {TEXT -1 69 "por lo que las flechas que la
+s representan dividen el disco de radio " }{XPPEDIT 18 0 "R = abs(z)^(
+1/n);" "6#/%\"RG)-%$absG6#%\"zG*&\"\"\"\"\"\"%\"nG!\"\"" }{TEXT -1 31 
+"    con centro en el origen en " }{TEXT 352 2 "n " }{TEXT -1 37 "sect
+ores iguales . Veamos un ejemplo:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 
+"with(plots): with(plottools):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 7 "w:=1+I;" }}}{PARA 0 "" 0 "" {TEXT -1 101 "Calculemos el radio d
+e la circunferencia en la que est\341n las ra\355ces (la ra\355z c\372
+bica del m\363dulo de w):" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 
+"a:=abs(w);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "b:=surd(abs(
+w),3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "r:=solve(z^3-w=0,
+z);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 96 "for i from 1 by 1 to
+ 3 do raiz[i]:=disk([Re(r[i]),Im(r[i])], 0.02, color=black, filled=tru
+e) od:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "C:=disk([0,0],b,c
+olor=grey):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "display(\{se
+q(raiz[i],i=1..3),C\},scaling=constrained);" }}}{PARA 4 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "#presiona return c
+uando termines de leer." }}}{PARA 0 "" 0 "" {TEXT -1 273 "Finalmente s
+e\361alaremos que, al igual que un entorno abierto de un n\372mero rea
+l es un intervalo abierto que lo contiene, un entorno abierto de un n
+\372mero complejo es un c\355rculo abierto (es decir, sin la circunfer
+encia exterior) en la que dicho n\372mero complejo est\341 contenido. \+
+" }}}{SECT 1 {PARA 3 "" 0 "" {TEXT -1 34 "Ejercicios previos a la eval
+uaci\363n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT 
+-1 7 "- Sea  " }{XPPEDIT 18 0 "z = (2+3*i)/(1+i);" "6#/%\"zG*&,&\"\"#
+\"\"\"*&\"\"$F(%\"iGF(F(F(,&\"\"\"F(F+F(!\"\"" }{TEXT -1 13 ".  Calcul
+a   " }{XPPEDIT 18 0 "(3*z^2-z+5)/(z^3+2*z^2-3*z+1);" "6#*&,(*&\"\"$\"
+\"\"*$%\"zG\"\"#F'F'F)!\"\"\"\"&F'F',**$F)\"\"$F'*&\"\"#F'*$F)\"\"#F'F
+'*&\"\"$F'F)F'F+\"\"\"F'F+" }{TEXT -1 80 ".  Indica cu\341l es su part
+e real y su parte imaginaria. Determina su forma polar." }}{PARA 256 "
+" 0 "" {TEXT -1 68 "- Encuentra y representa todas las soluciones de l
+as ecuaciones     " }{XPPEDIT 18 0 "z^4 = 2+3*i;" "6#/*$%\"zG\"\"%,&\"
+\"#\"\"\"*&\"\"$F)%\"iGF)F)" }{TEXT -1 4 ",   " }{XPPEDIT 18 0 "z^6 = \+
+1;" "6#/*$%\"zG\"\"'\"\"\"" }{TEXT -1 3 ",  " }{XPPEDIT 18 0 "z^60-1+i
+;" "6#,(*$%\"zG\"#g\"\"\"\"\"\"!\"\"%\"iGF'" }{TEXT -1 5 " = 0." }}
+{PARA 256 "" 0 "" {TEXT -1 43 "- Halla las soluciones de la ecuaci\363
+n      " }{XPPEDIT 18 0 "z^3 = abs(z)^2;" "6#/*$%\"zG\"\"$*$-%$absG6#F
+%\"\"#" }{TEXT -1 4 ".   " }}{PARA 256 "" 0 "" {TEXT -1 5 "     " }}
+{EXCHG {PARA 256 "> " 0 "" {MPLTEXT 1 0 4 "#fin" }}}}{SECT 1 {PARA 3 "
+" 0 "" {TEXT -1 34 "Cuestiones sobre n\372meros complejos" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 357 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 30 "1.  La parte imaginaria de    " }
+{XPPEDIT 18 0 "sqrt(5*I-(12+sqrt(-5))/(13*I-6));" "6#-%%sqrtG6#,&*&\"
+\"&\"\"\"%\"IGF)F)*&,&\"#7F)-F$6#,$\"\"&!\"\"F)F),&*&\"#8F)F*F)F)\"\"'
+F2F2F2" }{TEXT -1 7 "   es :" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 6 "a)    " }{XPPEDIT 18 0 "1/410*sqrt(84050*sqrt((1
+097/205-13/205*sqrt(5))^2+(6/205*sqrt(5)+156/205)^2)-449770+5330*sqrt(
+5));" "6#*(\"\"\"\"\"\"\"$5%!\"\"-%%sqrtG6#,(*&\"&]S)F%-F)6#,&*$,&*&\"
+%(4\"F%\"$0#F'F%*(\"#8F%\"$0#F'-F)6#\"\"&F%F'\"\"#F%*$,&*(\"\"'F%\"$0#
+F'-F)6#\"\"&F%F%*&\"$c\"F%\"$0#F'F%\"\"#F%F%F%\"'q(\\%F'*&\"%I`F%-F)6#
+\"\"&F%F%F%" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 6 "b)    " }{XPPEDIT 18 0 "1/14*sqrt(2*sqrt(7056+(245
+-7*sqrt(5))^2)+168);" "6#*(\"\"\"\"\"\"\"#9!\"\"-%%sqrtG6#,&*&\"\"#F%-
+F)6#,&\"%cqF%*$,&\"$X#F%*&\"\"(F%-F)6#\"\"&F%F'\"\"#F%F%F%\"$o\"F%F%" 
+}{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "c)   " }{XPPEDIT 18 0 "1/410*sqrt(84050*sqrt((72/205-13/20
+5*sqrt(5))^2+(1181/205+6/205*sqrt(5))^2)-29520+5330*sqrt(5));" "6#*(\"
+\"\"\"\"\"\"$5%!\"\"-%%sqrtG6#,(*&\"&]S)F%-F)6#,&*$,&*&\"#sF%\"$0#F'F%
+*(\"#8F%\"$0#F'-F)6#\"\"&F%F'\"\"#F%*$,&*&\"%\"=\"F%\"$0#F'F%*(\"\"'F%
+\"$0#F'-F)6#\"\"&F%F%\"\"#F%F%F%\"&?&HF'*&\"%I`F%-F)6#\"\"&F%F%F%" }
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 "2. El argumento d
+e   " }{XPPEDIT 18 0 "sqrt(5*I-(12+sqrt(-5))/(13*I-6));" "6#-%%sqrtG6#
+,&*&\"\"&\"\"\"%\"IGF)F)*&,&\"#7F)-F$6#,$\"\"&!\"\"F)F),&*&\"#8F)F*F)F
+)\"\"'F2F2F2" }{TEXT -1 7 "    es:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "a)  " }{XPPEDIT 18 0 "arctan(sqrt(sqrt(245
+746-1740*sqrt(5))+24+5*sqrt(5))/(sqrt(sqrt(245746-1740*sqrt(5))-24-5*s
+qrt(5))));" "6#-%'arctanG6#*&-%%sqrtG6#,(-F(6#,&\"'YdC\"\"\"*&\"%S<F/-
+F(6#\"\"&F/!\"\"F/\"#CF/*&\"\"&F/-F(6#\"\"&F/F/F/-F(6#,(-F(6#,&\"'YdCF
+/*&\"%S<F/-F(6#\"\"&F/F5F/\"#CF5*&\"\"&F/-F(6#\"\"&F/F5F5" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 3 "b) " }{XPPEDIT 18 
+0 "arctan(sqrt(sqrt(1400970+12300*sqrt(5))-72+13*sqrt(5))/(sqrt(sqrt(1
+400970+12300*sqrt(5))+72-13*sqrt(5))));" "6#-%'arctanG6#*&-%%sqrtG6#,(
+-F(6#,&\"(q4S\"\"\"\"*&\"&+B\"F/-F(6#\"\"&F/F/F/\"#s!\"\"*&\"#8F/-F(6#
+\"\"&F/F/F/-F(6#,(-F(6#,&\"(q4S\"F/*&\"&+B\"F/-F(6#\"\"&F/F/F/\"#sF/*&
+\"#8F/-F(6#\"\"&F/F6F6" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "arctan(sqrt(sqrt
+(1400970+12300*sqrt(5))+72-13*sqrt(5))/(sqrt(sqrt(1400970+12300*sqrt(5
+))-72+13*sqrt(5))));" "6#-%'arctanG6#*&-%%sqrtG6#,(-F(6#,&\"(q4S\"\"\"
+\"*&\"&+B\"F/-F(6#\"\"&F/F/F/\"#sF/*&\"#8F/-F(6#\"\"&F/!\"\"F/-F(6#,(-
+F(6#,&\"(q4S\"F/*&\"&+B\"F/-F(6#\"\"&F/F/F/\"#sF;*&\"#8F/-F(6#\"\"&F/F
+/F;" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 17 "3. Los n
+\372meros   " }{XPPEDIT 18 0 "I^5;" "6#*$%\"IG\"\"&" }{TEXT -1 3 ",  \+
+" }{XPPEDIT 18 0 "I^13,I^249;" "6$*$%\"IG\"#8*$F$\"$\\#" }{TEXT -1 9 "
+  y  de  " }{XPPEDIT 18 0 "I^34513;" "6#*$%\"IG\"&8X$" }{TEXT -1 6 "  \+
+son:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "a
+)    Iguales a " }{XPPEDIT 18 0 "-I;" "6#,$%\"IG!\"\"" }{TEXT -1 7 " o
+ a  1" }}{PARA 0 "" 0 "" {TEXT -1 16 "b)    Iguales a " }{XPPEDIT 18 
+0 "1;" "6#\"\"\"" }{TEXT -1 5 " o a " }{XPPEDIT 18 0 "-1;" "6#,$\"\"\"
+!\"\"" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 22 "c)    Todos igua
+les a " }{XPPEDIT 18 0 "I;" "6#%\"IG" }{TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 32 "4. Se cons
+idere la ecuaci\363n     " }{XPPEDIT 18 0 "z^6-9*z^3+8 = 0;" "6#/,(*$%
+\"zG\"\"'\"\"\"*&\"\"*F(*$F&\"\"$F(!\"\"\"\")F(\"\"!" }{TEXT -1 12 ", \+
+ entonces:" }}{PARA 0 "" 0 "" {TEXT -1 27 "a)    no existen soluciones
+" }}{PARA 0 "" 0 "" {TEXT -1 6 "b)    " }{XPPEDIT 18 0 "z = 1;" "6#/%
+\"zG\"\"\"" }{TEXT -1 6 "  y   " }{XPPEDIT 18 0 "z = 2;" "6#/%\"zG\"\"
+#" }{TEXT -1 16 "  son soluciones" }}{PARA 0 "" 0 "" {TEXT -1 6 "c)   \+
+ " }{XPPEDIT 18 0 "z = -2;" "6#/%\"zG,$\"\"#!\"\"" }{TEXT -1 17 "  es \+
+una soluci\363n" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 38 " 5. Las soluciones de la ecuaci\363n     \+
+" }{XPPEDIT 18 0 "z^5 = 1;" "6#/*$%\"zG\"\"&\"\"\"" }{TEXT -1 8 "    s
+on:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "a) \+
+ " }{XPPEDIT 18 0 "-1,-1/4*sqrt(5)+1/4-1/4*I*sqrt(2)*sqrt(5+sqrt(5)),1
+/4*sqrt(5)+1/4-1/4*I*sqrt(2)*sqrt(5-sqrt(5)),1/4*sqrt(5)+1/4+1/4*I*sqr
+t(2)*sqrt(5-sqrt(5)),-1/4*sqrt(5)+1/4+1/4*I*sqrt(2)*sqrt(5+sqrt(5));" 
+"6',$\"\"\"!\"\",(*(\"\"\"\"\"\"\"\"%F%-%%sqrtG6#\"\"&F)F%*&\"\"\"F)\"
+\"%F%F)*,\"\"\"F)\"\"%F%%\"IGF)-F,6#\"\"#F)-F,6#,&\"\"&F)-F,6#\"\"&F)F
+)F%,(*(\"\"\"F)\"\"%F%-F,6#\"\"&F)F)*&\"\"\"F)\"\"%F%F)*,\"\"\"F)\"\"%
+F%F5F)-F,6#\"\"#F)-F,6#,&\"\"&F)-F,6#\"\"&F%F)F%,(*(\"\"\"F)\"\"%F%-F,
+6#\"\"&F)F)*&\"\"\"F)\"\"%F%F)*,\"\"\"F)\"\"%F%F5F)-F,6#\"\"#F)-F,6#,&
+\"\"&F)-F,6#\"\"&F%F)F),(*(\"\"\"F)\"\"%F%-F,6#\"\"&F)F%*&\"\"\"F)\"\"
+%F%F)*,\"\"\"F)\"\"%F%F5F)-F,6#\"\"#F)-F,6#,&\"\"&F)-F,6#\"\"&F)F)F)" 
+}{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "b)  " }{XPPEDIT 18 0 "1,1/4*sqrt(5)-1/4+1/4*I*sqrt(2)*sqrt
+(5+sqrt(5)),-1/4*sqrt(5)-1/4+1/4*I*sqrt(2)*sqrt(5-sqrt(5)),-1/4*sqrt(5
+)-1/4-1/4*I*sqrt(2)*sqrt(5-sqrt(5)),1/4*sqrt(5)-1/4-1/4*I*sqrt(2)*sqrt
+(5+sqrt(5));" "6'\"\"\",(*(\"\"\"\"\"\"\"\"%!\"\"-%%sqrtG6#\"\"&F'F'*&
+\"\"\"F'\"\"%F)F)*,\"\"\"F'\"\"%F)%\"IGF'-F+6#\"\"#F'-F+6#,&\"\"&F'-F+
+6#\"\"&F'F'F',(*(\"\"\"F'\"\"%F)-F+6#\"\"&F'F)*&\"\"\"F'\"\"%F)F)*,\"
+\"\"F'\"\"%F)F4F'-F+6#\"\"#F'-F+6#,&\"\"&F'-F+6#\"\"&F)F'F',(*(\"\"\"F
+'\"\"%F)-F+6#\"\"&F'F)*&\"\"\"F'\"\"%F)F)*,\"\"\"F'\"\"%F)F4F'-F+6#\"
+\"#F'-F+6#,&\"\"&F'-F+6#\"\"&F)F'F),(*(\"\"\"F'\"\"%F)-F+6#\"\"&F'F'*&
+\"\"\"F'\"\"%F)F)*,\"\"\"F'\"\"%F)F4F'-F+6#\"\"#F'-F+6#,&\"\"&F'-F+6#
+\"\"&F'F'F)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "c)  " }{XPPEDIT 18 0 "-I*(1/4*sqrt(5)-1/4+1/4*I*sqrt(2)*sqrt(5+s
+qrt(5))),-I*(-1/4*sqrt(5)-1/4+1/4*I*sqrt(2)*sqrt(5-sqrt(5))),-I*(-1/4*
+sqrt(5)-1/4-1/4*I*sqrt(2)*sqrt(5-sqrt(5))),-I*(1/4*sqrt(5)-1/4-1/4*I*s
+qrt(2)*sqrt(5+sqrt(5))),-I;" "6',$*&%\"IG\"\"\",(*(\"\"\"F&\"\"%!\"\"-
+%%sqrtG6#\"\"&F&F&*&\"\"\"F&\"\"%F+F+*,\"\"\"F&\"\"%F+F%F&-F-6#\"\"#F&
+-F-6#,&\"\"&F&-F-6#\"\"&F&F&F&F&F+,$*&F%F&,(*(\"\"\"F&\"\"%F+-F-6#\"\"
+&F&F+*&\"\"\"F&\"\"%F+F+*,\"\"\"F&\"\"%F+F%F&-F-6#\"\"#F&-F-6#,&\"\"&F
+&-F-6#\"\"&F+F&F&F&F+,$*&F%F&,(*(\"\"\"F&\"\"%F+-F-6#\"\"&F&F+*&\"\"\"
+F&\"\"%F+F+*,\"\"\"F&\"\"%F+F%F&-F-6#\"\"#F&-F-6#,&\"\"&F&-F-6#\"\"&F+
+F&F+F&F+,$*&F%F&,(*(\"\"\"F&\"\"%F+-F-6#\"\"&F&F&*&\"\"\"F&\"\"%F+F+*,
+\"\"\"F&\"\"%F+F%F&-F-6#\"\"#F&-F-6#,&\"\"&F&-F-6#\"\"&F&F&F+F&F+,$F%F
++" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 65 "6. La representaci\363n gr\341fica de las
+ soluciones de la ecuaci\363n    " }{XPPEDIT 18 0 "z^5 = 1;" "6#/*$%\"
+zG\"\"&\"\"\"" }{TEXT -1 34 "  como vertices de un pol\355gono es:" }}
+{PARA 0 "" 0 "" {TEXT -1 6 "   a) " }{GLPLOT2D 103 101 101 {PLOTDATA 
+2 "6$-%)POLYGONSG6#7'7$$\"\"\"\"\"!F*7$$\"+X*p,4$!#5$\"+g^c5&*F.7$$!+X
+*p,4)F.$\"+?D&y(eF.7$F2$!+?D&y(eF.7$F,$!+g^c5&*F.-%'CURVESG6$7UF'7$$\"
++8q9@**F.$\"+OBL`7F.7$$\"+6;$eo*F.$\"+t))*o[#F.7$$\"+f[w(H*F.$\"+FbC\"
+o$F.7$$\"++o1j()F.$\"+Tn`<[F.7$$\"+V*p,4)F.$\"+CD&y(eF.7$$\"+tio*G(F.$
+\"+g5ZXoF.7$$\"+'*)RUP'F.$\"+HC80xF.7$$\"+^zEe`F.$\"+a#zKW)F.7$$\"+=Hz
+dUF.$\"+B0F[!*F.7$$\"+Q*p,4$F.$\"+l^c5&*F.7$$\"+UJ\"Q(=F.$\"+3D(G#)*F.
+7$$\"+D>0zi!#6$\"+%Gn-)**F.7$$!+m>0ziFdpFep7$$!+YJ\"Q(=F.$\"+2D(G#)*F.
+7$$!+U*p,4$F.$\"+j^c5&*F.7$$!+8HzdUF.$\"+E0F[!*F.7$$!+YzEe`F.$\"+d#zKW
+)F.7$$!+$*)RUP'F.$\"+JC80xF.7$$!+$G'o*G(F.$\"+]5ZXoF.7$$!+]*p,4)F.$\"+
+9D&y(eF.7$$!+0o1j()F.$\"+Kn`<[F.7$$!+i[w(H*F.$\"+>bC\"o$F.7$$!+8;$eo*F
+.$\"+l))*o[#F.7$$!+9q9@**F.$\"+IBL`7F.7$$!\"\"F*$!+:w1-T!#>7$$!+8q9@**
+F.$!+QBL`7F.7$$!+6;$eo*F.$!+t))*o[#F.7$$!+f[w(H*F.$!+FbC\"o$F.7$$!+,o1
+j()F.$!+Sn`<[F.7$$!+Y*p,4)F.F77$$!+xio*G(F.$!+c5ZXoF.7$$!+())RUP'F.$!+
+PC80xF.7$$!+RzEe`F.$!+i#zKW)F.7$$!+1HzdUF.$!+H0F[!*F.7$$!+M*p,4$F.$!+m
+^c5&*F.7$$!+QJ\"Q(=F.$!+4D(G#)*F.7$$!+%)=0ziFdp$!+&Gn-)**F.7$$\"+2?0zi
+Fdp$!+%Gn-)**F.7$$\"+]J\"Q(=F.$!+2D(G#)*F.7$$\"+Y*p,4$F.$!+i^c5&*F.7$$
+\"+<HzdUF.$!+C0F[!*F.7$$\"+]zEe`F.$!+b#zKW)F.7$Fin$!+HC80xF.7$$\"+'G'o
+*G(F.$!+Z5ZXoF.7$$\"+`*p,4)F.$!+5D&y(eF.7$$\"+2o1j()F.$!+Hn`<[F.7$$\"+
+j[w(H*F.$!+:bC\"o$F.7$$\"+9;$eo*F.$!+h))*o[#F.7$$\"+9q9@**F.$!+EBL`7F.
+7$F($\"+I_8/#)Fft-%'COLOURG6&%$RGBGF*F*$\"*++++\"!\")" 1 2 0 1 0 2 9 
+1 4 1 1.000000 44.000000 43.000000 0 }}{TEXT -1 19 "               b) \+
+ " }{GLPLOT2D 107 94 94 {PLOTDATA 2 "6$-%)POLYGONSG6#7'7$$\"+++++]!#5$
+\"+SSDg')F*7$$\"+X*p,4$F*$\"+g^c5&*F*7$$!+X*p,4)F*$\"+?D&y(eF*7$F3$!+?
+D&y(eF*7$F.$!+g^c5&*F*-%'CURVESG6$7U7$$\"\"\"\"\"!FD7$$\"+8q9@**F*$\"+
+OBL`7F*7$$\"+6;$eo*F*$\"+t))*o[#F*7$$\"+f[w(H*F*$\"+FbC\"o$F*7$$\"++o1
+j()F*$\"+Tn`<[F*7$$\"+V*p,4)F*$\"+CD&y(eF*7$$\"+tio*G(F*$\"+g5ZXoF*7$$
+\"+'*)RUP'F*$\"+HC80xF*7$$\"+^zEe`F*$\"+a#zKW)F*7$$\"+=HzdUF*$\"+B0F[!
+*F*7$$\"+Q*p,4$F*$\"+l^c5&*F*7$$\"+UJ\"Q(=F*$\"+3D(G#)*F*7$$\"+D>0zi!#
+6$\"+%Gn-)**F*7$$!+m>0ziFipFjp7$$!+YJ\"Q(=F*$\"+2D(G#)*F*7$$!+U*p,4$F*
+$\"+j^c5&*F*7$$!+8HzdUF*$\"+E0F[!*F*7$$!+YzEe`F*$\"+d#zKW)F*7$$!+$*)RU
+P'F*$\"+JC80xF*7$$!+$G'o*G(F*$\"+]5ZXoF*7$$!+]*p,4)F*$\"+9D&y(eF*7$$!+
+0o1j()F*$\"+Kn`<[F*7$$!+i[w(H*F*$\"+>bC\"o$F*7$$!+8;$eo*F*$\"+l))*o[#F
+*7$$!+9q9@**F*$\"+IBL`7F*7$$!\"\"FD$!+:w1-T!#>7$$!+8q9@**F*$!+QBL`7F*7
+$$!+6;$eo*F*$!+t))*o[#F*7$$!+f[w(H*F*$!+FbC\"o$F*7$$!+,o1j()F*$!+Sn`<[
+F*7$$!+Y*p,4)F*F87$$!+xio*G(F*$!+c5ZXoF*7$$!+())RUP'F*$!+PC80xF*7$$!+R
+zEe`F*$!+i#zKW)F*7$$!+1HzdUF*$!+H0F[!*F*7$$!+M*p,4$F*$!+m^c5&*F*7$$!+Q
+J\"Q(=F*$!+4D(G#)*F*7$$!+%)=0ziFip$!+&Gn-)**F*7$$\"+2?0ziFip$!+%Gn-)**
+F*7$$\"+]J\"Q(=F*$!+2D(G#)*F*7$$\"+Y*p,4$F*$!+i^c5&*F*7$$\"+<HzdUF*$!+
+C0F[!*F*7$$\"+]zEe`F*$!+b#zKW)F*7$F^o$!+HC80xF*7$$\"+'G'o*G(F*$!+Z5ZXo
+F*7$$\"+`*p,4)F*$!+5D&y(eF*7$$\"+2o1j()F*$!+Hn`<[F*7$$\"+j[w(H*F*$!+:b
+C\"o$F*7$$\"+9;$eo*F*$!+h))*o[#F*7$$\"+9q9@**F*$!+EBL`7F*7$FB$\"+I_8/#
+)F[u-%'COLOURG6&%$RGBGFDFD$\"*++++\"!\")" 1 2 0 1 0 2 9 1 4 1 
+1.000000 47.000000 44.000000 0 }}{TEXT -1 19 "               c)  " }
+{GLPLOT2D 96 92 92 {PLOTDATA 2 "6$-%'CURVESG6$7U7$$\"\"\"\"\"!F*7$$\"+
+8q9@**!#5$\"+OBL`7F.7$$\"+6;$eo*F.$\"+t))*o[#F.7$$\"+f[w(H*F.$\"+FbC\"
+o$F.7$$\"++o1j()F.$\"+Tn`<[F.7$$\"+V*p,4)F.$\"+CD&y(eF.7$$\"+tio*G(F.$
+\"+g5ZXoF.7$$\"+'*)RUP'F.$\"+HC80xF.7$$\"+^zEe`F.$\"+a#zKW)F.7$$\"+=Hz
+dUF.$\"+B0F[!*F.7$$\"+Q*p,4$F.$\"+l^c5&*F.7$$\"+UJ\"Q(=F.$\"+3D(G#)*F.
+7$$\"+D>0zi!#6$\"+%Gn-)**F.7$$!+m>0ziF`oFao7$$!+YJ\"Q(=F.$\"+2D(G#)*F.
+7$$!+U*p,4$F.$\"+j^c5&*F.7$$!+8HzdUF.$\"+E0F[!*F.7$$!+YzEe`F.$\"+d#zKW
+)F.7$$!+$*)RUP'F.$\"+JC80xF.7$$!+$G'o*G(F.$\"+]5ZXoF.7$$!+]*p,4)F.$\"+
+9D&y(eF.7$$!+0o1j()F.$\"+Kn`<[F.7$$!+i[w(H*F.$\"+>bC\"o$F.7$$!+8;$eo*F
+.$\"+l))*o[#F.7$$!+9q9@**F.$\"+IBL`7F.7$$!\"\"F*$!+:w1-T!#>7$$!+8q9@**
+F.$!+QBL`7F.7$$!+6;$eo*F.$!+t))*o[#F.7$$!+f[w(H*F.$!+FbC\"o$F.7$$!+,o1
+j()F.$!+Sn`<[F.7$$!+Y*p,4)F.$!+?D&y(eF.7$$!+xio*G(F.$!+c5ZXoF.7$$!+())
+RUP'F.$!+PC80xF.7$$!+RzEe`F.$!+i#zKW)F.7$$!+1HzdUF.$!+H0F[!*F.7$$!+M*p
+,4$F.$!+m^c5&*F.7$$!+QJ\"Q(=F.$!+4D(G#)*F.7$$!+%)=0ziF`o$!+&Gn-)**F.7$
+$\"+2?0ziF`o$!+%Gn-)**F.7$$\"+]J\"Q(=F.$!+2D(G#)*F.7$$\"+Y*p,4$F.$!+i^
+c5&*F.7$$\"+<HzdUF.$!+C0F[!*F.7$$\"+]zEe`F.$!+b#zKW)F.7$FK$!+HC80xF.7$
+$\"+'G'o*G(F.$!+Z5ZXoF.7$$\"+`*p,4)F.$!+5D&y(eF.7$$\"+2o1j()F.$!+Hn`<[
+F.7$$\"+j[w(H*F.$!+:bC\"o$F.7$$\"+9;$eo*F.$!+h))*o[#F.7$$\"+9q9@**F.$!
++EBL`7F.7$F($\"+I_8/#)Fbs-%'COLOURG6&%$RGBGF*F*$\"*++++\"!\")-%)POLYGO
+NSG6#7'F'7$$\"+X*p,4$F.$\"+g^c5&*F.7$$!+X*p,4)F.$\"+?D&y(eF.7$F]\\lFjt
+7$$\"+++++vF.$!+y#yVh'F." 1 2 0 1 0 2 9 1 4 2 1.000000 45.000000 
+45.000000 0 }}{TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 21 "7. La forma polar de " }{XPPEDIT 
+18 0 "ln(3+3*I);" "6#-%#lnG6#,&\"\"$\"\"\"*&\"\"$F(%\"IGF(F(" }{TEXT 
+-1 6 "   es:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "a)  " }{XPPEDIT 18 0 "polar(1/4*sqrt(4*ln(18)^2+Pi^2),-arctan(1/
+2*Pi/ln(18)));" "6#-%&polarG6$*(\"\"\"\"\"\"\"\"%!\"\"-%%sqrtG6#,&*&\"
+\"%F(*$-%#lnG6#\"#=\"\"#F(F(*$%#PiG\"\"#F(F(,$-%'arctanG6#**\"\"\"F(\"
+\"#F*F8F(-F36#\"#=F*F*" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 3 "b) " }{XPPEDIT 18 0 "polar(1*sqrt(ln(1
+3)^2+4*arctan(3/2)^2)/2,arctan(2*arctan(3/2)/ln(13)));" "6#-%&polarG6$
+*(\"\"\"\"\"\"-%%sqrtG6#,&*$-%#lnG6#\"#8\"\"#F(*&\"\"%F(*$-%'arctanG6#
+*&\"\"$F(\"\"#!\"\"\"\"#F(F(F(\"\"#F<-F76#*(\"\"#F(-F76#*&\"\"$F(\"\"#
+F<F(-F/6#\"#8F<" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "polar(1/4*sqrt(4*ln(
+18)^2+Pi^2),arctan(1/2*Pi/ln(18)));" "6#-%&polarG6$*(\"\"\"\"\"\"\"\"%
+!\"\"-%%sqrtG6#,&*&\"\"%F(*$-%#lnG6#\"#=\"\"#F(F(*$%#PiG\"\"#F(F(-%'ar
+ctanG6#**\"\"\"F(\"\"#F*F8F(-F36#\"#=F*" }{TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 81 "8.  La representaci\363n gr\341fica en e
+l plano real del entorno de radio 3 del punto  " }{XPPEDIT 18 0 "3-I;
+" "6#,&\"\"$\"\"\"%\"IG!\"\"" }{TEXT -1 5 "  es:" }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "a) " }{GLPLOT2D 104 106 106 {PLOTDATA 2 "6#-%'CURVESG6$7U7
+$$\"\"'\"\"!$!\"\"F*7$$\"+/TMwf!\"*$!+#*H+Si!#57$$\"+$[\\d!fF0$!+\"Q.$
+RDF37$$\"+e%H$*y&F0$\"*eOP/\"F07$$\"+S+#*GcF0$\"*A5EX%F07$$\"+$)40FaF0
+$\"*ddNj(F07$$\"+#)e!p=&F0$\"+=8k`5F07$$\"+p>F7\\F0$\"+H(R:J\"F07$$\"+
+&Q![2YF0$\"+wP)H`\"F07$$\"+vyLxUF0$\"+d6[9<F07$$\"+\")40FRF0$\"+]&pJ&=
+F07$$\"+VR9iNF0$\"+_<'o%>F07$$\"+e:P)=$F0$\"+&=!3%*>F07$$\"+T%G;\"GF0F
+co7$$\"+cg&yV#F0F^o7$$\"+<!\\H2#F0$\"+\\&pJ&=F07$$\"+E@mA<F0$\"+e6[9<F
+07$$\"+;'>DR\"F0$\"+xP)H`\"F07$$\"+K!Gx3\"F0FP7$$\"*:T48)F0$\"+:8k`5F0
+7$$\"*:!\\HdF0$\"*adNj(F07$$\"*e*z5PF0$\"*?5EX%F07$$\"*T0n5#F0$\"*cOP/
+\"F07$$\");0D%*F0$!+0MIRDF37$$\")'*elBF0$!+5I+SiF37$F*$!+,+++5F07$Fgr$
+!+,(**fP\"F07$$\")<0D%*F0$!+i'pgu\"F07$$\"*U0n5#F0$!+eOP/@F07$$\"*g*z5
+PF0$!+A5EXCF07$$\"*;!\\HdF0$!+cdNjFF07$$\"*<T48)F0$!+<8k`IF07$$\"+M!Gx
+3\"F0$!+J(R:J$F07$$\"+='>DR\"F0$!+zP)H`$F07$$\"+G@mA<F0$!+f6[9PF07$$\"
++?!\\H2#F0$!+]&pJ&QF07$$\"+fg&yV#F0$!+`<'o%RF07$$\"+W%G;\"GF0$!+'=!3%*
+RF07$$\"+g:P)=$F0$!+&=!3%*RF07$$\"+XR9iNF0$!+_<'o%RF07$$\"+%)40FRF0$!+
+\\&pJ&QF07$FX$!+d6[9PF07$FS$!+xP)H`$F07$FN$!+H(R:J$F07$$\"+')e!p=&F0$!
++98k`IF07$$\"+')40FaF0$!+`dNjFF07$$\"+U+#*GcF0$!+>5EXCF07$$\"+f%H$*y&F
+0$!+bOP/@F07$$\"+%[\\d!fF0$!+e'pgu\"F07$F.$!+)p**fP\"F07$F($!+v*******
+*F3-%'COLOURG6&%$RGBG$\"*++++\"!\")F*F*" 1 2 0 1 0 2 9 1 4 1 1.000000 
+45.000000 49.000000 0 }}{TEXT -1 16 "           b)   " }{GLPLOT2D 116 
+109 109 {PLOTDATA 2 "6#-%'CURVESG6$7U7$$\"\"'\"\"!$\"\"\"F*7$$\"+/TMwf
+!\"*$\"+,(**fP\"F07$$\"+$[\\d!fF0$\"+i'pgu\"F07$$\"+e%H$*y&F0$\"+eOP/@
+F07$$\"+S+#*GcF0$\"+A5EXCF07$$\"+$)40FaF0$\"+ddNjFF07$$\"+#)e!p=&F0$\"
++=8k`IF07$$\"+p>F7\\F0$\"+H(R:J$F07$$\"+&Q![2YF0$\"+wP)H`$F07$$\"+vyLx
+UF0$\"+d6[9PF07$$\"+\")40FRF0$\"+]&pJ&QF07$$\"+VR9iNF0$\"+_<'o%RF07$$
+\"+e:P)=$F0$\"+&=!3%*RF07$$\"+T%G;\"GF0Fbo7$$\"+cg&yV#F0F]o7$$\"+<!\\H
+2#F0$\"+\\&pJ&QF07$$\"+E@mA<F0$\"+e6[9PF07$$\"+;'>DR\"F0$\"+xP)H`$F07$
+$\"+K!Gx3\"F0FO7$$\"*:T48)F0$\"+:8k`IF07$$\"*:!\\HdF0$\"+adNjFF07$$\"*
+e*z5PF0$\"+?5EXCF07$$\"*T0n5#F0$\"+cOP/@F07$$\");0D%*F0$\"+g'pgu\"F07$
+$\")'*elBF0$\"+*p**fP\"F07$F*$\"+))********!#57$Ffr$\"+')H+SiF]s7$$\")
+<0D%*F0$\"+\"Q.$RDF]s7$$\"*U0n5#F0$!*eOP/\"F07$$\"*g*z5PF0$!*A5EX%F07$
+$\"*;!\\HdF0$!*cdNj(F07$$\"*<T48)F0$!+<8k`5F07$$\"+M!Gx3\"F0$!+J(R:J\"
+F07$$\"+='>DR\"F0$!+zP)H`\"F07$$\"+G@mA<F0$!+f6[9<F07$$\"+?!\\H2#F0$!+
+]&pJ&=F07$$\"+fg&yV#F0$!+`<'o%>F07$$\"+W%G;\"GF0$!+'=!3%*>F07$$\"+g:P)
+=$F0$!+&=!3%*>F07$$\"+XR9iNF0$!+_<'o%>F07$$\"+%)40FRF0$!+\\&pJ&=F07$FW
+$!+d6[9<F07$FR$!+xP)H`\"F07$FM$!+H(R:J\"F07$$\"+')e!p=&F0$!+98k`5F07$$
+\"+')40FaF0$!*`dNj(F07$$\"+U+#*GcF0$!*>5EX%F07$$\"+f%H$*y&F0$!*bOP/\"F
+07$$\"+%[\\d!fF0$\"+<MIRDF]s7$F.$\"+AI+SiF]s7$F($\"+-+++5F0-%'COLOURG6
+&%$RGBG$\"*++++\"!\")F*F*" 1 2 0 1 0 2 9 1 4 1 1.000000 45.000000 
+43.000000 0 }}{TEXT -1 16 "           c)   " }{GLPLOT2D 117 105 105 
+{PLOTDATA 2 "6#-%'CURVESG6$7U7$$\"\"\"\"\"!F(7$$\"*.%HU)*!\"*$\"+nkm]7
+F.7$$\"*Aj;P*F.$\"+v(zt\\\"F.7$$\"*sHbf)F.$\"+0\"\\it\"F.7$$\"*gLh_(F.
+$\"+[t]j>F.7$$\"**)R.='F.$\"+00dv@F.7$$\"*bs$zXF.$\"+7U4pBF.7$$\"*zz%[
+FF.$\"+'[E5a#F.7$$\")!f`;(F.$\"+^el)o#F.7$$!+kTT%[\"!#5$\"+0Tl4GF.7$$!
++C,m>QFW$\"+LI6-HF.7$$!+;PP_iFW$\"+-XdkHF.7$$!+:'*=W()FW$\"+dM0'*HF.7$
+$!+R5eD6F.Fao7$$!+HEwu8F.$\"+,XdkHF.7$$!+))R.=;F.Fgn7$$!+$ee:&=F.FX7$$
+!+*e`;2#F.FR7$$!+zz%[F#F.FM7$$!+ds$zX#F.$\"+5U4pBF.7$$!+!*R.=EF.$\"+.0
+dv@F.7$$!+hLh_FF.$\"+Yt]j>F.7$$!+sHbfGF.$\"+/\"\\it\"F.7$$!+Bj;PHF.$\"
++t(zt\\\"F.7$$!+.%HU)HF.$\"+mkm]7F.7$$!\"$F*$\"+#*********FW7$Far$\"+C
+`L$\\(FW7$$!+Aj;PHF.$\"+aA?E]FW7$Fgq$\"+Y*3vj#FW7$$!+gLh_FF.$\"*?l#\\O
+FW7$$!+*)R.=EF.$!*/0dv\"F.7$$!+bs$zX#F.$!*6U4p$F.7$$!+xz%[F#F.$!*([E5a
+F.7$$!+)e`;2#F.$!*_el)oF.7$$!+\"ee:&=F.$!*1Tl4)F.7$$!+()R.=;F.$!*LI6-*
+F.7$$!+GEwu8F.$!*-Xdk*F.7$$!+Q5eD6F.$!*dM0'**F.7$$!+*f*=W()FWF`v7$$!++
+PP_iFW$!*,Xdk*F.7$$!+3,m>QFW$!*KI6-*F.7$$!+mTT%[\"FW$!*0Tl4)F.7$FP$!*^
+el)oF.7$FK$!*'[E5aF.7$$\"*ds$zXF.$!*4U4p$F.7$$\"*\"*R.='F.$!*-0dv\"F.7
+$$\"*hLh_(F.$\"*Ul#\\OFW7$$\"*tHbf)F.$\"+q*3vj#FW7$$\"*Bj;P*F.$\"+yA?E
+]FW7$F,$\"+[`L$\\(FW7$F($\"+-+++5F.-%'COLOURG6&%$RGBG$\"*++++\"!\")F*F
+*" 1 2 0 1 0 2 9 1 4 1 1.000000 45.000000 43.000000 0 }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 45 "9. Sea x un n\372mero real.  Las expresio
+nes    " }{XPPEDIT 18 0 "a = (exp(I*x)+exp(-I*x))/2;" "6#/%\"aG*&,&-%$
+expG6#*&%\"IG\"\"\"%\"xGF,F,-F(6#,$*&F+F,F-F,!\"\"F,F,\"\"#F2" }{TEXT 
+-1 9 "    y    " }{XPPEDIT 18 0 "b = (exp(I*x)-exp(-I*x))/(2*I);" "6#/
+%\"bG*&,&-%$expG6#*&%\"IG\"\"\"%\"xGF,F,-F(6#,$*&F+F,F-F,!\"\"F2F,*&\"
+\"#F,F+F,F2" }{TEXT -1 17 "   son tales que:" }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "a)  " }{XPPEDIT 18 0 "a = cos(x);" "6#/%\"aG-%$cosG6#%\"xG" }
+{TEXT -1 7 "   y   " }{XPPEDIT 18 0 "b = sin(2*x);" "6#/%\"bG-%$sinG6#
+*&\"\"#\"\"\"%\"xGF*" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "b) \+
+ " }{XPPEDIT 18 0 "a = cos(x);" "6#/%\"aG-%$cosG6#%\"xG" }{TEXT -1 7 "
+   y   " }{XPPEDIT 18 0 "b = sin(x);" "6#/%\"bG-%$sinG6#%\"xG" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "a = sin(x);" "6#/%\"
+aG-%$sinG6#%\"xG" }{TEXT -1 9 "     y   " }{XPPEDIT 18 0 "b = cos(x);
+" "6#/%\"bG-%$cosG6#%\"xG" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "10. Sabiendo que la condi
+ci\363n que tienen que cumplir tres n\372meros complejos " }{TEXT 358 
+2 " u" }{TEXT -1 2 ", " }{TEXT 359 2 " v" }{TEXT -1 4 "  y " }{TEXT 
+360 5 "  w, " }{TEXT -1 3 "con" }{TEXT 362 3 "  u" }{TEXT -1 13 " dist
+into de " }{TEXT 361 3 "w, " }{TEXT -1 43 "para estar alineados, es qu
+e el cociente   " }{XPPEDIT 18 0 "(u-v)/(u-w);" "6#*&,&%\"uG\"\"\"%\"v
+G!\"\"F&,&F%F&%\"wGF(F(" }{TEXT -1 71 "   sea un n\372mero real, encon
+trar el lugar geom\351trico de los complejos  " }{TEXT 363 7 "z=a+Ib \+
+" }{TEXT -1 13 " tales que   " }{TEXT 364 6 "1 ,  z" }{TEXT -1 5 "  y \+
+ " }{MPLTEXT 0 21 6 "1+z^2 " }{TEXT -1 16 "est\351n alineados." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "a)  " }
+{XPPEDIT 18 0 "\{b = 0, a = a\},\{a = a, b = sqrt(-a^2+2*a)\},\{a = a,
+ b = -sqrt(-a^2+2*a)\};" "6%<$/%\"bG\"\"!/%\"aGF(<$/F(F(/F%-%%sqrtG6#,
+&*$F(\"\"#!\"\"*&\"\"#\"\"\"F(F5F5<$/F(F(/F%,$-F-6#,&*$F(\"\"#F2*&\"\"
+#F5F(F5F5F2" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 4 "b)  " }{XPPEDIT 18 0 "\{b = 0, a = a\},\{b = sqrt(
+-a^2-2*a), a = a\},\{b = -sqrt(-a^2-2*a), a = a\};" "6%<$/%\"bG\"\"!/%
+\"aGF(<$/F%-%%sqrtG6#,&*$F(\"\"#!\"\"*&\"\"#\"\"\"F(F4F1/F(F(<$/F%,$-F
+,6#,&*$F(\"\"#F1*&\"\"#F4F(F4F1F1/F(F(" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 4 "c)  " }{XPPEDIT 18 0 "\{b = 0, a = a\}
+,\{a = a, b = sqrt(-a^2-a)\},\{a = a, b = -sqrt(-a^2-a)\};" "6%<$/%\"b
+G\"\"!/%\"aGF(<$/F(F(/F%-%%sqrtG6#,&*$F(\"\"#!\"\"F(F2<$/F(F(/F%,$-F-6
+#,&*$F(\"\"#F2F(F2F2" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{MARK "10 0 0" 34 }
+{VIEWOPTS 1 1 0 1 1 1803 }
